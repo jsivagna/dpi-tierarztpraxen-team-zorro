@@ -4,7 +4,7 @@ Dieses Repository enthält die Projektergebnisse für das Modul [Modulname einf�
 Projektziel: Konsolidierung heterogener Tierklinik-Daten in ein einheitliches Schema für den klinischen Verbund.
 
 ## 👤 Projektbeteiligte
-* **[Dein Vorname Nachname]** (Solo-Entwicklung, 100% Beitrag)
+* **Jenisa Sivagnanalingham 1121105** (Solo-Entwicklung, 100% Beitrag)
 
 ## 📁 Repository-Struktur
 ```text
