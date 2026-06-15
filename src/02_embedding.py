@@ -13,7 +13,7 @@ import pandas as pd
 import requests
 
 def lade_kunden(con, praxis_name, tabellen_name):
-    """Holt alle Zeilen einer Tabelle und macht einen langen Text-String daraus."""
+   # Holt alle Zeilen einer Tabelle und macht einen langen Text-String daraus
     df = con.execute(f"SELECT * FROM staging.{tabellen_name}").df()
     kunden = []
     for index, row in df.iterrows():
