@@ -1,6 +1,6 @@
 # Projekt: VetKliniken-Verbund Hessen (Team Zorro)
 
-Dieses Repository enthält die Projektergebnisse für das Modul [Modulname einfügen] des Teams **Zorro**. 
+Dieses Repository enthält die Projektergebnisse für das Modul Data & Process Integration des Teams **Zorro**. 
 Projektziel: Konsolidierung heterogener Tierklinik-Daten in ein einheitliches Schema für den klinischen Verbund.
 
 ## 👤 Projektbeteiligte
