@@ -28,7 +28,7 @@ def lade_kunden(con, praxis_name, tabellen_name):
     return kunden
 
 def main():
-    print("🚀 Starte KI-Embedding-Prozess LOKAL über Ollama (Ohne API-Limits!)...")
+    print("Starte KI-Embedding-Prozess (Ollama)")
     con = duckdb.connect("verbund.duckdb")
 
     print("Sammle Kundendaten aus allen Praxen...")
@@ -41,7 +41,7 @@ def main():
     df_kunden = pd.DataFrame(alle_kunden)
     print(f"Insgesamt {len(df_kunden)} Kunden gefunden.")
 
-    print("Berechne Embeddings lokal mit 'nomic-embed-text'...")
+    print("Berechne Embeddings mit 'nomic-embed-text'...")
     alle_embeddings = []
     
     for text in df_kunden['quell_text'].tolist():
@@ -57,7 +57,7 @@ def main():
         if response.status_code == 200:
             alle_embeddings.append(response.json()['embedding'])
         else:
-            print(f"❌ Fehler bei Ollama: {response.text}")
+            print(f" Fehler bei Ollama: {response.text}")
             return
 
     df_kunden['embedding'] = alle_embeddings
@@ -78,8 +78,7 @@ def main():
     print("Erstelle HNSW Vector-Index für die DuckDB VSS...")
     con.execute("INSTALL vss;")
     con.execute("LOAD vss;")
-    
-    # HIER IST DER INTEGRIERTE FIX FÜR DIE PERSISTENZ
+
     con.execute("SET hnsw_enable_experimental_persistence = true;")
     con.execute("DROP INDEX IF EXISTS idx_kunden_emb;")
     
