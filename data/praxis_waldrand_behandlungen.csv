@@ -1,0 +1,151 @@
+treatment_id,customer_id,animal_name,species,treatment_date,diagnosis,total_eur
+T20250151,W-1067,Smokey,cat,12/11/2025,Flea treatment,199.85
+T20250152,W-1210,Kitty,cat,01/17/2026,Flea treatment,59.78
+T20250153,W-1013,Felix,cat,03/22/2026,Ultrasound,35.02
+T20250154,W-1024,Pumba,cat,10/02/2025,Flea/tick treatment,37.98
+T20250155,W-1015,Kitty,cat,10/18/2025,Check-up,148.28
+T20250156,W-1059,Diego,dog,12/16/2025,Dental scaling,57.82
+T20250157,W-1043,Daisy,dog,11/13/2025,Ear infection,176.09
+T20250158,W-1104,Cleo,cat,03/15/2026,Neutering,156.28
+T20250159,W-1165,Buddy,dog,12/17/2025,Dental scaling,168.32
+T20250160,W-1154,Nero,cat,02/23/2026,Dental scaling,38.97
+T20250161,W-1010,Luna,dog,03/30/2026,Ear infection,73.28
+T20250162,W-1198,Luna,dog,11/14/2025,Eye examination,132.72
+T20250163,W-1017,Cleo,cat,11/05/2025,Blood test,80.83
+T20250164,W-1155,Bello,dog,12/01/2025,Tumor screening,139.14
+T20250165,W-1217,Cooper,dog,02/27/2026,Ultrasound,176.31
+T20250166,W-1097,Schnurri,cat,12/24/2025,Wound care,152.93
+T20250167,W-1177,Bello,dog,12/02/2025,Annual vaccination,82.05
+T20250168,W-1185,Schnurri,cat,11/27/2025,Dressing change,107.23
+T20250169,W-1181,Whiskey,dog,03/27/2026,Follow-up,65.41
+T20250170,W-1198,Kitty,cat,11/20/2025,Ear infection,150.10
+T20250171,W-1199,Schnurri,cat,02/25/2026,Ultrasound,148.35
+T20250172,W-1107,Luna,cat,09/07/2025,Ultrasound,172.91
+T20250173,W-1159,Charlie,dog,02/01/2026,Ultrasound,82.32
+T20250174,W-1016,Rocky,dog,03/05/2026,Lameness exam,48.85
+T20250175,W-1219,Nala,dog,10/21/2025,Ultrasound,139.88
+T20250176,W-1118,Ace,dog,11/03/2025,Preventive check,88.67
+T20250177,W-1070,Whiskey,dog,11/30/2025,Deworming,156.02
+T20250178,W-1155,Tiger,cat,01/05/2026,Blood test,133.88
+T20250179,W-1167,Buddy,dog,09/28/2025,Wound care,64.24
+T20250180,W-1101,Mimi,cat,02/12/2026,Eye examination,134.01
+T20250181,W-1108,Smokey,cat,09/04/2025,Eye examination,179.74
+T20250182,W-1223,Max,dog,12/28/2025,Wound care,89.16
+T20250183,W-1005,Felix,cat,11/29/2025,Eye examination,150.86
+T20250184,W-1129,Cleo,cat,11/02/2025,Allergy test,38.08
+T20250185,W-1188,Rex,dog,11/10/2025,Check-up,138.90
+T20250186,W-1086,Daisy,dog,10/07/2025,Dressing change,169.56
+T20250187,W-1073,Lola,dog,09/12/2025,Flea treatment,190.61
+T20250188,W-1149,Pumba,cat,09/26/2025,Dental scaling,185.01
+T20250189,W-1225,Max,dog,01/29/2026,X-ray,19.29
+T20250190,W-1063,Tiger,cat,02/17/2026,Wound care,148.75
+T20250191,W-1186,Emma,dog,09/10/2025,Tumor screening,32.76
+T20250192,W-1079,Balou,dog,11/17/2025,Follow-up,70.77
+T20250193,W-1023,Schnurri,cat,02/10/2026,Ultrasound,69.35
+T20250194,W-1161,Kitty,cat,11/30/2025,Ear infection,62.93
+T20250195,W-1105,Caesar,cat,12/20/2025,Tumor screening,192.38
+T20250196,W-1156,Mimi,cat,11/07/2025,Dressing change,90.14
+T20250197,W-1128,Nero,cat,03/13/2026,Eye examination,85.82
+T20250198,W-1087,Rocky,dog,03/07/2026,Flea/tick treatment,180.33
+T20250199,W-1067,Lulu,cat,03/21/2026,Check-up,149.22
+T20250200,W-1101,Caesar,cat,01/23/2026,X-ray,196.61
+T20250201,W-1208,Rex,dog,12/13/2025,Ear infection,149.19
+T20250202,W-1099,Lola,dog,02/09/2026,Preventive check,113.25
+T20250203,W-1062,Kitty,cat,04/01/2026,Dental scaling,112.32
+T20250204,W-1085,Charlie,dog,09/19/2025,Tumor screening,192.02
+T20250205,W-1227,Felix,cat,09/24/2025,Check-up,168.77
+T20250206,W-1172,Kitty,cat,02/17/2026,Check-up,52.73
+T20250207,W-1224,Luna,dog,11/16/2025,Follow-up,194.83
+T20250208,W-1160,Daisy,dog,02/19/2026,Flea treatment,144.08
+T20250209,W-1168,Luna,cat,10/06/2025,Ultrasound,133.99
+T20250210,W-1134,Mimi,cat,02/01/2026,Ultrasound,188.57
+T20250211,W-1160,Charlie,cat,11/17/2025,X-ray,56.84
+T20250212,W-1180,Ace,dog,11/18/2025,Flea/tick treatment,128.57
+T20250213,W-1118,Tiger,cat,09/08/2025,Tumor screening,52.34
+T20250214,W-1019,Minka,cat,09/02/2025,Wound care,101.04
+T20250215,W-1095,Balou,dog,02/03/2026,Dressing change,199.07
+T20250216,W-1183,Schnurri,cat,11/24/2025,Wound care,94.62
+T20250217,W-1192,Bruno,dog,02/21/2026,Deworming,196.40
+T20250218,W-1044,Felix,cat,02/20/2026,Flea/tick treatment,108.45
+T20250219,W-1191,Rex,dog,11/11/2025,Dressing change,32.32
+T20250220,W-1052,Nala,dog,12/30/2025,Dressing change,20.45
+T20250221,W-1054,Schnurri,cat,02/07/2026,Ultrasound,155.41
+T20250222,W-1219,Daisy,dog,11/18/2025,X-ray,35.15
+T20250223,W-1023,Mimi,cat,10/17/2025,Flea/tick treatment,64.99
+T20250224,W-1062,Diego,dog,03/10/2026,Ultrasound,69.60
+T20250225,W-1149,Whiskey,dog,12/21/2025,Ear infection,85.53
+T20250226,W-1075,Balou,dog,11/24/2025,Preventive check,53.69
+T20250227,W-1049,Pumba,cat,11/08/2025,Deworming,93.56
+T20250228,W-1211,Luna,dog,11/20/2025,Neutering,40.33
+T20250229,W-1093,Emma,dog,02/16/2026,Dental scaling,117.97
+T20250230,W-1155,Luna,cat,03/24/2026,Dental scaling,109.99
+T20250231,W-1104,Schnurri,cat,01/17/2026,Neutering,36.84
+T20250232,W-1051,Smokey,cat,10/27/2025,Eye examination,196.58
+T20250233,W-1117,Luna,cat,01/29/2026,Tumor screening,129.72
+T20250234,W-1033,Luna,dog,03/09/2026,Neutering,111.02
+T20250235,W-1012,Diego,dog,03/07/2026,Check-up,145.42
+T20250236,W-1155,Lucky,dog,11/30/2025,Eye examination,198.66
+T20250237,W-1180,Luna,cat,01/14/2026,Check-up,166.62
+T20250238,W-1036,Bruno,dog,12/12/2025,Follow-up,124.31
+T20250239,W-1167,Diego,dog,12/31/2025,Annual vaccination,150.41
+T20250240,W-1168,Rex,dog,01/17/2026,Blood test,110.44
+T20250241,W-1162,Bella,dog,03/31/2026,Flea/tick treatment,142.26
+T20250242,W-1127,Bello,dog,03/25/2026,Lameness exam,189.76
+T20250243,W-1095,Whiskey,dog,09/17/2025,Blood test,154.22
+T20250244,W-1062,Minka,cat,09/14/2025,Dressing change,119.18
+T20250245,W-1197,Nala,dog,03/30/2026,Dental scaling,96.19
+T20250246,W-1144,Felix,cat,10/21/2025,Lameness exam,178.76
+T20250247,W-1087,Luna,dog,03/31/2026,Dressing change,136.74
+T20250248,W-1179,Lulu,cat,03/20/2026,Ultrasound,77.89
+T20250249,W-1039,Bella,dog,01/25/2026,X-ray,68.26
+T20250250,W-1075,Mimi,cat,03/08/2026,X-ray,176.57
+T20250251,W-1014,Rocky,dog,12/15/2025,Eye examination,153.32
+T20250252,W-1188,Nero,cat,12/25/2025,X-ray,117.24
+T20250253,W-1201,Lucky,dog,03/16/2026,Annual vaccination,15.30
+T20250254,W-1016,Rocky,dog,10/20/2025,X-ray,184.21
+T20250255,W-1055,Charlie,dog,03/23/2026,Lameness exam,162.60
+T20250256,W-1061,Caesar,cat,11/23/2025,Ear infection,93.28
+T20250257,W-1007,Whiskey,dog,12/28/2025,Neutering,93.34
+T20250258,W-1154,Nala,dog,11/13/2025,Preventive check,74.97
+T20250259,W-1194,Emma,dog,11/21/2025,Follow-up,41.37
+T20250260,W-1064,Nero,cat,11/03/2025,Dressing change,169.93
+T20250261,W-1050,Felix,cat,10/16/2025,Neutering,26.09
+T20250262,W-1198,Caesar,cat,09/14/2025,Flea/tick treatment,187.50
+T20250263,W-1060,Luna,dog,01/13/2026,Wound care,120.33
+T20250264,W-1081,Buddy,dog,01/27/2026,Allergy test,32.46
+T20250265,W-1099,Mimi,cat,12/10/2025,Preventive check,156.49
+T20250266,W-1023,Mimi,cat,09/22/2025,Follow-up,84.60
+T20250267,W-1204,Lulu,cat,09/26/2025,Check-up,86.24
+T20250268,W-1123,Caesar,cat,12/04/2025,Check-up,130.74
+T20250269,W-1108,Bruno,dog,11/07/2025,Deworming,170.24
+T20250270,W-1145,Cleo,cat,03/06/2026,Check-up,102.54
+T20250271,W-1216,Kitty,cat,03/27/2026,Neutering,184.40
+T20250272,W-1024,Cooper,dog,03/01/2026,Blood test,93.22
+T20250273,W-1036,Bella,dog,03/10/2026,X-ray,182.70
+T20250274,W-1155,Lulu,cat,11/04/2025,Deworming,65.59
+T20250275,W-1030,Bello,dog,01/07/2026,Lameness exam,198.77
+T20250276,W-1021,Tiger,cat,12/27/2025,Dressing change,129.56
+T20250277,W-1118,Lulu,cat,01/19/2026,Deworming,171.38
+T20250278,W-1074,Lola,dog,12/25/2025,Allergy test,34.26
+T20250279,W-1190,Smokey,cat,03/16/2026,Eye examination,106.98
+T20250280,W-1188,Caesar,cat,11/09/2025,Dressing change,95.53
+T20250281,W-1075,Schnurri,cat,12/20/2025,Allergy test,77.68
+T20250282,W-1096,Cleo,cat,01/31/2026,Ear infection,167.74
+T20250283,W-1092,Mimi,cat,02/04/2026,Neutering,97.61
+T20250284,W-1057,Bello,dog,11/17/2025,Preventive check,114.91
+T20250285,W-1181,Daisy,dog,10/27/2025,Ear infection,128.38
+T20250286,W-1163,Bella,dog,03/11/2026,Flea/tick treatment,138.17
+T20250287,W-1007,Charlie,cat,12/26/2025,Dressing change,42.41
+T20250288,W-1034,Cleo,cat,02/24/2026,Annual vaccination,69.65
+T20250289,W-1117,Nero,cat,04/02/2026,Tumor screening,137.14
+T20250290,W-1222,Balou,dog,09/15/2025,Preventive check,29.93
+T20250291,W-1095,Tiger,cat,12/16/2025,Neutering,125.45
+T20250292,W-1158,Mimi,cat,04/04/2026,Follow-up,158.94
+T20250293,W-1002,Pumba,cat,09/12/2025,Dressing change,42.33
+T20250294,W-1051,Smokey,cat,03/09/2026,Dental scaling,93.06
+T20250295,W-1147,Whiskey,dog,11/17/2025,X-ray,21.61
+T20250296,W-1101,Lilly,dog,09/25/2025,Follow-up,147.81
+T20250297,W-1118,Daisy,dog,01/12/2026,X-ray,95.28
+T20250298,W-1151,Emma,dog,01/06/2026,Annual vaccination,66.95
+T20250299,W-1225,Lulu,cat,12/10/2025,Check-up,24.61
+T20250300,W-1005,Nala,dog,12/02/2025,Flea treatment,165.50

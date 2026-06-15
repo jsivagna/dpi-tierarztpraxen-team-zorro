@@ -1,0 +1,5258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<praxisexport xmlns="http://vetkliniken-hessen.de/schema/v2"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              exportdatum="2026-03-31" schemaversion="2.1">
+  <praxis>
+    <kurzname>BERG</kurzname>
+    <name>Tierklinik Bergblick</name>
+    <anschrift>
+      <strasse>Bergblickweg 42</strasse>
+      <plz>35510</plz>
+      <ort>Waldrand</ort>
+    </anschrift>
+  </praxis>
+  <patienten>
+    <patient id="P-4001">
+      <halter erfasst="2021-06-20">
+        <anrede>Herr</anrede>
+        <name>Thomas Berger</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-01234</telefon>
+          <email>berger@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstrasse 12</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lucky</name>
+        <art>Hund</art>
+        <geburt>2022-05-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4002">
+      <halter erfasst="2024-04-07">
+        <anrede>Frau</anrede>
+        <name>Marion Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-02233</telefon>
+          <email>hoffmann@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchgasse 4</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2021-11-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4003">
+      <halter erfasst="2025-11-23">
+        <anrede>Frau</anrede>
+        <name>Petra Vogel</name>
+        <kontakt>
+          <telefon typ="festnetz">0640-7779913</telefon>
+          <email>vogel@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenallee 8</strasse>
+          <plz>35466</plz>
+          <ort>Rabenau</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2020-05-09</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4004">
+      <halter erfasst="2021-02-11">
+        <anrede>Herr</anrede>
+        <name>B. Schulz</name>
+        <kontakt>
+          <telefon typ="mobil">0640-7771212</telefon>
+          <email>schulz@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 44</strasse>
+          <plz>35466</plz>
+          <ort>Rabenau</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lola</name>
+        <art>Hund</art>
+        <geburt>2019-05-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4005">
+      <halter erfasst="2022-06-13">
+        <anrede>Frau</anrede>
+        <name>Bettina Klein</name>
+        <kontakt>
+          <telefon typ="privat">0645-020031</telefon>
+          <email>klein.b@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 9</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2021-03-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4006">
+      <halter erfasst="2023-02-14">
+        <anrede>Herr</anrede>
+        <name>Yannick Wolf</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0388618</telefon>
+          <email>wolf.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg  68</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2020-05-09</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4007">
+      <halter erfasst="2024-05-18">
+        <anrede>Frau</anrede>
+        <name>Anna Werner</name>
+        <kontakt>
+          <telefon typ="privat">0645-02805</telefon>
+          <email>werner.a@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 77</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2023-04-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4008">
+      <halter erfasst="2024-12-21">
+        <anrede>Frau</anrede>
+        <name>Bettina Schulze</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0068677</telefon>
+          <email>schulze.b@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bahnhofstrasse 94</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2024-09-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4009">
+      <halter erfasst="2020-02-23">
+        <anrede>Frau</anrede>
+        <name>Ines Lange</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05896</telefon>
+          <email>lange.i@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 57</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nala</name>
+        <art>Hund</art>
+        <geburt>2023-09-27</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4010">
+      <halter erfasst="2023-08-22">
+        <anrede>Frau</anrede>
+        <name>Ines Hoffmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0994347</telefon>
+          <email>hoffmann.i@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr. 94</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2022-01-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4011">
+      <halter erfasst="2025-02-12">
+        <anrede>Frau</anrede>
+        <name>Wiebke Hoffmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-08727</telefon>
+          <email>hoffmann.w@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 66</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2022-06-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4012">
+      <halter erfasst="2020-08-27">
+        <anrede>Herr</anrede>
+        <name>Leon Krueger</name>
+        <kontakt>
+          <telefon typ="privat">0645-0709536</telefon>
+          <email>krueger.l@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 36</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2020-03-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4013">
+      <halter erfasst="2019-10-01">
+        <anrede>Herr</anrede>
+        <name>Lukas Koch</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-008425</telefon>
+          <email>koch.l@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg 99</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2023-12-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4014">
+      <halter erfasst="2023-04-13">
+        <anrede>Herr</anrede>
+        <name>Niklas Krause</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0207345</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  94</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2023-09-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4015">
+      <halter erfasst="2024-07-05">
+        <anrede>Herr</anrede>
+        <name>Zacharias Frank</name>
+        <kontakt>
+          <telefon typ="privat">0645-0570936</telefon>
+          <email>frank.z@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstr. 17</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2022-08-31</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4016">
+      <halter erfasst="2024-05-19">
+        <anrede>Frau</anrede>
+        <name>Nora Krause</name>
+        <kontakt>
+          <telefon typ="mobil">0645-00714</telefon>
+          <email>krause.n@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstrasse 33</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lola</name>
+        <art>Hund</art>
+        <geburt>2018-04-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4017">
+      <halter erfasst="2021-12-25">
+        <anrede>Herr</anrede>
+        <name>Florian Hartmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-086176</telefon>
+          <email>hartmann.f@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 40</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Diego</name>
+        <art>Hund</art>
+        <geburt>2022-02-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4018">
+      <halter erfasst="2023-09-04">
+        <anrede>Herr</anrede>
+        <name>Martin Schroeder</name>
+        <kontakt>
+          <telefon typ="privat">0645-098843</telefon>
+          <email>schroeder.m@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 13</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2019-01-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4019">
+      <halter erfasst="2022-09-21">
+        <anrede>Frau</anrede>
+        <name>Ines Albrecht</name>
+        <kontakt>
+          <telefon typ="mobil">0645-03660</telefon>
+          <email>albrecht.i@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Brunnenstr. 55</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rex</name>
+        <art>Hund</art>
+        <geburt>2024-08-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4020">
+      <halter erfasst="2021-09-02">
+        <anrede>Frau</anrede>
+        <name>Olivia Becker</name>
+        <kontakt>
+          <telefon typ="mobil">0645-07548</telefon>
+          <email>becker.o@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 67</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2024-01-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4021">
+      <halter erfasst="2024-02-15">
+        <anrede>Herr</anrede>
+        <name>Xaver Weber</name>
+        <kontakt>
+          <telefon typ="privat">0645-09809</telefon>
+          <email>weber.x@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bahnhofstr. 35</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rex</name>
+        <art>Hund</art>
+        <geburt>2020-12-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4022">
+      <halter erfasst="2023-03-24">
+        <anrede>Herr</anrede>
+        <name>Hannes Schulze</name>
+        <kontakt>
+          <telefon typ="mobil">0645-038034</telefon>
+          <email>schulze.h@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr. 70</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2023-06-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4023">
+      <halter erfasst="2021-02-03">
+        <anrede>Herr</anrede>
+        <name>Hannes Koch</name>
+        <kontakt>
+          <telefon typ="mobil">0645-047818</telefon>
+          <email>koch.h@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 37</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2023-01-19</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4024">
+      <halter erfasst="2024-08-22">
+        <anrede>Frau</anrede>
+        <name>Yvonne Meyer</name>
+        <kontakt>
+          <telefon typ="privat">0645-013209</telefon>
+          <email>meyer.y@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 64</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2024-06-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4025">
+      <halter erfasst="2024-04-20">
+        <anrede>Herr</anrede>
+        <name>Xaver Hartmann</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>hartmann.x@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg  99</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2024-08-31</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4026">
+      <halter erfasst="2019-10-18">
+        <anrede>Frau</anrede>
+        <name>Wiebke Frank</name>
+        <kontakt>
+          <telefon typ="mobil">0645-017568</telefon>
+          <email>frank.w@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schulstr. 72</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2019-11-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4027">
+      <halter erfasst="2024-03-23">
+        <anrede>Frau</anrede>
+        <name>Verena Neumann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-03854</telefon>
+          <email>neumann.v@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr.  81</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2018-03-27</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4028">
+      <halter erfasst="2021-08-03">
+        <anrede>Frau</anrede>
+        <name>Yvonne Braun</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0464889</telefon>
+          <email>braun.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstr. 6</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2018-08-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4029">
+      <halter erfasst="2019-11-08">
+        <anrede>Frau</anrede>
+        <name>Verena Schaefer</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0678682</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Parkstr. 15</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2024-05-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4030">
+      <halter erfasst="2024-03-24">
+        <anrede>Herr</anrede>
+        <name>Yannick Schmidt</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0885788</telefon>
+          <email>schmidt.y@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz  76</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lucky</name>
+        <art>Hund</art>
+        <geburt>2021-07-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4031">
+      <halter erfasst="2022-01-27">
+        <anrede>Frau</anrede>
+        <name>Yvonne Schmidt</name>
+        <kontakt>
+          <telefon typ="privat">0645-0925503</telefon>
+          <email>schmidt.y@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 98</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2019-02-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4032">
+      <halter erfasst="2022-02-08">
+        <anrede>Herr</anrede>
+        <name>Jens Mueller</name>
+        <kontakt>
+          <telefon typ="privat">0645-000714</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstrasse 78</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2020-06-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4033">
+      <halter erfasst="2022-04-02">
+        <anrede>Frau</anrede>
+        <name>Carolin Schwarz</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-02189</telefon>
+          <email>schwarz.c@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 42</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2020-08-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4034">
+      <halter erfasst="2019-01-12">
+        <anrede>Herr</anrede>
+        <name>Stefan Schmitt</name>
+        <kontakt>
+          <telefon typ="mobil">0645-09459</telefon>
+          <email>schmitt.s@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg  97</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2022-07-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4035">
+      <halter erfasst="2024-05-14">
+        <anrede>Frau</anrede>
+        <name>Katrin Schmid</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05029</telefon>
+          <email>schmid.k@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstr. 9</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2018-10-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4036">
+      <halter erfasst="2023-01-27">
+        <anrede>Herr</anrede>
+        <name>Paul Hofmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-043209</telefon>
+          <email>hofmann.p@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 80</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2020-03-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4037">
+      <halter erfasst="2024-01-31">
+        <anrede>Frau</anrede>
+        <name>Verena Hofmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-07342</telefon>
+          <email>hofmann.v@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstrasse 31</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2018-06-09</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4038">
+      <halter erfasst="2023-09-17">
+        <anrede>Frau</anrede>
+        <name>Gisela Lange</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-07995</telefon>
+          <email>lange.g@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstr. 67</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2020-09-21</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4039">
+      <halter erfasst="2025-02-27">
+        <anrede>Frau</anrede>
+        <name>Olivia Schmid</name>
+        <kontakt>
+          <telefon typ="mobil">0645-048829</telefon>
+          <email>schmid.o@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 4</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Whiskey</name>
+        <art>Hund</art>
+        <geburt>2020-09-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4040">
+      <halter erfasst="2025-01-13">
+        <anrede>Herr</anrede>
+        <name>Yannick Schneider</name>
+        <kontakt>
+          <telefon typ="privat">0645-0219510</telefon>
+          <email>schneider.y@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 88</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2021-02-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4041">
+      <halter erfasst="2025-03-01">
+        <anrede>Frau</anrede>
+        <name>Katrin Braun</name>
+        <kontakt>
+          <telefon typ="mobil">0645-017545</telefon>
+          <email>braun.k@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>brunnenstr. 97</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-09-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4042">
+      <halter erfasst="2023-11-02">
+        <anrede>Frau</anrede>
+        <name>Quirina Stein</name>
+        <kontakt>
+          <telefon typ="privat">0645-06899</telefon>
+          <email>stein.q@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schlossstr. 97</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2023-06-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4043">
+      <halter erfasst="2020-04-12">
+        <anrede>Herr</anrede>
+        <name>Erik Klein</name>
+        <kontakt>
+          <telefon typ="privat">0645-011571</telefon>
+          <email>klein.e@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 37</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2019-08-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4044">
+      <halter erfasst="2022-01-02">
+        <anrede>Herr</anrede>
+        <name>Yannick Lehmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-032692</telefon>
+          <email>lehmann.y@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr. 22</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2021-10-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4045">
+      <halter erfasst="2023-11-25">
+        <anrede>Frau</anrede>
+        <name>Diana Braun</name>
+        <kontakt>
+          <telefon typ="mobil">0645-03657</telefon>
+          <email>braun.d@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall  94</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2018-08-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4046">
+      <halter erfasst="2021-10-27">
+        <anrede>Herr</anrede>
+        <name>Jens Vogel</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>vogel.j@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse  14</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2023-10-29</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4047">
+      <halter erfasst="2022-07-02">
+        <anrede>Frau</anrede>
+        <name>Verena Becker</name>
+        <kontakt>
+          <telefon typ="privat">0645-060853</telefon>
+          <email>becker.v@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg 1</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2021-01-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4048">
+      <halter erfasst="2022-04-09">
+        <anrede>Herr</anrede>
+        <name>Zacharias Frank</name>
+        <kontakt>
+          <telefon typ="mobil">0645-008571</telefon>
+          <email>frank.z@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 59</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2018-01-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4049">
+      <halter erfasst="2022-07-08">
+        <anrede>Herr</anrede>
+        <name>Viktor Richter</name>
+        <kontakt>
+          <telefon typ="mobil">0645-059161</telefon>
+          <email>richter.v@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 76</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Max</name>
+        <art>Hund</art>
+        <geburt>2019-07-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4050">
+      <halter erfasst="2021-04-22">
+        <anrede>Frau</anrede>
+        <name>Julia Kaiser</name>
+        <kontakt>
+          <telefon typ="mobil">0645-021524</telefon>
+          <email>kaiser.j@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 46</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2018-05-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4051">
+      <halter erfasst="2019-09-03">
+        <anrede>Herr</anrede>
+        <name>Oliver Kaiser</name>
+        <kontakt>
+          <telefon typ="privat">0645-0465925</telefon>
+          <email>kaiser.o@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 5</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lulu</name>
+        <art>Katze</art>
+        <geburt>2020-08-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4052">
+      <halter erfasst="2019-02-17">
+        <anrede>Herr</anrede>
+        <name>Viktor Schmitt</name>
+        <kontakt>
+          <telefon typ="mobil">0645-00763</telefon>
+          <email>schmitt.v@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 9</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2023-06-21</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4053">
+      <halter erfasst="2023-08-28">
+        <anrede>Frau</anrede>
+        <name>Quirina Roth</name>
+        <kontakt>
+          <telefon typ="mobil">0645-076704</telefon>
+          <email>roth.q@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz 86</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2018-06-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4054">
+      <halter erfasst="2021-11-28">
+        <anrede>Frau</anrede>
+        <name>Zoey Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05939</telefon>
+          <email>hoffmann.z@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 15</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lulu</name>
+        <art>Katze</art>
+        <geburt>2019-07-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4055">
+      <halter erfasst="2024-05-13">
+        <anrede>Frau</anrede>
+        <name>Julia Hofmann</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>hofmann.j@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 81</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2024-10-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4056">
+      <halter erfasst="2019-04-23">
+        <anrede>Herr</anrede>
+        <name>Jens Walter</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-024689</telefon>
+          <email>walter.j@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>schulstr. 19</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lilly</name>
+        <art>Hund</art>
+        <geburt>2023-07-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4057">
+      <halter erfasst="2021-01-06">
+        <anrede>Herr</anrede>
+        <name>Wolfgang Schwarz</name>
+        <kontakt>
+          <telefon typ="mobil">0645-078278</telefon>
+          <email>schwarz.w@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr. 42</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2022-02-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4058">
+      <halter erfasst="2022-02-23">
+        <anrede>Frau</anrede>
+        <name>Claudia Schroeder</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0790172</telefon>
+          <email>schroeder.c@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 68</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2020-08-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4059">
+      <halter erfasst="2024-06-01">
+        <anrede>Herr</anrede>
+        <name>Zacharias Braun</name>
+        <kontakt>
+          <telefon typ="privat">0645-0767344</telefon>
+          <email>braun.z@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Brunnenstrasse 87</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2020-09-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4060">
+      <halter erfasst="2024-12-30">
+        <anrede>Herr</anrede>
+        <name>Oliver Lehmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-017381</telefon>
+          <email>lehmann.o@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstrasse 74</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2022-08-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4061">
+      <halter erfasst="2024-05-31">
+        <anrede>Frau</anrede>
+        <name>Xenia Schroeder</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0235455</telefon>
+          <email>schroeder.x@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>mozartstr. 16</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2024-02-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4062">
+      <halter erfasst="2019-02-15">
+        <anrede>Frau</anrede>
+        <name>Ute Richter</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0864069</telefon>
+          <email>richter.u@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 46</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-02-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4063">
+      <halter erfasst="2019-03-20">
+        <anrede>Herr</anrede>
+        <name>Florian Wolf</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0932167</telefon>
+          <email>wolf.f@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 15</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lilly</name>
+        <art>Hund</art>
+        <geburt>2019-10-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4064">
+      <halter erfasst="2020-09-20">
+        <anrede>Frau</anrede>
+        <name>Anna Werner</name>
+        <kontakt>
+          <telefon typ="privat">0645-0827770</telefon>
+          <email>werner.a@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 7</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2022-03-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4065">
+      <halter erfasst="2023-06-06">
+        <anrede>Herr</anrede>
+        <name>Quirin Lehmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0923452</telefon>
+          <email>lehmann.q@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 28</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2019-01-27</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4066">
+      <halter erfasst="2020-06-08">
+        <anrede>Herr</anrede>
+        <name>Yannick Frank</name>
+        <kontakt>
+          <telefon typ="privat">0645-01886</telefon>
+          <email>frank.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr. 74</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2021-07-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4067">
+      <halter erfasst="2019-04-23">
+        <anrede>Herr</anrede>
+        <name>Viktor Schwarz</name>
+        <kontakt>
+          <telefon typ="mobil">0645-046024</telefon>
+          <email>schwarz.v@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstrasse 87</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2021-09-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4068">
+      <halter erfasst="2021-09-13">
+        <anrede>Herr</anrede>
+        <name>Bernd Bauer</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0084618</telefon>
+          <email>bauer.b@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr.  13</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2018-01-31</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4069">
+      <halter erfasst="2019-09-01">
+        <anrede>Frau</anrede>
+        <name>Julia Krueger</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0377432</telefon>
+          <email>krueger.j@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg  34</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2022-07-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4070">
+      <halter erfasst="2020-09-14">
+        <anrede>Frau</anrede>
+        <name>Ute Vogel</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-009016</telefon>
+          <email>vogel.u@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr.  80</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2021-04-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4071">
+      <halter erfasst="2022-05-18">
+        <anrede>Frau</anrede>
+        <name>Claudia Lange</name>
+        <kontakt>
+          <telefon typ="privat">0645-0720429</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  89</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2022-03-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4072">
+      <halter erfasst="2019-04-24">
+        <anrede>Frau</anrede>
+        <name>Ines Peters</name>
+        <kontakt>
+          <telefon typ="privat">0645-0727981</telefon>
+          <email>peters.i@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg  98</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2020-02-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4073">
+      <halter erfasst="2019-08-12">
+        <anrede>Herr</anrede>
+        <name>Xaver Fischer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-07290</telefon>
+          <email>fischer.x@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 24</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2020-09-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4074">
+      <halter erfasst="2025-01-19">
+        <anrede>Herr</anrede>
+        <name>Lukas Hoffmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-069643</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Bahnhofstr. 18</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2023-06-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4075">
+      <halter erfasst="2021-06-11">
+        <anrede>Frau</anrede>
+        <name>Rita Wagner</name>
+        <kontakt>
+          <telefon typ="mobil">0645-06684</telefon>
+          <email>wagner.r@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schulstr. 21</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2022-11-16</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4076">
+      <halter erfasst="2021-09-14">
+        <anrede>Herr</anrede>
+        <name>Yannick Krause</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0078660</telefon>
+          <email>krause.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  37</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2020-07-29</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4077">
+      <halter erfasst="2024-06-27">
+        <anrede>Frau</anrede>
+        <name>Ute Richter</name>
+        <kontakt>
+          <telefon typ="mobil">0645-02354</telefon>
+          <email>richter.u@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg 54</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2019-01-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4078">
+      <halter erfasst="2019-09-12">
+        <anrede>Frau</anrede>
+        <name>Julia Lange</name>
+        <kontakt>
+          <telefon typ="privat">0645-090938</telefon>
+          <email>lange.j@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 75</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2022-12-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4079">
+      <halter erfasst="2022-02-08">
+        <anrede>Herr</anrede>
+        <name>Felix Schulze</name>
+        <kontakt>
+          <telefon typ="mobil">0645-090235</telefon>
+          <email>schulze.f@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 77</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2020-10-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4080">
+      <halter erfasst="2023-03-26">
+        <anrede>Frau</anrede>
+        <name>Xenia Vogel</name>
+        <kontakt>
+          <telefon typ="mobil">0645-01519</telefon>
+          <email>vogel.x@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr. 73</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lola</name>
+        <art>Hund</art>
+        <geburt>2018-08-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4081">
+      <halter erfasst="2022-01-03">
+        <anrede>Frau</anrede>
+        <name>Katrin Fischer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-03958</telefon>
+          <email>fischer.k@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schulstr. 35</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2019-01-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4082">
+      <halter erfasst="2022-07-09">
+        <anrede>Frau</anrede>
+        <name>Maria Schulze</name>
+        <kontakt>
+          <telefon typ="privat">0645-07052</telefon>
+          <email>schulze.m@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Brunnenstrasse 47</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-04-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4083">
+      <halter erfasst="2020-08-24">
+        <anrede>Herr</anrede>
+        <name>Tobias Schroeder</name>
+        <kontakt>
+          <telefon typ="mobil">0645-04385</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Schlossstr. 98</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2022-11-27</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4084">
+      <halter erfasst="2019-10-17">
+        <anrede>Frau</anrede>
+        <name>Anna Schmitt</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-09494</telefon>
+          <email>schmitt.a@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstr. 27</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2020-11-22</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4085">
+      <halter erfasst="2021-03-31">
+        <anrede>Frau</anrede>
+        <name>Katrin Wagner</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>wagner.k@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstr. 54</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2023-07-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4086">
+      <halter erfasst="2021-05-24">
+        <anrede>Frau</anrede>
+        <name>Maria Vogel</name>
+        <kontakt>
+          <telefon typ="mobil">0645-06492</telefon>
+          <email>vogel.m@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 29</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2020-12-27</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4087">
+      <halter erfasst="2020-12-13">
+        <anrede>Frau</anrede>
+        <name>Verena Koch</name>
+        <kontakt>
+          <telefon typ="privat">0645-0546363</telefon>
+          <email>koch.v@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 63</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Diego</name>
+        <art>Hund</art>
+        <geburt>2020-07-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4088">
+      <halter erfasst="2020-10-22">
+        <anrede>Herr</anrede>
+        <name>Felix Schmidt</name>
+        <kontakt>
+          <telefon typ="privat">0645-09906</telefon>
+          <email>schmidt.f@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstrasse 62</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lulu</name>
+        <art>Katze</art>
+        <geburt>2019-04-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4089">
+      <halter erfasst="2023-09-09">
+        <anrede>Herr</anrede>
+        <name>Wolfgang Braun</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-04543</telefon>
+          <email>braun.w@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr. 67</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2019-07-21</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4090">
+      <halter erfasst="2024-12-21">
+        <anrede>Frau</anrede>
+        <name>Sabine Klein</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0403299</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr. 21</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Diego</name>
+        <art>Hund</art>
+        <geburt>2018-04-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4091">
+      <halter erfasst="2022-09-22">
+        <anrede>Frau</anrede>
+        <name>Elke Schaefer</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05531</telefon>
+          <email>schaefer.e@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schlossstr. 7</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rex</name>
+        <art>Hund</art>
+        <geburt>2023-05-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4092">
+      <halter erfasst="2021-03-14">
+        <anrede>Frau</anrede>
+        <name>Rita Krueger</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-09252</telefon>
+          <email>krueger.r@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg  63</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2023-04-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4093">
+      <halter erfasst="2024-03-03">
+        <anrede>Frau</anrede>
+        <name>Julia Vogel</name>
+        <kontakt>
+          <telefon typ="privat">0645-008865</telefon>
+          <email>vogel.j@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach  68</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2021-02-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4094">
+      <halter erfasst="2020-09-17">
+        <anrede>Frau</anrede>
+        <name>Sabine Wolf</name>
+        <kontakt>
+          <telefon typ="privat">0645-03475</telefon>
+          <email>wolf.s@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>schlossstr. 73</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2022-04-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4095">
+      <halter erfasst="2022-09-24">
+        <anrede>Herr</anrede>
+        <name>Hannes Roth</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0260645</telefon>
+          <email>roth.h@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Auweg  13</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2019-01-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4096">
+      <halter erfasst="2023-12-12">
+        <anrede>Frau</anrede>
+        <name>Yvonne Roth</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-07103</telefon>
+          <email>roth.y@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall  5</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2020-12-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4097">
+      <halter erfasst="2025-03-28">
+        <anrede>Frau</anrede>
+        <name>Xenia Schneider</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>schneider.x@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 26</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2020-11-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4098">
+      <halter erfasst="2021-12-06">
+        <anrede>Frau</anrede>
+        <name>Yvonne Klein</name>
+        <kontakt>
+          <telefon typ="mobil">0645-056814</telefon>
+          <email>klein.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 41</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2018-05-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4099">
+      <halter erfasst="2021-11-25">
+        <anrede>Frau</anrede>
+        <name>Hannah Krause</name>
+        <kontakt>
+          <telefon typ="privat">0645-0607986</telefon>
+          <email>krause.h@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg  4</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nala</name>
+        <art>Hund</art>
+        <geburt>2018-02-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4100">
+      <halter erfasst="2024-10-13">
+        <anrede>Frau</anrede>
+        <name>Katrin Hofmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-0643791</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstrasse 10</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2022-01-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4101">
+      <halter erfasst="2019-11-04">
+        <anrede>Frau</anrede>
+        <name>Yvonne Lehmann</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>lehmann.y@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 5</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2022-08-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4102">
+      <halter erfasst="2022-01-19">
+        <anrede>Herr</anrede>
+        <name>Ulrich Hofmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-035404</telefon>
+          <email>hofmann.u@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg 30</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2021-02-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4103">
+      <halter erfasst="2024-10-26">
+        <anrede>Herr</anrede>
+        <name>Leon Schaefer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-07397</telefon>
+          <email>schaefer.l@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstr.  93</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Balou</name>
+        <art>Hund</art>
+        <geburt>2023-01-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4104">
+      <halter erfasst="2024-05-22">
+        <anrede>Frau</anrede>
+        <name>Bettina Peters</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>peters.b@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 15</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2022-02-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4105">
+      <halter erfasst="2024-12-31">
+        <anrede>Frau</anrede>
+        <name>Stefanie Wolf</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0041378</telefon>
+          <email>wolf.s@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  58</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2021-10-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4106">
+      <halter erfasst="2022-08-29">
+        <anrede>Frau</anrede>
+        <name>Olivia Roth</name>
+        <kontakt>
+          <telefon typ="privat">0645-022285</telefon>
+          <email>roth.o@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Parkstr.  93</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2022-03-29</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4107">
+      <halter erfasst="2021-04-20">
+        <anrede>Herr</anrede>
+        <name>Christian Klein</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0100365</telefon>
+          <email>klein.c@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 4</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Balou</name>
+        <art>Hund</art>
+        <geburt>2021-01-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4108">
+      <halter erfasst="2023-08-10">
+        <anrede>Herr</anrede>
+        <name>Erik Schneider</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-007864</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg 63</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2020-03-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4109">
+      <halter erfasst="2025-01-21">
+        <anrede>Frau</anrede>
+        <name>Claudia Krueger</name>
+        <kontakt>
+          <telefon typ="mobil">0645-06464</telefon>
+          <email>krueger.c@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstrasse 38</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2019-11-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4110">
+      <halter erfasst="2023-11-10">
+        <anrede>Frau</anrede>
+        <name>Maria Vogel</name>
+        <kontakt>
+          <telefon typ="privat">0645-0261936</telefon>
+          <email>vogel.m@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg 96</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2023-03-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4111">
+      <halter erfasst="2024-02-02">
+        <anrede>Herr</anrede>
+        <name>Leon Hartmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-01513</telefon>
+          <email>hartmann.l@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schlossstrasse 87</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2022-11-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4112">
+      <halter erfasst="2024-03-02">
+        <anrede>Frau</anrede>
+        <name>Lea Lange</name>
+        <kontakt>
+          <telefon typ="privat">0645-02174</telefon>
+          <email>lange.l@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstrasse 38</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2019-02-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4113">
+      <halter erfasst="2021-08-17">
+        <anrede>Frau</anrede>
+        <name>Sabine Hoffmann</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>hoffmann.s@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstr. 82</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-10-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4114">
+      <halter erfasst="2021-08-01">
+        <anrede>Frau</anrede>
+        <name>Franziska Lehmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-07847</telefon>
+          <email>lehmann.f@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 33</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2023-05-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4115">
+      <halter erfasst="2024-09-28">
+        <anrede>Herr</anrede>
+        <name>Bernd Wagner</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>wagner.b@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg  81</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Daisy</name>
+        <art>Hund</art>
+        <geburt>2020-08-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4116">
+      <halter erfasst="2021-08-07">
+        <anrede>Frau</anrede>
+        <name>Stefanie Wolf</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-099320</telefon>
+          <email>wolf.s@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 35</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lulu</name>
+        <art>Katze</art>
+        <geburt>2023-07-21</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4117">
+      <halter erfasst="2020-12-08">
+        <anrede>Herr</anrede>
+        <name>Robert Lange</name>
+        <kontakt>
+          <telefon typ="privat">0645-0495988</telefon>
+          <email>lange.r@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg 60</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2023-10-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4118">
+      <halter erfasst="2020-07-05">
+        <anrede>Herr</anrede>
+        <name>Paul Krause</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0889842</telefon>
+          <email>krause.p@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Wiesenweg 89</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Max</name>
+        <art>Hund</art>
+        <geburt>2022-07-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4119">
+      <halter erfasst="2020-06-08">
+        <anrede>Herr</anrede>
+        <name>Hannes Krueger</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0215084</telefon>
+          <email>krueger.h@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr. 13</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-09-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4120">
+      <halter erfasst="2022-05-04">
+        <anrede>Herr</anrede>
+        <name>Zacharias Fischer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0362935</telefon>
+          <email>fischer.z@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schlossstrasse 92</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2019-05-12</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4121">
+      <halter erfasst="2020-01-27">
+        <anrede>Herr</anrede>
+        <name>Tobias Schulze</name>
+        <kontakt>
+          <telefon typ="mobil">0645-08815</telefon>
+          <email>schulze.t@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>kirchstr. 20</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2022-01-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4122">
+      <halter erfasst="2023-02-28">
+        <anrede>Frau</anrede>
+        <name>Maria Schroeder</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-060469</telefon>
+          <email>schroeder.m@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach  98</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lilly</name>
+        <art>Hund</art>
+        <geburt>2021-07-29</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4123">
+      <halter erfasst="2023-08-28">
+        <anrede>Herr</anrede>
+        <name>Karl Wagner</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-02740</telefon>
+          <email>wagner.k@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr. 10</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2019-04-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4124">
+      <halter erfasst="2020-03-14">
+        <anrede>Herr</anrede>
+        <name>Robert Hofmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-01072</telefon>
+          <email>hofmann.r@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall  24</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2023-06-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4125">
+      <halter erfasst="2020-03-30">
+        <anrede>Herr</anrede>
+        <name>Andreas Wolf</name>
+        <kontakt>
+          <telefon typ="mobil">0645-085856</telefon>
+          <email>wolf.a@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 61</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rex</name>
+        <art>Hund</art>
+        <geburt>2021-11-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4126">
+      <halter erfasst="2020-02-16">
+        <anrede>Frau</anrede>
+        <name>Elke Kaiser</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-019831</telefon>
+          <email>kaiser.e@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg  22</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2020-10-09</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4127">
+      <halter erfasst="2022-02-03">
+        <anrede>Frau</anrede>
+        <name>Verena Mueller</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0060200</telefon>
+          <email>mueller.v@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 88</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2020-11-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4128">
+      <halter erfasst="2020-08-25">
+        <anrede>Frau</anrede>
+        <name>Wiebke Albrecht</name>
+        <kontakt>
+          <telefon typ="mobil">0645-08326</telefon>
+          <email>albrecht.w@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz  85</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-09-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4129">
+      <halter erfasst="2020-09-27">
+        <anrede>Frau</anrede>
+        <name>Quirina Neumann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05212</telefon>
+          <email>neumann.q@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr. 74</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Whiskey</name>
+        <art>Hund</art>
+        <geburt>2021-10-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4130">
+      <halter erfasst="2020-12-11">
+        <anrede>Frau</anrede>
+        <name>Carolin Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0957893</telefon>
+          <email>hoffmann.c@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 47</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2018-09-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4131">
+      <halter erfasst="2023-01-11">
+        <anrede>Herr</anrede>
+        <name>Karl Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-076367</telefon>
+          <email>hoffmann.k@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse 48</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2021-03-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4132">
+      <halter erfasst="2020-07-06">
+        <anrede>Herr</anrede>
+        <name>Lukas Vogel</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>vogel.l@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Auweg 43</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2022-10-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4133">
+      <halter erfasst="2023-04-02">
+        <anrede>Herr</anrede>
+        <name>Zacharias Meyer</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>meyer.z@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>feldweg 92</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2021-07-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4134">
+      <halter erfasst="2019-05-25">
+        <anrede>Herr</anrede>
+        <name>Daniel Krueger</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05607</telefon>
+          <email>krueger.d@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall 22</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2020-04-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4135">
+      <halter erfasst="2021-07-09">
+        <anrede>Herr</anrede>
+        <name>Tobias Werner</name>
+        <kontakt>
+          <telefon typ="privat">0645-03385</telefon>
+          <email>werner.t@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Auweg 61</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lulu</name>
+        <art>Katze</art>
+        <geburt>2022-07-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4136">
+      <halter erfasst="2022-05-24">
+        <anrede>Herr</anrede>
+        <name>Bernd Lehmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-012793</telefon>
+          <email>lehmann.b@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 36</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2020-02-16</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4137">
+      <halter erfasst="2024-07-29">
+        <anrede>Herr</anrede>
+        <name>Xaver Schmitt</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0906967</telefon>
+          <email>schmitt.x@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>lindenallee 82</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2021-01-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4138">
+      <halter erfasst="2021-02-12">
+        <anrede>Herr</anrede>
+        <name>Bernd Wagner</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>wagner.b@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Wiesenweg 16</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2020-04-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4139">
+      <halter erfasst="2022-03-04">
+        <anrede>Herr</anrede>
+        <name>Bernd Schaefer</name>
+        <kontakt>
+          <telefon typ="mobil">0645-016471</telefon>
+          <email>schaefer.b@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 87</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2023-08-16</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4140">
+      <halter erfasst="2020-11-29">
+        <anrede>Herr</anrede>
+        <name>Felix Walter</name>
+        <kontakt>
+          <telefon typ="privat">0645-0394876</telefon>
+          <email>walter.f@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Tulpenstr.  82</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2018-07-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4141">
+      <halter erfasst="2022-09-23">
+        <anrede>Frau</anrede>
+        <name>Tanja Neumann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0204833</telefon>
+          <email>neumann.t@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz 85</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2024-10-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4142">
+      <halter erfasst="2021-08-26">
+        <anrede>Frau</anrede>
+        <name>Olivia Mueller</name>
+        <kontakt>
+          <telefon typ="mobil">0645-08546</telefon>
+          <email>mueller.o@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz 63</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2018-02-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4143">
+      <halter erfasst="2020-06-13">
+        <anrede>Frau</anrede>
+        <name>Franziska Richter</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0735997</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg 78</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lola</name>
+        <art>Hund</art>
+        <geburt>2019-03-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4144">
+      <halter erfasst="2024-11-16">
+        <anrede>Herr</anrede>
+        <name>Paul Neumann</name>
+        <kontakt>
+          <telefon typ="privat">0645-0634454</telefon>
+          <email>neumann.p@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg 65</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2023-03-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4145">
+      <halter erfasst="2022-05-04">
+        <anrede>Herr</anrede>
+        <name>Wolfgang Neumann</name>
+        <kontakt>
+          <telefon typ="privat">0645-06673</telefon>
+          <email>neumann.w@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 91</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2022-11-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4146">
+      <halter erfasst="2019-04-27">
+        <anrede>Herr</anrede>
+        <name>Viktor Koch</name>
+        <kontakt>
+          <telefon typ="privat">0645-0649944</telefon>
+          <email>koch.v@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 70</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lilly</name>
+        <art>Hund</art>
+        <geburt>2023-01-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4147">
+      <halter erfasst="2023-08-17">
+        <anrede>Frau</anrede>
+        <name>Xenia Werner</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-098949</telefon>
+          <email>werner.x@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse 29</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2022-11-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4148">
+      <halter erfasst="2020-11-17">
+        <anrede>Frau</anrede>
+        <name>Stefanie Schmitt</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-074563</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 90</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2018-03-22</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4149">
+      <halter erfasst="2019-01-11">
+        <anrede>Herr</anrede>
+        <name>Bernd Schulze</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-060134</telefon>
+          <email>schulze.b@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr. 31</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Balou</name>
+        <art>Hund</art>
+        <geburt>2019-01-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4150">
+      <halter erfasst="2020-09-28">
+        <anrede>Frau</anrede>
+        <name>Hannah Wolf</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0526682</telefon>
+          <email>wolf.h@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz 83</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2018-02-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4151">
+      <halter erfasst="2023-03-17">
+        <anrede>Frau</anrede>
+        <name>Petra Lange</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-090599</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 16</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2019-11-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4152">
+      <halter erfasst="2020-06-12">
+        <anrede>Frau</anrede>
+        <name>Lisa Schroeder</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0519083</telefon>
+          <email>schroeder.l@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach  22</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2021-07-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4153">
+      <halter erfasst="2022-03-25">
+        <anrede>Frau</anrede>
+        <name>Zoey Zimmermann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0667756</telefon>
+          <email>zimmermann.z@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg  76</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2024-05-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4154">
+      <halter erfasst="2024-07-22">
+        <anrede>Frau</anrede>
+        <name>Zoey Becker</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0087145</telefon>
+          <email>becker.z@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  39</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2018-02-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4155">
+      <halter erfasst="2020-05-06">
+        <anrede>Frau</anrede>
+        <name>Yvonne Wagner</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0875747</telefon>
+          <email>wagner.y@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Feldweg  97</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2022-06-29</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4156">
+      <halter erfasst="2023-09-25">
+        <anrede>Frau</anrede>
+        <name>Yvonne Schmidt</name>
+        <kontakt>
+          <telefon typ="privat">0645-032563</telefon>
+          <email>schmidt.y@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Gartenstr. 29</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2023-11-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4157">
+      <halter erfasst="2021-11-18">
+        <anrede>Frau</anrede>
+        <name>Katrin Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-07483</telefon>
+          <email>hoffmann.k@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 87</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2024-04-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4158">
+      <halter erfasst="2021-01-14">
+        <anrede>Herr</anrede>
+        <name>Viktor Frank</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-086700</telefon>
+          <email>frank.v@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 70</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2018-09-23</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4159">
+      <halter erfasst="2025-04-19">
+        <anrede>Herr</anrede>
+        <name>Christian Frank</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-085244</telefon>
+          <email>frank.c@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>auweg 18</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2024-01-06</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4160">
+      <halter erfasst="2022-12-31">
+        <anrede>Frau</anrede>
+        <name>Petra Braun</name>
+        <kontakt>
+          <telefon typ="privat">0645-090757</telefon>
+          <email>braun.p@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse  38</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2024-05-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4161">
+      <halter erfasst="2022-01-09">
+        <anrede>Herr</anrede>
+        <name>Xaver Schneider</name>
+        <kontakt>
+          <telefon typ="mobil">0645-000705</telefon>
+          <email>schneider.x@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstr. 12</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2024-09-16</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4162">
+      <halter erfasst="2022-01-07">
+        <anrede>Frau</anrede>
+        <name>Xenia Bauer</name>
+        <kontakt>
+          <telefon typ="privat">0645-05728</telefon>
+          <email>bauer.x@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstrasse 54</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Kitty</name>
+        <art>Katze</art>
+        <geburt>2022-06-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4163">
+      <halter erfasst="2021-07-18">
+        <anrede>Frau</anrede>
+        <name>Hannah Krause</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0332135</telefon>
+          <email>krause.h@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 6</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Max</name>
+        <art>Hund</art>
+        <geburt>2020-05-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4164">
+      <halter erfasst="2021-05-29">
+        <anrede>Herr</anrede>
+        <name>Christian Richter</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-011806</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 46</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2023-04-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4165">
+      <halter erfasst="2022-05-21">
+        <anrede>Frau</anrede>
+        <name>Julia Werner</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0670968</telefon>
+          <email>werner.j@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg  87</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2019-04-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4166">
+      <halter erfasst="2021-03-20">
+        <anrede>Frau</anrede>
+        <name>Claudia Schneider</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>schneider.c@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall  50</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2024-03-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4167">
+      <halter erfasst="2022-08-04">
+        <anrede>Frau</anrede>
+        <name>Quirina Lehmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0417954</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall 35</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2021-08-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4168">
+      <halter erfasst="2020-05-03">
+        <anrede>Herr</anrede>
+        <name>Oliver Weber</name>
+        <kontakt>
+          <telefon typ="privat">0645-08402</telefon>
+          <email>weber.o@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 98</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lucky</name>
+        <art>Hund</art>
+        <geburt>2019-01-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4169">
+      <halter erfasst="2024-09-05">
+        <anrede>Herr</anrede>
+        <name>Felix Schulze</name>
+        <kontakt>
+          <telefon typ="privat">0645-01081</telefon>
+          <email>schulze.f@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 99</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2019-04-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4170">
+      <halter erfasst="2020-03-25">
+        <anrede>Herr</anrede>
+        <name>Jens Zimmermann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-02845</telefon>
+          <email>zimmermann.j@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 95</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2020-04-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4171">
+      <halter erfasst="2019-11-15">
+        <anrede>Herr</anrede>
+        <name>Quirin Koch</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-02225</telefon>
+          <email>koch.q@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstrasse 58</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lucky</name>
+        <art>Hund</art>
+        <geburt>2021-08-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4172">
+      <halter erfasst="2023-04-16">
+        <anrede>Herr</anrede>
+        <name>Jens Becker</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-070868</telefon>
+          <email>becker.j@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 46</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2018-07-16</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4173">
+      <halter erfasst="2021-09-14">
+        <anrede>Frau</anrede>
+        <name>Petra Schwarz</name>
+        <kontakt>
+          <telefon typ="privat">0645-023902</telefon>
+          <email>schwarz.p@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse 55</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2020-02-14</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4174">
+      <halter erfasst="2024-04-24">
+        <anrede>Frau</anrede>
+        <name>Julia Schneider</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>schneider.j@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>wiesenweg 77</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2023-02-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4175">
+      <halter erfasst="2021-08-09">
+        <anrede>Frau</anrede>
+        <name>Quirina Becker</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0844356</telefon>
+          <email>becker.q@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee  3</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2020-01-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4176">
+      <halter erfasst="2022-09-17">
+        <anrede>Herr</anrede>
+        <name>Daniel Braun</name>
+        <kontakt>
+          <telefon typ="mobil">0645-026943</telefon>
+          <email>braun.d@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstrasse 90</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2019-11-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4177">
+      <halter erfasst="2019-01-21">
+        <anrede>Herr</anrede>
+        <name>Wolfgang Meyer</name>
+        <kontakt>
+          <telefon typ="mobil">0645-01066</telefon>
+          <email>meyer.w@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 19</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2019-04-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4178">
+      <halter erfasst="2019-01-15">
+        <anrede>Herr</anrede>
+        <name>Bernd Kaiser</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0289605</telefon>
+          <email>kaiser.b@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstrasse 54</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2018-09-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4179">
+      <halter erfasst="2020-07-22">
+        <anrede>Herr</anrede>
+        <name>Igor Roth</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-067208</telefon>
+          <email>roth.i@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg  53</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2023-02-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4180">
+      <halter erfasst="2024-11-01">
+        <anrede>Herr</anrede>
+        <name>Yannick Klein</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0146691</telefon>
+          <email>klein.y@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 98</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Smokey</name>
+        <art>Katze</art>
+        <geburt>2020-02-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4181">
+      <halter erfasst="2019-03-17">
+        <anrede>Herr</anrede>
+        <name>Quirin Schmidt</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-09143</telefon>
+          <email>schmidt.q@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr.  96</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2024-03-21</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4182">
+      <halter erfasst="2024-02-10">
+        <anrede>Herr</anrede>
+        <name>Bernd Wolf</name>
+        <kontakt>
+          <telefon typ="privat">0645-05325</telefon>
+          <email>wolf.b@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 20</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Whiskey</name>
+        <art>Hund</art>
+        <geburt>2020-09-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4183">
+      <halter erfasst="2021-11-16">
+        <anrede>Herr</anrede>
+        <name>Viktor Krause</name>
+        <kontakt>
+          <telefon typ="privat">0645-044440</telefon>
+          <email>krause.v@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstrasse 54</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nero</name>
+        <art>Katze</art>
+        <geburt>2023-01-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4184">
+      <halter erfasst="2021-10-19">
+        <anrede>Frau</anrede>
+        <name>Diana Schwarz</name>
+        <kontakt>
+          <telefon typ="privat">0645-06149</telefon>
+          <email>schwarz.d@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Auweg 72</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Balou</name>
+        <art>Hund</art>
+        <geburt>2024-07-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4185">
+      <halter erfasst="2020-08-08">
+        <anrede>Frau</anrede>
+        <name>Maria Hofmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0515890</telefon>
+          <email>hofmann.m@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall 41</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bella</name>
+        <art>Hund</art>
+        <geburt>2019-02-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4186">
+      <halter erfasst="2020-10-05">
+        <anrede>Herr</anrede>
+        <name>Florian Schmidt</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>schmidt.f@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg 25</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nala</name>
+        <art>Hund</art>
+        <geburt>2022-11-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4187">
+      <halter erfasst="2020-02-11">
+        <anrede>Herr</anrede>
+        <name>Niklas Hartmann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0992013</telefon>
+          <email>hartmann.n@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 34</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2022-10-01</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4188">
+      <halter erfasst="2020-02-18">
+        <anrede>Frau</anrede>
+        <name>Petra Stein</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0232346</telefon>
+          <email>stein.p@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 29</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Daisy</name>
+        <art>Hund</art>
+        <geburt>2020-07-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4189">
+      <halter erfasst="2021-09-26">
+        <anrede>Herr</anrede>
+        <name>Igor Werner</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-06361</telefon>
+          <email>werner.i@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 36</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2018-09-19</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4190">
+      <halter erfasst="2023-07-11">
+        <anrede>Frau</anrede>
+        <name>Tanja Lehmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-0910612</telefon>
+          <email>lehmann.t@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am Markt 72</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Mimi</name>
+        <art>Katze</art>
+        <geburt>2020-07-30</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4191">
+      <halter erfasst="2021-01-07">
+        <anrede>Frau</anrede>
+        <name>Zoey Zimmermann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0646205</telefon>
+          <email>zimmermann.z@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Talstr. 15</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Buddy</name>
+        <art>Hund</art>
+        <geburt>2022-12-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4192">
+      <halter erfasst="2020-10-16">
+        <anrede>Frau</anrede>
+        <name>Elke Wagner</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-06317</telefon>
+          <email>wagner.e@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 61</strasse>
+          <plz>35510</plz>
+          <ort>Bergblick-Siedlung</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2021-11-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4193">
+      <halter erfasst="2024-07-28">
+        <anrede>Frau</anrede>
+        <name>Wiebke Krueger</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0552981</telefon>
+          <email>krueger.w@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 97</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2023-08-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4194">
+      <halter erfasst="2024-12-09">
+        <anrede>Herr</anrede>
+        <name>Wolfgang Schmidt</name>
+        <kontakt>
+          <telefon typ="privat">0645-096213</telefon>
+          <email>schmidt.w@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg 99</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2019-03-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4195">
+      <halter erfasst="2022-11-23">
+        <anrede>Herr</anrede>
+        <name>Erik Hoffmann</name>
+        <kontakt>
+          <telefon typ="privat">0645-0508853</telefon>
+          <email>hoffmann.e@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 75</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2021-09-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4196">
+      <halter erfasst="2025-04-16">
+        <anrede>Frau</anrede>
+        <name>Tanja Becker</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0229842</telefon>
+          <email>becker.t@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg  60</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2022-06-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4197">
+      <halter erfasst="2023-09-14">
+        <anrede>Herr</anrede>
+        <name>Jens Schmidt</name>
+        <kontakt>
+          <telefon typ="privat">0645-032248</telefon>
+          <email>schmidt.j@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 87</strasse>
+          <plz>35510</plz>
+          <ort>Waldrand</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Pumba</name>
+        <art>Katze</art>
+        <geburt>2024-01-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4198">
+      <halter erfasst="2020-02-06">
+        <anrede>Herr</anrede>
+        <name>Xaver Zimmermann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0729934</telefon>
+          <email>zimmermann.x@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Lindenallee 38</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2019-08-25</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4199">
+      <halter erfasst="2024-10-24">
+        <anrede>Frau</anrede>
+        <name>Claudia Frank</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0092692</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 33</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2024-03-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4200">
+      <halter erfasst="2020-07-24">
+        <anrede>Frau</anrede>
+        <name>Sabine Peters</name>
+        <kontakt>
+          <telefon typ="privat">0645-059926</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 22</strasse>
+          <plz>35511</plz>
+          <ort>Hoehental</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lola</name>
+        <art>Hund</art>
+        <geburt>2019-04-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4201">
+      <halter erfasst="2025-02-23">
+        <anrede>Herr</anrede>
+        <name>Julia Peters</name>
+        <kontakt>
+          <telefon typ="privat">0645-08168</telefon>
+          <email>peters.j@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Rosenweg 36</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2021-10-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4202">
+      <halter erfasst="2026-02-09">
+        <anrede>Herr</anrede>
+        <name>Quirina Schmid</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0286076</telefon>
+          <email>schmid.q@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstr. 86</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2018-09-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4203">
+      <halter erfasst="2024-01-22">
+        <anrede>Herr</anrede>
+        <name>Lisa Fischer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0533182</telefon>
+          <email>fischer.l@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstr.  47</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Max</name>
+        <art>Hund</art>
+        <geburt>2020-12-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4204">
+      <halter erfasst="2024-04-21">
+        <anrede>Herr</anrede>
+        <name>Christian Fischer</name>
+        <kontakt>
+          <telefon typ="privat">0645-005483</telefon>
+          <email>fischer.c@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Hauptstr. 81</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Whiskey</name>
+        <art>Hund</art>
+        <geburt>2020-02-24</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4205">
+      <halter erfasst="2020-06-16">
+        <anrede>Herr</anrede>
+        <name>Zoey Klein</name>
+        <kontakt>
+          <telefon typ="privat">0645-04587</telefon>
+          <email>klein.z@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz  79</strasse>
+          <plz>35501</plz>
+          <ort>Oberstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2022-04-19</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4206">
+      <halter erfasst="2026-09-02">
+        <anrede>Herr</anrede>
+        <name>F. Lehmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-03569</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr. 45</strasse>
+          <plz>35500</plz>
+          <ort>Juckstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2022-11-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4207">
+      <halter erfasst="2026-09-19">
+        <anrede>Herr</anrede>
+        <name>E. Kaiser</name>
+        <kontakt>
+          <telefon typ="mobil">0645-05942</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Buchenweg  37</strasse>
+          <plz>35501</plz>
+          <ort>Oberstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2020-03-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4208">
+      <halter erfasst="2025-05-25">
+        <anrede>Herr</anrede>
+        <name>Hannah Becker</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0799617</telefon>
+          <email>becker.h@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Parkstrasse 19</strasse>
+          <plz>35501</plz>
+          <ort>Oberstadt</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cooper</name>
+        <art>Hund</art>
+        <geburt>2023-06-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4209">
+      <halter erfasst="2023-11-07">
+        <anrede>Herr</anrede>
+        <name>Verena Schmid</name>
+        <kontakt>
+          <telefon typ="festnetz">0640-761157</telefon>
+          <email>schmid.v@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Am  Markt  63</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Katze</art>
+        <geburt>2019-12-10</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4210">
+      <halter erfasst="2025-06-29">
+        <anrede>Herr</anrede>
+        <name>K. Kaiser</name>
+        <kontakt>
+          <telefon typ="privat">0640-746588</telefon>
+          <email>kaiser.k@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Sonnenwall 43</strasse>
+          <plz>35466</plz>
+          <ort>Allendorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Katze</art>
+        <geburt>2020-11-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4211">
+      <halter erfasst="2023-09-06">
+        <anrede>Herr</anrede>
+        <name>Leon Braun</name>
+        <kontakt>
+          <telefon typ="mobil">0640-700773</telefon>
+          <email>braun.l@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Beethovenstr. 14</strasse>
+          <plz>35466</plz>
+          <ort>Rabenau</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Felix</name>
+        <art>Katze</art>
+        <geburt>2021-07-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4212">
+      <halter erfasst="2021-09-26">
+        <anrede>Herr</anrede>
+        <name>Martin Becker</name>
+        <kontakt>
+          <telefon typ="mobil">0640-76167</telefon>
+          <email>becker.m@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstr. 56</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2021-09-22</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4213">
+      <halter erfasst="2021-09-02">
+        <anrede>Herr</anrede>
+        <name>Hannah Stein</name>
+        <kontakt>
+          <telefon typ="mobil">0640-72200</telefon>
+          <email>stein.h@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Marktplatz 22</strasse>
+          <plz>35466</plz>
+          <ort>Rabenau</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2022-10-12</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4214">
+      <halter erfasst="2021-02-19">
+        <anrede>Herr</anrede>
+        <name>N. Lehmann</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>lehmann.n@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Brunnenstrasse 3</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Caesar</name>
+        <art>Katze</art>
+        <geburt>2020-11-03</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4215">
+      <halter erfasst="2022-08-02">
+        <anrede>Herr</anrede>
+        <name>Rita Wolf</name>
+        <kontakt>
+          <telefon typ="privat">0640-719645</telefon>
+          <email>wolf.r@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Dorfstrasse 57</strasse>
+          <plz>35466</plz>
+          <ort>Allendorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rocky</name>
+        <art>Hund</art>
+        <geburt>2019-02-17</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4216">
+      <halter erfasst="2025-08-18">
+        <anrede>Herr</anrede>
+        <name>O. Braun</name>
+        <kontakt>
+          <telefon typ="festnetz">0640-73430</telefon>
+          <email>braun.o@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mondbach 73</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Ace</name>
+        <art>Hund</art>
+        <geburt>2024-09-08</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4217">
+      <halter erfasst="2024-12-01">
+        <anrede>Herr</anrede>
+        <name>Rita Albrecht</name>
+        <kontakt>
+          <telefon typ="privat">0640-3442228</telefon>
+          <email>albrecht.r@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstr. 59</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bruno</name>
+        <art>Hund</art>
+        <geburt>2023-09-26</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4218">
+      <halter erfasst="2022-06-30">
+        <anrede>Herr</anrede>
+        <name>Hannes Kaiser</name>
+        <kontakt>
+          <telefon typ="privat">0647-724503</telefon>
+          <email>kaiser.h@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Brunnenstr. 74</strasse>
+          <plz>35466</plz>
+          <ort>Allendorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2018-11-15</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4219">
+      <halter erfasst="2023-08-29">
+        <anrede>Herr</anrede>
+        <name>Tobias Myeer</name>
+        <kontakt>
+          <telefon typ="mobil">0640-728306</telefon>
+          <email>meyer.t@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Ahornweg    52</strasse>
+          <plz>35466</plz>
+          <ort>Allendorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Charlie</name>
+        <art>Hund</art>
+        <geburt>2023-06-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4220">
+      <halter erfasst="2021-04-12">
+        <anrede>Herr</anrede>
+        <name>S. Hoffmann</name>
+        <kontakt>
+          <telefon typ="privat">0640-758420</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstr. 26</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Emma</name>
+        <art>Hund</art>
+        <geburt>2024-08-05</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4221">
+      <halter erfasst="2021-01-20">
+        <anrede>Herr</anrede>
+        <name>Lisa Wenrer</name>
+        <kontakt>
+          <telefon typ="mobil">0640-76439</telefon>
+          <email>werner.l@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kapellenweg 18</strasse>
+          <plz>35466</plz>
+          <ort>Londorf</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2023-02-18</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4222">
+      <halter erfasst="2023-07-20">
+        <anrede>Herr</anrede>
+        <name>Elke Bauer</name>
+        <kontakt>
+          <telefon></telefon>
+          <email>bauer.e@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Bergstrasse 46</strasse>
+          <plz>35580</plz>
+          <ort>Wetzlar-Buederbach</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Schnurri</name>
+        <art>Katze</art>
+        <geburt>2021-10-28</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4223">
+      <halter erfasst="2023-02-28">
+        <anrede>Herr</anrede>
+        <name>Olivia Zimmermann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-092982</telefon>
+          <email>zimmermann.o@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>am markt 16</strasse>
+          <plz>35580</plz>
+          <ort>Wetzlar-Buederbach</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Cleo</name>
+        <art>Katze</art>
+        <geburt>2021-07-04</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4224">
+      <halter erfasst="2020-06-19">
+        <anrede>Herr</anrede>
+        <name>Bernd Hoffmann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0748575</telefon>
+          <email>hoffmann.b@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Kirchstrasse 35</strasse>
+          <plz>35578</plz>
+          <ort>Wetzlar</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Lucky</name>
+        <art>Hund</art>
+        <geburt>2023-04-02</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4225">
+      <halter erfasst="2022-07-19">
+        <anrede>Herr</anrede>
+        <name>Zoey Wanger</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-0670908</telefon>
+          <email>wagner.z@gmx.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse  85</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2020-04-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4226">
+      <halter erfasst="2022-11-08">
+        <anrede>Herr</anrede>
+        <name>Verena Wlof</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-049597</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Eichenweg 1</strasse>
+          <plz>35580</plz>
+          <ort>Wetzlar-Buederbach</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Bello</name>
+        <art>Hund</art>
+        <geburt>2023-01-20</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4227">
+      <halter erfasst="2024-07-31">
+        <anrede>Herr</anrede>
+        <name>Paul Frank</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-03330</telefon>
+          <email>frank.p@email.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Mozartstr.  26</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Tiger</name>
+        <art>Katze</art>
+        <geburt>2019-01-11</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4228">
+      <halter erfasst="2023-06-20">
+        <anrede>Herr</anrede>
+        <name>Xenia Neumann</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-060825</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse 10</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2021-02-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4229">
+      <halter erfasst="2025-02-22">
+        <anrede>Herr</anrede>
+        <name>X. Neumann</name>
+        <kontakt>
+          <telefon typ="mobil">0645-060825</telefon>
+          <email xsi:nil="true"/>
+        </kontakt>
+        <adresse>
+          <strasse>Pfarrgasse 10</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Minka</name>
+        <art>Katze</art>
+        <geburt>2024-01-07</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4230">
+      <halter erfasst="2024-06-01">
+        <anrede>Herr</anrede>
+        <name>Igor Meyer</name>
+        <kontakt>
+          <telefon typ="festnetz">0645-02369</telefon>
+          <email>meyer.i@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Goethestr.  33</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Rex</name>
+        <art>Hund</art>
+        <geburt>2023-07-13</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4231">
+      <halter erfasst="2025-07-07">
+        <anrede>Herr</anrede>
+        <name>Nora Neumann</name>
+        <kontakt>
+          <telefon typ="privat">0645-006604</telefon>
+          <email>neumann.n@web.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Wiesenweg  96</strasse>
+          <plz>35579</plz>
+          <ort>Wetzlar-Niedergirmes</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Nala</name>
+        <art>Hund</art>
+        <geburt>2021-07-09</geburt>
+      </tier>
+    </patient>
+    <patient id="P-4232">
+      <halter erfasst="2024-08-03">
+        <anrede>Herr</anrede>
+        <name>Yannick Weber</name>
+        <kontakt>
+          <telefon typ="mobil">0645-0022511</telefon>
+          <email>weber.y@t-online.de</email>
+        </kontakt>
+        <adresse>
+          <strasse>Schillerstr. 99</strasse>
+          <plz>35580</plz>
+          <ort>Wetzlar-Buederbach</ort>
+        </adresse>
+      </halter>
+      <tier>
+        <name>Luna</name>
+        <art>Hund</art>
+        <geburt>2023-08-10</geburt>
+      </tier>
+    </patient>
+  </patienten>
+  <behandlungen>
+    <behandlung patientId="P-4191" datum="2025-11-15">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="162.92" brutto="193.87"/>
+    </behandlung>
+    <behandlung patientId="P-4094" datum="2025-11-02">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="32.55" brutto="38.73"/>
+    </behandlung>
+    <behandlung patientId="P-4036" datum="2026-03-12">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="161.95" brutto="192.72"/>
+    </behandlung>
+    <behandlung patientId="P-4026" datum="2025-09-22">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="135.18" brutto="160.86"/>
+    </behandlung>
+    <behandlung patientId="P-4085" datum="2026-01-22">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="71.45" brutto="85.02"/>
+    </behandlung>
+    <behandlung patientId="P-4060" datum="2026-01-10">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="48.53" brutto="57.75"/>
+    </behandlung>
+    <behandlung patientId="P-4003" datum="2026-02-12">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="42.88" brutto="51.03"/>
+    </behandlung>
+    <behandlung patientId="P-4202" datum="2025-11-11">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="46.19" brutto="54.97"/>
+    </behandlung>
+    <behandlung patientId="P-4113" datum="2025-12-10">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="51.81" brutto="61.65"/>
+    </behandlung>
+    <behandlung patientId="P-4132" datum="2026-02-27">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="98.72" brutto="117.48"/>
+    </behandlung>
+    <behandlung patientId="P-4008" datum="2026-03-22">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="100.41" brutto="119.49"/>
+    </behandlung>
+    <behandlung patientId="P-4159" datum="2025-12-27">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="93.48" brutto="111.24"/>
+    </behandlung>
+    <behandlung patientId="P-4219" datum="2026-02-10">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="143.08" brutto="170.26"/>
+    </behandlung>
+    <behandlung patientId="P-4151" datum="2026-03-05">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="97.71" brutto="116.28"/>
+    </behandlung>
+    <behandlung patientId="P-4155" datum="2026-03-23">
+      <diagnose>Kastration</diagnose>
+      <summe netto="110.19" brutto="131.13"/>
+    </behandlung>
+    <behandlung patientId="P-4109" datum="2026-02-28">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="47.67" brutto="56.73"/>
+    </behandlung>
+    <behandlung patientId="P-4113" datum="2025-11-10">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="30.55" brutto="36.35"/>
+    </behandlung>
+    <behandlung patientId="P-4093" datum="2026-03-24">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="144.40" brutto="171.84"/>
+    </behandlung>
+    <behandlung patientId="P-4213" datum="2025-11-16">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="148.47" brutto="176.68"/>
+    </behandlung>
+    <behandlung patientId="P-4206" datum="2026-01-01">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="83.46" brutto="99.32"/>
+    </behandlung>
+    <behandlung patientId="P-4179" datum="2025-12-25">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="69.79" brutto="83.05"/>
+    </behandlung>
+    <behandlung patientId="P-4219" datum="2025-11-19">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="73.38" brutto="87.32"/>
+    </behandlung>
+    <behandlung patientId="P-4194" datum="2026-01-27">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="88.79" brutto="105.66"/>
+    </behandlung>
+    <behandlung patientId="P-4170" datum="2026-03-01">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="152.33" brutto="181.27"/>
+    </behandlung>
+    <behandlung patientId="P-4174" datum="2025-10-01">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="31.30" brutto="37.25"/>
+    </behandlung>
+    <behandlung patientId="P-4145" datum="2025-09-28">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="18.84" brutto="22.42"/>
+    </behandlung>
+    <behandlung patientId="P-4138" datum="2026-01-31">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="138.96" brutto="165.36"/>
+    </behandlung>
+    <behandlung patientId="P-4179" datum="2026-01-17">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="141.88" brutto="168.84"/>
+    </behandlung>
+    <behandlung patientId="P-4182" datum="2025-09-01">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="86.82" brutto="103.31"/>
+    </behandlung>
+    <behandlung patientId="P-4106" datum="2026-02-05">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="102.49" brutto="121.96"/>
+    </behandlung>
+    <behandlung patientId="P-4110" datum="2025-10-12">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="136.12" brutto="161.98"/>
+    </behandlung>
+    <behandlung patientId="P-4203" datum="2025-11-24">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="42.00" brutto="49.98"/>
+    </behandlung>
+    <behandlung patientId="P-4201" datum="2025-09-26">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="136.55" brutto="162.50"/>
+    </behandlung>
+    <behandlung patientId="P-4135" datum="2026-03-25">
+      <diagnose>Wurmkur</diagnose>
+      <summe netto="131.73" brutto="156.76"/>
+    </behandlung>
+    <behandlung patientId="P-4088" datum="2025-09-14">
+      <diagnose>Wurmkur</diagnose>
+      <summe netto="155.91" brutto="185.53"/>
+    </behandlung>
+    <behandlung patientId="P-4037" datum="2025-10-07">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="52.99" brutto="63.06"/>
+    </behandlung>
+    <behandlung patientId="P-4166" datum="2025-10-01">
+      <diagnose>Kastration</diagnose>
+      <summe netto="44.95" brutto="53.49"/>
+    </behandlung>
+    <behandlung patientId="P-4124" datum="2025-11-25">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="20.97" brutto="24.95"/>
+    </behandlung>
+    <behandlung patientId="P-4085" datum="2026-02-06">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="135.13" brutto="160.81"/>
+    </behandlung>
+    <behandlung patientId="P-4025" datum="2026-02-12">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="38.70" brutto="46.05"/>
+    </behandlung>
+    <behandlung patientId="P-4106" datum="2026-03-15">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="33.02" brutto="39.29"/>
+    </behandlung>
+    <behandlung patientId="P-4221" datum="2025-10-06">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="87.63" brutto="104.28"/>
+    </behandlung>
+    <behandlung patientId="P-4036" datum="2026-03-05">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="23.64" brutto="28.13"/>
+    </behandlung>
+    <behandlung patientId="P-4071" datum="2025-11-14">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="26.97" brutto="32.10"/>
+    </behandlung>
+    <behandlung patientId="P-4043" datum="2026-01-11">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="162.36" brutto="193.21"/>
+    </behandlung>
+    <behandlung patientId="P-4217" datum="2026-01-29">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="113.98" brutto="135.64"/>
+    </behandlung>
+    <behandlung patientId="P-4222" datum="2026-02-13">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="111.56" brutto="132.76"/>
+    </behandlung>
+    <behandlung patientId="P-4060" datum="2026-01-21">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="47.52" brutto="56.55"/>
+    </behandlung>
+    <behandlung patientId="P-4146" datum="2026-01-19">
+      <diagnose>Wundversorgung</diagnose>
+      <summe netto="51.45" brutto="61.22"/>
+    </behandlung>
+    <behandlung patientId="P-4146" datum="2025-12-27">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="111.06" brutto="132.16"/>
+    </behandlung>
+    <behandlung patientId="P-4012" datum="2026-01-04">
+      <diagnose>Kastration</diagnose>
+      <summe netto="74.55" brutto="88.72"/>
+    </behandlung>
+    <behandlung patientId="P-4224" datum="2025-09-13">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="81.73" brutto="97.26"/>
+    </behandlung>
+    <behandlung patientId="P-4201" datum="2025-11-27">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="83.97" brutto="99.93"/>
+    </behandlung>
+    <behandlung patientId="P-4219" datum="2026-03-27">
+      <diagnose>Wundversorgung</diagnose>
+      <summe netto="40.78" brutto="48.53"/>
+    </behandlung>
+    <behandlung patientId="P-4195" datum="2025-11-29">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="65.68" brutto="78.16"/>
+    </behandlung>
+    <behandlung patientId="P-4081" datum="2025-10-07">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="68.57" brutto="81.60"/>
+    </behandlung>
+    <behandlung patientId="P-4053" datum="2025-11-02">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="22.73" brutto="27.05"/>
+    </behandlung>
+    <behandlung patientId="P-4113" datum="2026-01-02">
+      <diagnose>Kastration</diagnose>
+      <summe netto="134.55" brutto="160.11"/>
+    </behandlung>
+    <behandlung patientId="P-4027" datum="2026-01-22">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="33.55" brutto="39.93"/>
+    </behandlung>
+    <behandlung patientId="P-4016" datum="2026-01-11">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="113.40" brutto="134.95"/>
+    </behandlung>
+    <behandlung patientId="P-4014" datum="2026-02-23">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="154.63" brutto="184.01"/>
+    </behandlung>
+    <behandlung patientId="P-4130" datum="2025-11-15">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="16.80" brutto="19.99"/>
+    </behandlung>
+    <behandlung patientId="P-4207" datum="2025-09-15">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="98.31" brutto="116.99"/>
+    </behandlung>
+    <behandlung patientId="P-4218" datum="2025-12-05">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="114.56" brutto="136.33"/>
+    </behandlung>
+    <behandlung patientId="P-4119" datum="2025-10-15">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="35.92" brutto="42.75"/>
+    </behandlung>
+    <behandlung patientId="P-4136" datum="2025-11-03">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="166.22" brutto="197.80"/>
+    </behandlung>
+    <behandlung patientId="P-4026" datum="2026-01-18">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="145.94" brutto="173.67"/>
+    </behandlung>
+    <behandlung patientId="P-4079" datum="2025-10-27">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="126.59" brutto="150.64"/>
+    </behandlung>
+    <behandlung patientId="P-4196" datum="2025-10-09">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="41.40" brutto="49.27"/>
+    </behandlung>
+    <behandlung patientId="P-4007" datum="2025-11-17">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="157.13" brutto="186.98"/>
+    </behandlung>
+    <behandlung patientId="P-4045" datum="2026-02-28">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="49.74" brutto="59.19"/>
+    </behandlung>
+    <behandlung patientId="P-4070" datum="2026-01-21">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="86.45" brutto="102.88"/>
+    </behandlung>
+    <behandlung patientId="P-4172" datum="2025-10-27">
+      <diagnose>Wundversorgung</diagnose>
+      <summe netto="121.26" brutto="144.30"/>
+    </behandlung>
+    <behandlung patientId="P-4101" datum="2026-02-24">
+      <diagnose>Wundversorgung</diagnose>
+      <summe netto="163.28" brutto="194.30"/>
+    </behandlung>
+    <behandlung patientId="P-4117" datum="2026-03-24">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="80.55" brutto="95.86"/>
+    </behandlung>
+    <behandlung patientId="P-4145" datum="2026-01-16">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="148.27" brutto="176.44"/>
+    </behandlung>
+    <behandlung patientId="P-4013" datum="2026-01-21">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="56.91" brutto="67.72"/>
+    </behandlung>
+    <behandlung patientId="P-4095" datum="2025-10-28">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="82.53" brutto="98.21"/>
+    </behandlung>
+    <behandlung patientId="P-4130" datum="2025-11-17">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="65.13" brutto="77.50"/>
+    </behandlung>
+    <behandlung patientId="P-4128" datum="2025-10-13">
+      <diagnose>Kastration</diagnose>
+      <summe netto="39.04" brutto="46.46"/>
+    </behandlung>
+    <behandlung patientId="P-4174" datum="2026-01-02">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="134.42" brutto="159.96"/>
+    </behandlung>
+    <behandlung patientId="P-4180" datum="2026-02-11">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="26.40" brutto="31.42"/>
+    </behandlung>
+    <behandlung patientId="P-4143" datum="2025-11-20">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="151.55" brutto="180.34"/>
+    </behandlung>
+    <behandlung patientId="P-4054" datum="2026-02-21">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="103.09" brutto="122.68"/>
+    </behandlung>
+    <behandlung patientId="P-4203" datum="2026-02-07">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="84.56" brutto="100.63"/>
+    </behandlung>
+    <behandlung patientId="P-4063" datum="2025-11-01">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="131.66" brutto="156.68"/>
+    </behandlung>
+    <behandlung patientId="P-4135" datum="2026-03-23">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="162.34" brutto="193.19"/>
+    </behandlung>
+    <behandlung patientId="P-4057" datum="2025-11-16">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="53.34" brutto="63.47"/>
+    </behandlung>
+    <behandlung patientId="P-4164" datum="2025-11-03">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="30.27" brutto="36.02"/>
+    </behandlung>
+    <behandlung patientId="P-4208" datum="2025-10-07">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="78.77" brutto="93.74"/>
+    </behandlung>
+    <behandlung patientId="P-4063" datum="2025-10-24">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="113.69" brutto="135.29"/>
+    </behandlung>
+    <behandlung patientId="P-4043" datum="2025-12-06">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="99.79" brutto="118.75"/>
+    </behandlung>
+    <behandlung patientId="P-4151" datum="2025-10-15">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="63.45" brutto="75.50"/>
+    </behandlung>
+    <behandlung patientId="P-4201" datum="2025-12-20">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="52.62" brutto="62.62"/>
+    </behandlung>
+    <behandlung patientId="P-4216" datum="2025-11-12">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="16.14" brutto="19.21"/>
+    </behandlung>
+    <behandlung patientId="P-4111" datum="2025-11-26">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="29.09" brutto="34.62"/>
+    </behandlung>
+    <behandlung patientId="P-4205" datum="2026-02-14">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="148.08" brutto="176.21"/>
+    </behandlung>
+    <behandlung patientId="P-4105" datum="2025-10-28">
+      <diagnose>Wurmkur</diagnose>
+      <summe netto="38.92" brutto="46.31"/>
+    </behandlung>
+    <behandlung patientId="P-4181" datum="2025-11-03">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="78.84" brutto="93.82"/>
+    </behandlung>
+    <behandlung patientId="P-4088" datum="2026-03-20">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="78.97" brutto="93.97"/>
+    </behandlung>
+    <behandlung patientId="P-4083" datum="2025-12-02">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="76.53" brutto="91.07"/>
+    </behandlung>
+    <behandlung patientId="P-4214" datum="2026-01-30">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="86.03" brutto="102.38"/>
+    </behandlung>
+    <behandlung patientId="P-4058" datum="2025-12-13">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="29.26" brutto="34.82"/>
+    </behandlung>
+    <behandlung patientId="P-4201" datum="2025-09-19">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="128.07" brutto="152.40"/>
+    </behandlung>
+    <behandlung patientId="P-4220" datum="2026-01-24">
+      <diagnose>Zeckenbefall Spot-On</diagnose>
+      <summe netto="160.73" brutto="191.27"/>
+    </behandlung>
+    <behandlung patientId="P-4136" datum="2025-09-30">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="17.87" brutto="21.27"/>
+    </behandlung>
+    <behandlung patientId="P-4223" datum="2026-03-11">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="71.76" brutto="85.40"/>
+    </behandlung>
+    <behandlung patientId="P-4034" datum="2026-03-22">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="102.03" brutto="121.42"/>
+    </behandlung>
+    <behandlung patientId="P-4099" datum="2025-12-23">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="133.70" brutto="159.10"/>
+    </behandlung>
+    <behandlung patientId="P-4142" datum="2025-11-28">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="67.91" brutto="80.81"/>
+    </behandlung>
+    <behandlung patientId="P-4010" datum="2026-01-15">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="133.97" brutto="159.42"/>
+    </behandlung>
+    <behandlung patientId="P-4200" datum="2025-12-22">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="83.51" brutto="99.38"/>
+    </behandlung>
+    <behandlung patientId="P-4139" datum="2025-09-23">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="34.86" brutto="41.48"/>
+    </behandlung>
+    <behandlung patientId="P-4046" datum="2025-09-28">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="48.29" brutto="57.46"/>
+    </behandlung>
+    <behandlung patientId="P-4203" datum="2025-10-29">
+      <diagnose>Vorsorgeuntersuchung</diagnose>
+      <summe netto="29.93" brutto="35.62"/>
+    </behandlung>
+    <behandlung patientId="P-4119" datum="2026-03-18">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="148.82" brutto="177.09"/>
+    </behandlung>
+    <behandlung patientId="P-4171" datum="2026-01-15">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="103.00" brutto="122.57"/>
+    </behandlung>
+    <behandlung patientId="P-4086" datum="2025-10-20">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="126.34" brutto="150.34"/>
+    </behandlung>
+    <behandlung patientId="P-4014" datum="2026-02-16">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="140.69" brutto="167.42"/>
+    </behandlung>
+    <behandlung patientId="P-4023" datum="2025-09-21">
+      <diagnose>Wurmkur</diagnose>
+      <summe netto="40.97" brutto="48.76"/>
+    </behandlung>
+    <behandlung patientId="P-4184" datum="2025-09-07">
+      <diagnose>Tumorabklaerung</diagnose>
+      <summe netto="91.50" brutto="108.89"/>
+    </behandlung>
+    <behandlung patientId="P-4005" datum="2025-12-03">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="83.31" brutto="99.14"/>
+    </behandlung>
+    <behandlung patientId="P-4057" datum="2025-09-10">
+      <diagnose>Wurmkur</diagnose>
+      <summe netto="152.98" brutto="182.05"/>
+    </behandlung>
+    <behandlung patientId="P-4098" datum="2026-02-19">
+      <diagnose>Kastration</diagnose>
+      <summe netto="37.22" brutto="44.29"/>
+    </behandlung>
+    <behandlung patientId="P-4079" datum="2025-11-07">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="82.92" brutto="98.68"/>
+    </behandlung>
+    <behandlung patientId="P-4112" datum="2026-04-03">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="105.61" brutto="125.67"/>
+    </behandlung>
+    <behandlung patientId="P-4212" datum="2025-10-01">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="30.88" brutto="36.75"/>
+    </behandlung>
+    <behandlung patientId="P-4031" datum="2025-10-03">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="98.06" brutto="116.69"/>
+    </behandlung>
+    <behandlung patientId="P-4066" datum="2025-09-18">
+      <diagnose>Verbandwechsel</diagnose>
+      <summe netto="32.12" brutto="38.22"/>
+    </behandlung>
+    <behandlung patientId="P-4147" datum="2025-10-03">
+      <diagnose>Roentgen</diagnose>
+      <summe netto="158.90" brutto="189.09"/>
+    </behandlung>
+    <behandlung patientId="P-4189" datum="2026-03-04">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="37.25" brutto="44.33"/>
+    </behandlung>
+    <behandlung patientId="P-4050" datum="2026-01-10">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="94.40" brutto="112.34"/>
+    </behandlung>
+    <behandlung patientId="P-4137" datum="2025-09-14">
+      <diagnose>Lahmheitsuntersuchung</diagnose>
+      <summe netto="163.48" brutto="194.54"/>
+    </behandlung>
+    <behandlung patientId="P-4011" datum="2025-10-24">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="100.17" brutto="119.20"/>
+    </behandlung>
+    <behandlung patientId="P-4069" datum="2025-10-15">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="24.65" brutto="29.33"/>
+    </behandlung>
+    <behandlung patientId="P-4026" datum="2026-04-04">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="53.91" brutto="64.15"/>
+    </behandlung>
+    <behandlung patientId="P-4225" datum="2025-12-08">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="101.97" brutto="121.34"/>
+    </behandlung>
+    <behandlung patientId="P-4135" datum="2026-01-03">
+      <diagnose>Floehe Behandlung</diagnose>
+      <summe netto="32.34" brutto="38.49"/>
+    </behandlung>
+    <behandlung patientId="P-4069" datum="2026-01-13">
+      <diagnose>Jaehrliche Impfung</diagnose>
+      <summe netto="103.93" brutto="123.68"/>
+    </behandlung>
+    <behandlung patientId="P-4079" datum="2026-02-23">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="37.61" brutto="44.75"/>
+    </behandlung>
+    <behandlung patientId="P-4127" datum="2026-02-19">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="96.77" brutto="115.16"/>
+    </behandlung>
+    <behandlung patientId="P-4002" datum="2026-03-19">
+      <diagnose>Zahnsteinentfernung</diagnose>
+      <summe netto="138.92" brutto="165.31"/>
+    </behandlung>
+    <behandlung patientId="P-4210" datum="2025-09-14">
+      <diagnose>Wundversorgung</diagnose>
+      <summe netto="109.97" brutto="130.86"/>
+    </behandlung>
+    <behandlung patientId="P-4089" datum="2025-11-17">
+      <diagnose>Nachuntersuchung</diagnose>
+      <summe netto="31.02" brutto="36.91"/>
+    </behandlung>
+    <behandlung patientId="P-4034" datum="2026-03-01">
+      <diagnose>Blutbild</diagnose>
+      <summe netto="144.43" brutto="171.87"/>
+    </behandlung>
+    <behandlung patientId="P-4100" datum="2026-01-30">
+      <diagnose>Kontrolle</diagnose>
+      <summe netto="146.46" brutto="174.29"/>
+    </behandlung>
+    <behandlung patientId="P-4187" datum="2026-03-10">
+      <diagnose>Augenuntersuchung</diagnose>
+      <summe netto="19.42" brutto="23.11"/>
+    </behandlung>
+    <behandlung patientId="P-4057" datum="2025-09-29">
+      <diagnose>Ultraschall</diagnose>
+      <summe netto="79.08" brutto="94.11"/>
+    </behandlung>
+    <behandlung patientId="P-4154" datum="2025-11-01">
+      <diagnose>Allergietest</diagnose>
+      <summe netto="165.29" brutto="196.69"/>
+    </behandlung>
+    <behandlung patientId="P-4061" datum="2025-10-16">
+      <diagnose>Ohrenentzuendung</diagnose>
+      <summe netto="68.82" brutto="81.90"/>
+    </behandlung>
+  </behandlungen>
+</praxisexport>

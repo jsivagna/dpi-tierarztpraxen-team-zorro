@@ -1,0 +1,228 @@
+customer_id,first_name,last_name,street,zip_code,city,phone,email_address,created_at,marketing_consent
+W-1001,Thomas,Berger,Hauptstr. 12,35500,Juckstadt,+49 645 01234,berger@email.de,02/09/2022,
+W-1002,K.,,Am Markt 3,35500,Juckstadt,0645 09012,weber@email.de,05/29/2025,yes
+W-1003,Petra,Vogel,Eichenallee 8,35466,Rabenau,0640/777991,,12/29/2024,no
+W-1004,Bernd,Schulz,Dorfstr. 44,35466,Rabenau,0640 7771212,schulz@email.de,11/21/2021,
+W-1005,Frank,Neumann,Feldweg 22,35501,Oberstadt,0645 15588,neumann@email.de,10/14/2023,no
+W-1006,Leon,Schneider,Feldweg 85,35466,Londorf,0640 72224,,06/09/2021,yes
+W-1007,Stefanie,Hoffmann,Kirchstr. 26,35466,Londorf,+49 640 758420,hoffmann.s@gmx.de,11/05/2020,
+W-1008,Elke,Becker,Buchenweg 38,35466,Allendorf,+49 640 71132,becker.e@gmx.de,07/02/2020,no
+W-1009,Karl,Neumann,Sonnenwall 80,35466,Londorf,+49 640 74451,neumann.k@email.de,12/11/2019,
+W-1010,Carolin,Krause,Lindenallee 92,35466,Rabenau,+49 640 795781,krause.c@web.de,04/02/2021,no
+W-1011,Yvonne,Mueller,Marktplatz 37,35466,Londorf,0640/7308103,mueller.y@gmx.de,08/13/2021,no
+W-1012,Verena,Roth,Bergstr. 20,35466,Rabenau,0640/72039,roth.v@email.de,03/07/2022,no
+W-1013,Nora,Lehmann,Brunnenstr. 3,35466,Londorf,0640/7439852,lehmann.n@email.de,10/31/2019,
+W-1014,Paul,Roth,Schlossstr. 94,35466,Allendorf,0640 7334172,roth.p@email.de,04/06/2022,yes
+W-1015,Wolfgang,Neumann,Kirchstr. 71,35466,Allendorf,+49 640 7489343,neumann.w@t-online.de,07/05/2022,yes
+W-1016,Bettina,Wolf,Marktplatz 51,35466,Allendorf,+49 640 77310,wolf.b@t-online.de,06/18/2024,no
+W-1017,Gisela,Richter,Bahnhofstr. 22,35466,Londorf,0640/749873,,07/04/2023,yes
+W-1018,Tanja,Braun,Schulstr. 83,35466,Londorf,+49 640 79622,,02/06/2022,
+W-1019,Ines,Zimmermann,Hauptstr. 37,35466,Londorf,0640 73097,zimmermann.i@email.de,03/26/2019,yes
+W-1020,Stefanie,Werner,Lindenallee 94,35466,Rabenau,0640/7717183,,06/17/2023,
+W-1021,Ulrich,Meyer,Beethovenstr. 4,35466,Rabenau,0640 701530,meyer.u@email.de,05/14/2020,no
+W-1022,Xenia,Hartmann,Gartenstr. 21,35466,Rabenau,0640 7658650,hartmann.x@gmx.de,05/28/2024,yes
+W-1023,Andreas,Zimmermann,Hauptstr. 61,35466,Londorf,+49 640 752460,,04/12/2022,yes
+W-1024,Paul,Wagner,Kirchstr. 46,35466,Rabenau,+49 640 731159,wagner.p@email.de,12/03/2021,
+W-1025,Gisela,Schulze,Schulstr. 70,35466,Londorf,0640 73026,schulze.g@gmx.de,04/28/2019,
+W-1026,Xenia,Weber,Schulstr. 41,35466,Allendorf,0640 71807,weber.x@t-online.de,07/06/2023,no
+W-1027,Martin,Becker,Am Markt 12,35466,Rabenau,0640/77738,becker.m@email.de,11/17/2021,no
+W-1028,Wolfgang,Braun,Ahornweg 86,35466,Allendorf,0640 7585573,,09/28/2021,
+W-1029,Xenia,Stein,Dorfstr. 15,35466,Rabenau,0640/7856594,stein.x@email.de,01/05/2019,
+W-1030,Maria,Albrecht,Schlossstr. 3,35466,Allendorf,0640 749690,,04/08/2020,no
+W-1031,Georg,Schneider,Kirchstr. 31,35466,Londorf,0640/701695,schneider.g@web.de,06/27/2022,yes
+W-1032,Ines,Peters,Beethovenstr. 4,35466,Rabenau,+49 640 7014527,peters.i@web.de,08/19/2024,
+W-1033,Martin,Krueger,Parkstr. 20,35466,Allendorf,0640 71234,krueger.m@email.de,07/02/2023,no
+W-1034,Rita,Schroeder,Ahornweg 6,35466,Rabenau,+49 640 79610,schroeder.r@email.de,04/18/2025,no
+W-1035,Paul,Koch,Rosenweg 62,35466,Allendorf,0640 77768,koch.p@t-online.de,01/06/2021,
+W-1036,Hannes,Albrecht,Goethestr. 11,35466,Allendorf,0640 703055,albrecht.h@t-online.de,05/13/2019,yes
+W-1037,Ute,Braun,Rosenweg 52,35466,Allendorf,0640 7243706,braun.u@gmx.de,-,yes
+W-1038,Manuel,Fischer,Schillerstr. 84,35466,Allendorf,+49 640 7780527,fischer.m@email.de,01/02/2025,
+W-1039,Nora,Walter,Kapellenweg 74,35466,Rabenau,0640/759611,,01/03/2019,no
+W-1040,Robert,Schulze,Auweg 4,35466,Allendorf,0640/74671,schulze.r@gmx.de,09/14/2019,yes
+W-1041,Igor,Krueger,Beethovenstr. 74,35466,Rabenau,0640/75843,krueger.i@gmx.de,12/23/2022,no
+W-1042,Nora,Albrecht,Kapellenweg 44,35466,Rabenau,+49 640 7324252,albrecht.n@email.de,09/17/2024,no
+W-1043,Jens,Lange,Eichenweg 13,35466,Londorf,0640 76726,lange.j@gmx.de,03/25/2025,
+W-1044,Claudia,Roth,Schulstr. 87,35466,Allendorf,0640 72892,roth.c@email.de,01/29/2021,yes
+W-1045,Martin,Hoffmann,Wiesenweg 59,35466,Allendorf,0640/78390,hoffmann.m@t-online.de,04/13/2020,yes
+W-1046,Christian,Hofmann,Auweg 22,35466,Allendorf,+49 640 7117045,hofmann.c@email.de,02/02/2024,yes
+W-1047,Claudia,Schneider,Sonnenwall 13,35466,Rabenau,0640/7828724,,08/19/2021,yes
+W-1048,Hannes,Schaefer,Schillerstr. 96,35466,Allendorf,0640/702205,schaefer.h@email.de,08/19/2020,
+W-1049,Zacharias,Becker,Marktplatz 63,35466,Rabenau,+49 640 7149405,,-,yes
+W-1050,Julia,Becker,Rosenweg 74,35466,Rabenau,0640 72070,becker.j@email.de,08/15/2021,no
+W-1051,Maria,Neumann,Schillerstr. 93,35466,Rabenau,+49 640 790042,neumann.m@web.de,04/14/2022,no
+W-1052,Stefan,Hoffmann,Talstr. 93,35466,Rabenau,+49 640 77299,hoffmann.s@web.de,03/27/2025,yes
+W-1053,Sabine,Lange,Schulstr. 70,35466,Rabenau,+49 640 77691,lange.s@t-online.de,09/08/2020,yes
+W-1054,Rita,Albrecht,Mozartstr. 59,35466,Londorf,0640/7442228,albrecht.r@gmx.de,03/23/2023,no
+W-1055,Hannes,Koch,Am Markt 27,35466,Londorf,0640 79936,koch.h@web.de,09/01/2022,yes
+W-1056,Yannick,Meyer,Schlossstr. 45,35466,Rabenau,0640 720254,meyer.y@web.de,02/21/2019,yes
+W-1057,Xaver,Braun,Kapellenweg 59,35466,Allendorf,0640/7332906,,04/29/2020,yes
+W-1058,Karl,Wolf,Parkstr. 62,35466,Londorf,0640 760476,wolf.k@web.de,03/02/2023,yes
+W-1059,Ulrich,Koch,Wiesenweg 58,35466,Rabenau,0640/70796,koch.u@gmx.de,08/12/2021,no
+W-1060,Martin,Becker,Dorfstr. 56,35466,Londorf,0640/76167,becker.m@email.de,04/18/2021,yes
+W-1061,Katrin,Weber,Schillerstr. 34,35466,Allendorf,0640/7273852,weber.k@gmx.de,04/08/2019,
+W-1062,Yannick,Mueller,Goethestr. 89,35466,Allendorf,0640 78907,mueller.y@t-online.de,02/06/2022,yes
+W-1063,Olivia,Peters,Schlossstr. 4,35466,Allendorf,0640/7551107,peters.o@gmx.de,08/04/2023,
+W-1064,Tanja,Mueller,Beethovenstr. 18,35466,Rabenau,+49 640 70878,mueller.t@web.de,12/15/2019,no
+W-1065,Igor,Zimmermann,Bahnhofstr. 87,35466,Rabenau,0640/7446470,zimmermann.i@web.de,09/21/2023,yes
+W-1066,Igor,Wagner,Wiesenweg 90,35466,Allendorf,+49 640 736376,wagner.i@web.de,02/10/2025,yes
+W-1067,Olivia,Schmidt,Kapellenweg 79,35466,Londorf,+49 640 7952457,,05/08/2023,no
+W-1068,Wiebke,Klein,Kirchstr. 38,35466,Allendorf,0640 728324,klein.w@t-online.de,10/06/2024,no
+W-1069,Nora,Schwarz,Lindenallee 92,35466,Rabenau,0640/70743,schwarz.n@gmx.de,02/25/2025,no
+W-1070,Carolin,Albrecht,Beethovenstr. 18,35466,Rabenau,0640 775866,albrecht.c@t-online.de,09/03/2020,yes
+W-1071,Tobias,Braun,Schlossstr. 51,35466,Londorf,0640/714225,,01/28/2024,no
+W-1072,Oliver,Hofmann,Auweg 33,35466,Rabenau,0640 748588,,10/08/2021,
+W-1073,Leon,Kaiser,Hauptstr. 63,35466,Rabenau,0640 794186,kaiser.l@gmx.de,01/02/2023,
+W-1074,Sabine,Frank,Pfarrgasse 85,35466,Londorf,+49 640 724702,frank.s@gmx.de,04/28/2022,no
+W-1075,Igor,Schroeder,Sonnenwall 60,35466,Allendorf,0640 783071,schroeder.i@web.de,10/12/2022,no
+W-1076,Karl,Peters,Pfarrgasse 11,35466,Londorf,+49 640 7652162,peters.k@email.de,07/17/2024,no
+W-1077,Tanja,Albrecht,Auweg 57,35466,Allendorf,0640/70750,albrecht.t@gmx.de,11/03/2019,no
+W-1078,Hannes,Frank,Marktplatz 75,35466,Rabenau,0640 79226,frank.h@t-online.de,07/18/2019,
+W-1079,Hannes,Hofmann,Parkstr. 53,35466,Rabenau,0640/727884,hofmann.h@web.de,03/04/2024,yes
+W-1080,Robert,Frank,Feldweg 40,35466,Londorf,0640/7340421,frank.r@email.de,01/16/2025,no
+W-1081,Ulrich,Werner,Eichenweg 31,35466,Londorf,0640/765596,werner.u@email.de,07/07/2024,yes
+W-1082,Rita,Roth,Auweg 25,35466,Allendorf,0640/743304,roth.r@gmx.de,05/31/2024,yes
+W-1083,Wolfgang,Schneider,Beethovenstr. 70,35466,Allendorf,0640/793923,schneider.w@email.de,02/11/2023,yes
+W-1084,Nora,Vogel,Ahornweg 78,35466,Rabenau,0640/71868,vogel.n@email.de,02/12/2019,yes
+W-1085,Verena,Weber,Brunnenstr. 27,35466,Londorf,0640/748534,weber.v@email.de,01/26/2022,
+W-1086,Stefanie,Klein,Auweg 93,35466,Allendorf,0640 7509862,klein.s@web.de,09/11/2024,yes
+W-1087,Felix,Koch,Marktplatz 33,35466,Allendorf,0640 76430,koch.f@email.de,02/09/2020,yes
+W-1088,Zoey,Hofmann,Tulpenstr. 19,35466,Allendorf,+49 640 765985,hofmann.z@web.de,03/06/2023,
+W-1089,Paul,Mueller,Lindenallee 82,35466,Londorf,+49 640 78271,,05/15/2024,yes
+W-1090,Wiebke,Krause,Buchenweg 62,35466,Rabenau,0640 73294,krause.w@web.de,05/28/2023,yes
+W-1091,Jens,Krueger,Buchenweg 52,35466,Rabenau,0640/7743141,krueger.j@t-online.de,04/26/2024,no
+W-1092,Martin,Roth,Sonnenwall 38,35466,Londorf,0640/7193009,roth.m@web.de,02/02/2024,no
+W-1093,Erik,Schroeder,Hauptstr. 77,35466,Rabenau,0640 7199696,,01/09/2021,
+W-1094,Nora,Schneider,Tulpenstr. 41,35466,Londorf,+49 640 7583556,schneider.n@t-online.de,12/15/2024,yes
+W-1095,Felix,Walter,Bahnhofstr. 62,35466,Rabenau,+49 640 7654254,walter.f@web.de,08/18/2020,
+W-1096,Jens,Klein,Parkstr. 17,35466,Londorf,0640 793172,klein.j@web.de,07/07/2023,
+W-1097,Manuel,Schaefer,Auweg 55,35466,Allendorf,+49 640 73784,schaefer.m@email.de,08/16/2021,
+W-1098,Stefan,Bauer,Schlossstr. 62,35466,Allendorf,0640 725017,bauer.s@email.de,12/04/2019,
+W-1099,Lisa,Kaiser,Lindenallee 98,35466,Allendorf,0640/792385,kaiser.l@email.de,07/01/2020,yes
+W-1100,Elke,Schulze,Rosenweg 96,35466,Rabenau,0640/718154,schulze.e@gmx.de,08/13/2022,
+W-1101,Olivia,Braun,Mondbach 73,35466,Londorf,+49 640 73430,,11/29/2023,
+W-1102,Niklas,Mueller,Buchenweg 79,35466,Rabenau,+49 640 758474,mueller.n@t-online.de,12/23/2022,yes
+W-1103,Anna,Frank,Goethestr. 16,35466,Rabenau,0640/72573,frank.a@gmx.de,10/15/2020,yes
+W-1104,Hannes,Lehmann,Bahnhofstr. 35,35466,Allendorf,0640/77090,,05/11/2022,yes
+W-1105,Franziska,Becker,Schlossstr. 47,35466,Londorf,0640 781240,,08/02/2023,yes
+W-1106,Petra,Becker,Sonnenwall 78,35466,Londorf,0640 7705337,,02/09/2025,yes
+W-1107,Felix,Werner,Feldweg 57,35466,Allendorf,0640/7629085,werner.f@t-online.de,12/25/2020,
+W-1108,Stefan,Albrecht,Marktplatz 39,35466,Londorf,+49 640 7694094,albrecht.s@t-online.de,05/31/2021,no
+W-1109,Maria,Schaefer,Rosenweg 96,35466,Allendorf,0640 7200412,,11/06/2021,yes
+W-1110,Diana,Richter,Marktplatz 4,35466,Londorf,0640 7506132,richter.d@t-online.de,02/09/2024,yes
+W-1111,Gisela,Krueger,Bergstr. 93,35466,Allendorf,+49 640 702752,krueger.g@email.de,09/03/2023,yes
+W-1112,Daniel,Zimmermann,Buchenweg 32,35466,Allendorf,+49 640 779657,zimmermann.d@web.de,10/29/2021,yes
+W-1113,Daniel,Weber,Brunnenstr. 91,35466,Rabenau,0640 73375,,02/13/2021,
+W-1114,Lea,Schaefer,Mozartstr. 27,35466,Allendorf,+49 640 71277,schaefer.l@t-online.de,01/11/2022,yes
+W-1115,Lisa,Neumann,Talstr. 33,35466,Rabenau,0640 7975279,neumann.l@gmx.de,03/19/2021,no
+W-1116,Elke,Werner,Schulstr. 66,35466,Rabenau,+49 640 7393913,werner.e@t-online.de,12/30/2019,no
+W-1117,Verena,Schmid,Am Markt 63,35466,Londorf,0640 761137,schmid.v@web.de,08/04/2022,yes
+W-1118,Daniel,Schaefer,Kapellenweg 71,35466,Allendorf,0640/7481825,schaefer.d@web.de,03/19/2021,
+W-1119,Hannah,Walter,Brunnenstr. 89,35466,Rabenau,0640/73163,walter.h@email.de,09/24/2023,yes
+W-1120,Nora,Krueger,Sonnenwall 38,35466,Allendorf,0640 709760,krueger.n@web.de,02/09/2020,no
+W-1121,Karl,Krueger,Bahnhofstr. 90,35466,Londorf,+49 640 747503,krueger.k@gmx.de,01/07/2024,no
+W-1122,Karl,Kaiser,Sonnenwall 43,35466,Allendorf,0640 746588,kaiser.k@t-online.de,02/26/2024,no
+W-1123,Hannes,Kaiser,Brunnenstr. 74,35466,Allendorf,0640 724503,,09/29/2020,no
+W-1124,Maria,Lange,Lindenallee 79,35466,Rabenau,0640 7736679,lange.m@gmx.de,09/08/2023,yes
+W-1125,Karl,Stein,Hauptstr. 30,35466,Rabenau,+49 640 74175,stein.k@web.de,12/13/2023,no
+W-1126,Zoey,Hartmann,Kapellenweg 91,35466,Rabenau,0640/78090,hartmann.z@email.de,06/18/2019,
+W-1127,Hannes,Schneider,Goethestr. 43,35466,Rabenau,0640/70219,schneider.h@gmx.de,05/02/2019,yes
+W-1128,Xaver,Weber,Eichenweg 55,35466,Londorf,0640 7194903,weber.x@email.de,03/21/2021,
+W-1129,Bernd,Krueger,Mozartstr. 24,35466,Allendorf,0640/76323,krueger.b@email.de,10/09/2020,no
+W-1130,Viktor,Braun,Bergstr. 17,35466,Londorf,+49 640 7627373,braun.v@gmx.de,12/08/2021,
+W-1131,Gisela,Peters,Bergstr. 44,35466,Rabenau,0640 71226,peters.g@t-online.de,06/27/2024,
+W-1132,Hannah,Stein,Marktplatz 22,35466,Rabenau,0640 72202,stein.h@email.de,04/04/2020,no
+W-1133,Leon,Braun,Beethovenstr. 14,35466,Rabenau,0640/700773,braun.l@email.de,07/08/2023,no
+W-1134,Erik,Neumann,Kapellenweg 75,35466,Londorf,+49 640 7135063,neumann.e@email.de,09/20/2019,
+W-1135,Jens,Schaefer,Mozartstr. 23,35466,Allendorf,0640/750027,,04/23/2024,
+W-1136,Lukas,Stein,Am Markt 19,35466,Allendorf,0640 7826690,stein.l@web.de,02/14/2023,
+W-1137,Bettina,Meyer,Mozartstr. 66,35466,Londorf,+49 640 7701937,meyer.b@web.de,11/01/2022,
+W-1138,Anna,Albrecht,Goethestr. 30,35466,Allendorf,0640/710969,albrecht.a@t-online.de,11/21/2023,yes
+W-1139,Florian,Schwarz,Marktplatz 49,35466,Rabenau,0640 7448259,schwarz.f@email.de,01/20/2023,yes
+W-1140,Tobias,Fischer,Eichenweg 84,35466,Rabenau,0640 7971712,fischer.t@t-online.de,08/19/2022,no
+W-1141,Lea,Lange,Kirchstr. 16,35466,Allendorf,+49 640 73066,lange.l@email.de,11/28/2020,yes
+W-1142,Carolin,Weber,Kapellenweg 58,35466,Allendorf,+49 640 7973476,weber.c@email.de,04/14/2020,no
+W-1143,Hannah,Frank,Schlossstr. 36,35466,Rabenau,0640 733943,,06/18/2021,no
+W-1144,Manuel,Wolf,Wiesenweg 79,35466,Allendorf,+49 640 70371,wolf.m@t-online.de,11/26/2019,
+W-1145,Tanja,Wagner,Buchenweg 62,35466,Rabenau,0640 712031,,12/03/2020,
+W-1146,Tobias,Meyer,Ahornweg 52,35466,Allendorf,+49 640 728306,meyer.t@t-online.de,12/31/2021,no
+W-1147,Yannick,Schmidt,Am Markt 75,35466,Allendorf,0640/76294,schmidt.y@web.de,05/30/2019,no
+W-1148,Carolin,Schroeder,Hauptstr. 19,35466,Rabenau,+49 640 78621,schroeder.c@gmx.de,08/25/2020,yes
+W-1149,Franziska,Klein,Ahornweg 16,35466,Allendorf,0640/743526,klein.f@web.de,07/03/2020,yes
+W-1150,Daniel,Weber,Sonnenwall 37,35466,Rabenau,+49 640 734878,weber.d@web.de,06/27/2019,
+W-1151,Hannes,Schmid,Bahnhofstr. 1,35466,Londorf,0640/710342,schmid.h@gmx.de,05/03/2022,
+W-1152,Julia,Frank,Bahnhofstr. 31,35466,Allendorf,0640/747641,frank.j@web.de,10/06/2023,no
+W-1153,Yannick,Bauer,Goethestr. 31,35466,Allendorf,0640/725428,bauer.y@email.de,09/01/2019,yes
+W-1154,Leon,Krueger,Feldweg 18,35466,Allendorf,0640/728125,,02/22/2024,no
+W-1155,Lea,Koch,Sonnenwall 16,35466,Londorf,0640/72731,koch.l@email.de,09/30/2019,
+W-1156,Tanja,Fischer,Wiesenweg 93,35466,Allendorf,0640 74493,fischer.t@t-online.de,12/03/2024,yes
+W-1157,Wolfgang,Bauer,Brunnenstr. 43,35466,Londorf,+49 640 750368,bauer.w@gmx.de,11/30/2024,no
+W-1158,Erik,Albrecht,Schulstr. 36,35466,Londorf,0640/73343,albrecht.e@t-online.de,07/06/2021,
+W-1159,Niklas,Frank,Talstr. 54,35466,Londorf,+49 640 7821399,,01/04/2023,
+W-1160,Katrin,Lange,Hauptstr. 15,35466,Rabenau,0640 783796,lange.k@gmx.de,09/21/2020,
+W-1161,Yvonne,Roth,Mozartstr. 27,35466,Rabenau,0640 7816583,roth.y@t-online.de,-,yes
+W-1162,Diana,Peters,Marktplatz 42,35466,Londorf,0640/7503729,peters.d@gmx.de,04/03/2019,
+W-1163,Nora,Roth,Talstr. 58,35466,Rabenau,+49 640 703866,roth.n@t-online.de,11/04/2022,no
+W-1164,Carolin,Kaiser,Buchenweg 25,35466,Allendorf,0640/73810,kaiser.c@t-online.de,05/17/2022,
+W-1165,Xenia,Albrecht,Kirchstr. 34,35466,Londorf,0640/793917,albrecht.x@web.de,05/20/2024,no
+W-1166,Ute,Albrecht,Mozartstr. 98,35466,Allendorf,0640/75958,albrecht.u@gmx.de,12/18/2024,
+W-1167,Martin,Zimmermann,Hauptstr. 53,35466,Allendorf,+49 640 73053,,02/24/2021,yes
+W-1168,Olivia,Lehmann,Rosenweg 53,35466,Allendorf,0640 7338018,lehmann.o@t-online.de,06/25/2023,no
+W-1169,Petra,Stein,Mondbach 9,35466,Rabenau,0640 7627835,,04/08/2022,yes
+W-1170,Stefanie,Schwarz,Kapellenweg 63,35466,Allendorf,0640/763348,,12/06/2021,yes
+W-1171,Quirina,Lehmann,Beethovenstr. 1,35466,Rabenau,0640 74849,lehmann.q@web.de,02/04/2025,no
+W-1172,Oliver,Schroeder,Lindenallee 24,35466,Rabenau,+49 640 72655,,10/22/2021,no
+W-1173,Lisa,Werner,Kapellenweg 18,35466,Londorf,0640/76439,werner.l@web.de,12/24/2019,yes
+W-1174,Rita,Wolf,Dorfstr. 57,35466,Allendorf,+49 640 719645,wolf.r@t-online.de,10/10/2020,
+W-1175,Anna,Schmitt,Auweg 98,35466,Rabenau,0640/730042,schmitt.a@web.de,04/16/2019,yes
+W-1176,Ulrich,Kaiser,Wiesenweg 18,35466,Allendorf,0640/742640,kaiser.u@web.de,03/29/2021,
+W-1177,Hannah,Wolf,Auweg 73,35466,Rabenau,0640 798243,,03/15/2022,
+W-1178,Carolin,Peters,Talstr. 4,35466,Rabenau,0640/78254,peters.c@web.de,04/24/2019,no
+W-1179,Franziska,Schmidt,Gartenstr. 93,35466,Londorf,0640 7262406,schmidt.f@t-online.de,02/03/2021,no
+W-1180,Carolin,Roth,Schlossstr. 1,35466,Londorf,0640/7622312,,12/03/2021,
+W-1181,Zacharias,Lange,Marktplatz 45,35466,Londorf,+49 640 712684,,03/15/2021,no
+W-1182,Stefanie,Schulze,Sonnenwall 56,35466,Londorf,0640 7261692,,10/05/2024,no
+W-1183,Georg,Werner,Parkstr. 17,35466,Rabenau,0640/752892,,04/23/2023,
+W-1184,Bettina,Bauer,Kirchstr. 3,35466,Allendorf,+49 640 7508414,bauer.b@web.de,09/27/2024,yes
+W-1185,Nora,Zimmermann,Rosenweg 62,35466,Rabenau,0640 7584941,zimmermann.n@t-online.de,02/24/2019,yes
+W-1186,Julia,Koch,Schulstr. 20,35466,Rabenau,+49 640 76336,koch.j@gmx.de,02/04/2025,yes
+W-1187,Petra,Mueller,Dorfstr. 74,35466,Rabenau,+49 640 79419,mueller.p@gmx.de,03/11/2020,yes
+W-1188,Petra,Schaefer,Kirchstr. 76,35466,Allendorf,+49 640 7651578,schaefer.p@email.de,10/14/2020,
+W-1189,Manuel,Bauer,Beethovenstr. 9,35466,Allendorf,0640 747136,bauer.m@gmx.de,01/17/2022,yes
+W-1190,Florian,Koch,Wiesenweg 42,35466,Londorf,0640/7002303,koch.f@web.de,02/25/2025,
+W-1191,Bernd,Schmitt,Gartenstr. 60,35466,Rabenau,+49 640 7842007,schmitt.b@web.de,06/04/2019,yes
+W-1192,Yannick,Bauer,Marktplatz 62,35466,Londorf,0640 70786,bauer.y@web.de,-,yes
+W-1193,Xaver,Stein,Tulpenstr. 99,35466,Rabenau,+49 640 768875,stein.x@t-online.de,07/10/2020,no
+W-1194,Tanja,Neumann,Rosenweg 44,35466,Allendorf,+49 640 77019,neumann.t@gmx.de,02/01/2021,
+W-1195,Bernd,Werner,Bahnhofstr. 21,35466,Rabenau,0640/7004255,,06/22/2024,yes
+W-1196,Maria,Krause,Gartenstr. 86,35466,Londorf,+49 640 713449,krause.m@web.de,02/11/2023,no
+W-1197,Tanja,Vogel,Sonnenwall 28,35466,Rabenau,+49 640 718941,,04/24/2021,
+W-1198,Katrin,Hartmann,Pfarrgasse 68,35466,Londorf,0640/7400354,hartmann.k@email.de,11/22/2020,
+W-1199,Maria,Weber,Gartenstr. 94,35466,Londorf,0640 7943149,weber.m@t-online.de,08/01/2023,
+W-1200,Igor,Werner,Goethestr. 61,35466,Allendorf,+49 640 7201062,,02/29/2020,yes
+W-1201,Anna,Beckre,Ahornweg 30,35501,Oberstadt,+49 645 0074256,becker.a@web.de,09/13/2025,no
+W-1202,Claudia,Klein,Beethovenstr. 96,35501,Oberstadt,0645 008885,klein.c@web.de,05/01/2024,
+W-1203,F.,Hofmann,Mozartstr. 11,35501,Oberstadt,0645 043333,hofmann.f@gmx.de,10/28/2020,no
+W-1204,Paul,Wolf,Mozartstrasse 53,35500,Juckstadt,0605 099573,wolf.p@web.de,-,yes
+W-1205,Sabine,Frank,Bergstrasse 2,35501,Oberstadt,+49 645 02923,frank.s@t-online.de,01/22/2024,
+W-1206,Georg,Meyer,Bergstr.  84,35500,Juckstadt,0645/00619,meyer.g@t-online.de,07/30/2023,yes
+W-1207,Florian,Neumann,Parkstr. 42,35500,Juckstadt,+49 645 057267,,04/04/2025,yes
+W-1208,Karl,Neumann,Sonnenwall  58,35500,Juckstadt,0647 03585,neumann.k@t-online.de,01/11/2026,
+W-1209,Z.,Klein,Marktplatz 79,35501,Oberstadt,0645/04587,,09/25/2020,yes
+W-1210,Stefanie,Schaefer,Beethovenstr. 20,35580,Wetzlar-Buederbach,+49 645 08306,schaefer.s@t-online.de,07/04/2024,yes
+W-1211,Stefan,Wagner,Dorfstr. 71,35580,Wetzlar-Buederbach,+49 645 0068799,,11/08/2022,
+W-1212,Quirin,Vogel,Goethestr. 12,35578,Wetzlar,+49 645 0002639,vogel.q@web.de,08/11/2023,no
+W-1213,Ines,Wolf,Bahnhofstr. 70,35580,Wetzlar-Buederbach,0645 08878,,12/16/2019,yes
+W-1214,Carolin,Kaisre,Brunnenstr. 80,35580,Wetzlar-Buederbach,0645 086208,,06/23/2024,yes
+W-1215,Verena,Peters,Schulstr.  6,35580,Wetzlar-Buederbach,0615/01479,peters.v@email.de,01/21/2025,
+W-1216,Stefan,Lange,Schulstr. 98,35580,Wetzlar-Buederbach,+49 645 161173,lange.s@email.de,09/15/2026,yes
+W-1217,Zacharias,Kelin,Talstr. 26,35579,Wetzlar-Niedergirmes,+49 645 028834,klein.z@t-online.de,05/02/2020,
+W-1218,Diana,Richter,Lindenallee 77,35579,Wetzlar-Niedergirmes,0645/035419,richter.d@gmx.de,01/28/2024,no
+W-1219,Nora,Lagne,Tulpenstr. 71,35579,Wetzlar-Niedergirmes,+49 645 01472,,10/09/2023,no
+W-1220,V.,Schaefer,Parkstr. 15,35511,Hoehental,0645/0678682,,11/26/2021,
+W-1221,Carolin,Hoffmann,Am  Markt  47,35511,Hoehental,0645 0957893,hoffmann.c@t-online.de,04/02/2021,
+W-1222,Bettina,Peters,Beethovenstr. 15,35511,Hoehental,0645 06072,,08/31/2024,
+W-1223,V.,Schaefer,Parkstr. 15,35511,Hoehental,+49 645 0678682,,05/02/2021,yes
+W-1224,Verena,Kohc,Rosenweg 63,35510,Waldrand,0645/0546363,koch.v@gmx.de,10/24/2022,
+W-1225,Ines,Pteers,Feldweg  98,35511,Hoehental,0645 0727981,peters.i@email.de,08/20/2019,yes
+W-1226,Katrin,Wagenr,Hauptstrasse 54,35510,Bergblick-Siedlung,0645/0011706,wagner.k@t-online.de,05/12/2021,
+W-1227,Diana,Braun,Sonnenwall 94,35510,Bergblick-Siedlung,+49 645 03657,braun.d@email.de,10/28/2025,

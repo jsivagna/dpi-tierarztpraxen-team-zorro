@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 301,
+    "datum": "24.09.2025",
+    "kunde": "Schneider X.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "15,46 EUR"
+  },
+  {
+    "id": 302,
+    "datum": "13.10.2025",
+    "kunde": "Schneider T.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "148,99 EUR"
+  },
+  {
+    "id": 303,
+    "datum": "24.03.2026",
+    "kunde": "Muleler I.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "167,34 EUR"
+  },
+  {
+    "id": 304,
+    "datum": "10.03.2026",
+    "kunde": "Klein G.",
+    "tier": {
+      "name": "Ace",
+      "art": "Hund"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "91,09 EUR"
+  },
+  {
+    "id": 305,
+    "datum": "06.03.2026",
+    "kunde": "Lehmann E.",
+    "tier": {
+      "name": "Smokey",
+      "art": "Katze"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "52,04 EUR"
+  },
+  {
+    "id": 306,
+    "datum": "07.02.2026",
+    "kunde": "Weber K.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "93,93 EUR"
+  },
+  {
+    "id": 307,
+    "datum": "06.10.2025",
+    "kunde": "Schneider E.",
+    "tier": {
+      "name": "Balou",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "83,66 EUR"
+  },
+  {
+    "id": 308,
+    "datum": "21.11.2025",
+    "kunde": "Braun Y.",
+    "tier": {
+      "name": "Rocky",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "124,86 EUR"
+  },
+  {
+    "id": 309,
+    "datum": "23.10.2025",
+    "kunde": "Fischer G.",
+    "tier": {
+      "name": "Nero",
+      "art": "Katze"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "70,04 EUR"
+  },
+  {
+    "id": 310,
+    "datum": "18.03.2026",
+    "kunde": "Richter W.",
+    "tier": {
+      "name": "Pumba",
+      "art": "Katze"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "195,53 EUR"
+  },
+  {
+    "id": 311,
+    "datum": "30.12.2025",
+    "kunde": "Frank P.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "64,63 EUR"
+  },
+  {
+    "id": 312,
+    "datum": "22.10.2025",
+    "kunde": "Peters V.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "38,64 EUR"
+  },
+  {
+    "id": 313,
+    "datum": "26.12.2025",
+    "kunde": "Hofmann O.",
+    "tier": {
+      "name": "Balou",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "120,47 EUR"
+  },
+  {
+    "id": 314,
+    "datum": "18.01.2026",
+    "kunde": "Wagner S.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "69,47 EUR"
+  },
+  {
+    "id": 315,
+    "datum": "21.09.2025",
+    "kunde": "Lehmann U.",
+    "tier": {
+      "name": "Max",
+      "art": "Hund"
+    },
+    "leistung": "Nachuntersuchung",
+    "betrag": "25,89 EUR"
+  },
+  {
+    "id": 316,
+    "datum": "12.02.2026",
+    "kunde": "Werner C.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "132,99 EUR"
+  },
+  {
+    "id": 317,
+    "datum": "26.11.2025",
+    "kunde": "Frank R.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "180,05 EUR"
+  },
+  {
+    "id": 318,
+    "datum": "25.01.2026",
+    "kunde": "Hofmann M.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "83,60 EUR"
+  },
+  {
+    "id": 319,
+    "datum": "24.12.2025",
+    "kunde": "Walter W.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "188,00 EUR"
+  },
+  {
+    "id": 320,
+    "datum": "20.01.2026",
+    "kunde": "Schmid V.",
+    "tier": {
+      "name": "Rex",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "51,70 EUR"
+  },
+  {
+    "id": 321,
+    "datum": "19.03.2026",
+    "kunde": "Schneider C.",
+    "tier": {
+      "name": "Emma",
+      "art": "Hund"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "125,36 EUR"
+  },
+  {
+    "id": 322,
+    "datum": "17.02.2026",
+    "kunde": "Krueger H.",
+    "tier": {
+      "name": "Daisy",
+      "art": "Hund"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "32,51 EUR"
+  },
+  {
+    "id": 323,
+    "datum": "06.03.2026",
+    "kunde": "Schmid Q.",
+    "tier": {
+      "name": "Lilly",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "166,27 EUR"
+  },
+  {
+    "id": 324,
+    "datum": "17.09.2025",
+    "kunde": "Wagner S.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "23,89 EUR"
+  },
+  {
+    "id": 325,
+    "datum": "02.10.2025",
+    "kunde": "Klaus W.",
+    "tier": {
+      "name": "Emma",
+      "art": "Hund"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "31,52 EUR"
+  },
+  {
+    "id": 326,
+    "datum": "02.02.2026",
+    "kunde": "Schneider K.",
+    "tier": {
+      "name": "Bella",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "75,65 EUR"
+  },
+  {
+    "id": 327,
+    "datum": "25.12.2025",
+    "kunde": "Hoffmann L.",
+    "tier": {
+      "name": "Emma",
+      "art": "Hund"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "117,89 EUR"
+  },
+  {
+    "id": 328,
+    "datum": "24.01.2026",
+    "kunde": "Schaefer H.",
+    "tier": {
+      "name": "Pumba",
+      "art": "Katze"
+    },
+    "leistung": "Kastration",
+    "betrag": "90,01 EUR"
+  },
+  {
+    "id": 329,
+    "datum": "30.10.2025",
+    "kunde": "Klein A.",
+    "tier": {
+      "name": "Bello",
+      "art": "Hund"
+    },
+    "leistung": "Wurmkur",
+    "betrag": "126,61 EUR"
+  },
+  {
+    "id": 330,
+    "datum": "09.12.2025",
+    "kunde": "Lehmann G.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "181,70 EUR"
+  },
+  {
+    "id": 331,
+    "datum": "09.12.2025",
+    "kunde": "Schulze C.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "25,55 EUR"
+  },
+  {
+    "id": 332,
+    "datum": "07.01.2026",
+    "kunde": "Rtoh P.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Wurmkur",
+    "betrag": "24,22 EUR"
+  },
+  {
+    "id": 333,
+    "datum": "02.02.2026",
+    "kunde": "Krueger A.",
+    "tier": {
+      "name": "Smokey",
+      "art": "Katze"
+    },
+    "leistung": "Jaehrliche Impfung",
+    "betrag": "46,50 EUR"
+  },
+  {
+    "id": 334,
+    "datum": "29.11.2025",
+    "kunde": "Koch Z.",
+    "tier": {
+      "name": "Cooper",
+      "art": "Hund"
+    },
+    "leistung": "Blutbild",
+    "betrag": "103,62 EUR"
+  },
+  {
+    "id": 335,
+    "datum": "18.02.2026",
+    "kunde": "Roth Y.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Jaehrliche Impfung",
+    "betrag": "44,39 EUR"
+  },
+  {
+    "id": 336,
+    "datum": "07.12.2025",
+    "kunde": "Becker J.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "162,23 EUR"
+  },
+  {
+    "id": 337,
+    "datum": "06.03.2026",
+    "kunde": "Albrecht S.",
+    "tier": {
+      "name": "Lilly",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "88,59 EUR"
+  },
+  {
+    "id": 338,
+    "datum": "07.11.2025",
+    "kunde": "Schmid V.",
+    "tier": {
+      "name": "Felix",
+      "art": "Katze"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "103,88 EUR"
+  },
+  {
+    "id": 339,
+    "datum": "20.09.2025",
+    "kunde": "Neumann K.",
+    "tier": {
+      "name": "Felix",
+      "art": "Katze"
+    },
+    "leistung": "Roentgen",
+    "betrag": "180,76 EUR"
+  },
+  {
+    "id": 340,
+    "datum": "02.12.2025",
+    "kunde": "Lehmann E.",
+    "tier": {
+      "name": "Minka",
+      "art": "Katze"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "21,31 EUR"
+  },
+  {
+    "id": 341,
+    "datum": "03.02.2026",
+    "kunde": "Mueller C.",
+    "tier": {
+      "name": "Cleo",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "33,92 EUR"
+  },
+  {
+    "id": 342,
+    "datum": "21.02.2026",
+    "kunde": "Vogel J.",
+    "tier": {
+      "name": "Ace",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "60,84 EUR"
+  },
+  {
+    "id": 343,
+    "datum": "20.10.2025",
+    "kunde": "Zimmermann M.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "145,23 EUR"
+  },
+  {
+    "id": 344,
+    "datum": "22.09.2025",
+    "kunde": "Neumann X.",
+    "tier": {
+      "name": "Mimi",
+      "art": "Katze"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "97,46 EUR"
+  },
+  {
+    "id": 345,
+    "datum": "23.09.2025",
+    "kunde": "Schneider C.",
+    "tier": {
+      "name": "Bruno",
+      "art": "Hund"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "175,22 EUR"
+  },
+  {
+    "id": 346,
+    "datum": "01.01.2026",
+    "kunde": "Krause U.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Hund"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "198,75 EUR"
+  },
+  {
+    "id": 347,
+    "datum": "18.02.2026",
+    "kunde": "Schaefer H.",
+    "tier": {
+      "name": "Lucky",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "57,17 EUR"
+  },
+  {
+    "id": 348,
+    "datum": "01.09.2025",
+    "kunde": "Koch H.",
+    "tier": {
+      "name": "Mimi",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "109,37 EUR"
+  },
+  {
+    "id": 349,
+    "datum": "09.09.2025",
+    "kunde": "Becker N.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "121,81 EUR"
+  },
+  {
+    "id": 350,
+    "datum": "16.09.2025",
+    "kunde": "Braun Y.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "169,78 EUR"
+  },
+  {
+    "id": 351,
+    "datum": "12.12.2025",
+    "kunde": "Kaiser C.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "141,17 EUR"
+  },
+  {
+    "id": 352,
+    "datum": "31.03.2026",
+    "kunde": "Hofmann S.",
+    "tier": {
+      "name": "Lola",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "178,47 EUR"
+  },
+  {
+    "id": 353,
+    "datum": "05.03.2026",
+    "kunde": "Krueger W.",
+    "tier": {
+      "name": "Bello",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "70,34 EUR"
+  },
+  {
+    "id": 354,
+    "datum": "14.09.2025",
+    "kunde": "Vogel Z.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "163,64 EUR"
+  },
+  {
+    "id": 355,
+    "datum": "29.11.2025",
+    "kunde": "Peters B.",
+    "tier": {
+      "name": "Nero",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "28,29 EUR"
+  },
+  {
+    "id": 356,
+    "datum": "05.01.2026",
+    "kunde": "Peters O.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Katze"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "54,22 EUR"
+  },
+  {
+    "id": 357,
+    "datum": "30.12.2025",
+    "kunde": "Vogel J.",
+    "tier": {
+      "name": "Lola",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "149,45 EUR"
+  },
+  {
+    "id": 358,
+    "datum": "22.12.2025",
+    "kunde": "Mueller S.",
+    "tier": {
+      "name": "Emma",
+      "art": "Hund"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "194,81 EUR"
+  },
+  {
+    "id": 359,
+    "datum": "03.09.2025",
+    "kunde": "Schmid S.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Hund"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "165,49 EUR"
+  },
+  {
+    "id": 360,
+    "datum": "19.02.2026",
+    "kunde": "Lehmann P.",
+    "tier": {
+      "name": "Nero",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "100,08 EUR"
+  },
+  {
+    "id": 361,
+    "datum": "22.09.2025",
+    "kunde": "Wagner L.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "32,23 EUR"
+  },
+  {
+    "id": 362,
+    "datum": "08.09.2025",
+    "kunde": "Schmid S.",
+    "tier": {
+      "name": "Felix",
+      "art": "Katze"
+    },
+    "leistung": "Blutbild",
+    "betrag": "36,62 EUR"
+  },
+  {
+    "id": 363,
+    "datum": "13.02.2026",
+    "kunde": "Peters X.",
+    "tier": {
+      "name": "Ace",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "74,52 EUR"
+  },
+  {
+    "id": 364,
+    "datum": "16.01.2026",
+    "kunde": "Hofmann S.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "164,56 EUR"
+  },
+  {
+    "id": 365,
+    "datum": "01.04.2026",
+    "kunde": "Becker J.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "41,10 EUR"
+  },
+  {
+    "id": 366,
+    "datum": "15.10.2025",
+    "kunde": "Schulze S.",
+    "tier": {
+      "name": "Cleo",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "117,49 EUR"
+  },
+  {
+    "id": 367,
+    "datum": "05.10.2025",
+    "kunde": "Walter F.",
+    "tier": {
+      "name": "Smokey",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "135,62 EUR"
+  },
+  {
+    "id": 368,
+    "datum": "18.09.2025",
+    "kunde": "Peters B.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "36,90 EUR"
+  },
+  {
+    "id": 369,
+    "datum": "01.04.2026",
+    "kunde": "Weber F.",
+    "tier": {
+      "name": "Mimi",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "125,60 EUR"
+  },
+  {
+    "id": 370,
+    "datum": "06.02.2026",
+    "kunde": "Braun G.",
+    "tier": {
+      "name": "Balou",
+      "art": "Hund"
+    },
+    "leistung": "Nachuntersuchung",
+    "betrag": "71,46 EUR"
+  },
+  {
+    "id": 371,
+    "datum": "24.12.2025",
+    "kunde": "Schaefer S.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "40,07 EUR"
+  },
+  {
+    "id": 372,
+    "datum": "04.04.2026",
+    "kunde": "Krueger H.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Jaehrliche Impfung",
+    "betrag": "138,48 EUR"
+  },
+  {
+    "id": 373,
+    "datum": "17.11.2025",
+    "kunde": "Schwarz R.",
+    "tier": {
+      "name": "Minka",
+      "art": "Katze"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "74,83 EUR"
+  },
+  {
+    "id": 374,
+    "datum": "09.02.2026",
+    "kunde": "Richter W.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "110,03 EUR"
+  },
+  {
+    "id": 375,
+    "datum": "04.04.2026",
+    "kunde": "Braun J.",
+    "tier": {
+      "name": "Lilly",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "86,32 EUR"
+  },
+  {
+    "id": 376,
+    "datum": "09.02.2026",
+    "kunde": "Schroeder M.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Katze"
+    },
+    "leistung": "Kastration",
+    "betrag": "190,47 EUR"
+  },
+  {
+    "id": 377,
+    "datum": "22.09.2025",
+    "kunde": "Hartmann S.",
+    "tier": {
+      "name": "Bella",
+      "art": "Hund"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "59,73 EUR"
+  },
+  {
+    "id": 378,
+    "datum": "18.09.2025",
+    "kunde": "Wagner J.",
+    "tier": {
+      "name": "Lola",
+      "art": "Hund"
+    },
+    "leistung": "Blutbild",
+    "betrag": "79,77 EUR"
+  },
+  {
+    "id": 379,
+    "datum": "21.03.2026",
+    "kunde": "Becker L.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Nachuntersuchung",
+    "betrag": "108,48 EUR"
+  },
+  {
+    "id": 380,
+    "datum": "11.10.2025",
+    "kunde": "Schneider M.",
+    "tier": {
+      "name": "Daisy",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "29,01 EUR"
+  },
+  {
+    "id": 381,
+    "datum": "18.10.2025",
+    "kunde": "Schroeder M.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "61,53 EUR"
+  },
+  {
+    "id": 382,
+    "datum": "29.03.2026",
+    "kunde": "Wolf V.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "127,31 EUR"
+  },
+  {
+    "id": 383,
+    "datum": "15.03.2026",
+    "kunde": "Branu X.",
+    "tier": {
+      "name": "Balou",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "66,77 EUR"
+  },
+  {
+    "id": 384,
+    "datum": "29.09.2025",
+    "kunde": "Hoffmann L.",
+    "tier": {
+      "name": "Luna",
+      "art": "Katze"
+    },
+    "leistung": "Wundversorgung",
+    "betrag": "126,87 EUR"
+  },
+  {
+    "id": 385,
+    "datum": "03.12.2025",
+    "kunde": "Albrecht W.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "77,21 EUR"
+  },
+  {
+    "id": 386,
+    "datum": "08.03.2026",
+    "kunde": "Hoffmann L.",
+    "tier": {
+      "name": "Rex",
+      "art": "Hund"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "86,32 EUR"
+  },
+  {
+    "id": 387,
+    "datum": "12.10.2025",
+    "kunde": "Krueger S.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Blutbild",
+    "betrag": "20,20 EUR"
+  },
+  {
+    "id": 388,
+    "datum": "26.11.2025",
+    "kunde": "Hoffmann D.",
+    "tier": {
+      "name": "Smokey",
+      "art": "Katze"
+    },
+    "leistung": "Kastration",
+    "betrag": "29,24 EUR"
+  },
+  {
+    "id": 389,
+    "datum": "01.01.2026",
+    "kunde": "Fischer N.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "26,04 EUR"
+  },
+  {
+    "id": 390,
+    "datum": "04.04.2026",
+    "kunde": "Becker N.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "127,37 EUR"
+  },
+  {
+    "id": 391,
+    "datum": "31.10.2025",
+    "kunde": "Branu X.",
+    "tier": {
+      "name": "Daisy",
+      "art": "Hund"
+    },
+    "leistung": "Wundversorgung",
+    "betrag": "163,29 EUR"
+  },
+  {
+    "id": 392,
+    "datum": "01.04.2026",
+    "kunde": "Peters H.",
+    "tier": {
+      "name": "Rex",
+      "art": "Hund"
+    },
+    "leistung": "Blutbild",
+    "betrag": "90,59 EUR"
+  },
+  {
+    "id": 393,
+    "datum": "16.02.2026",
+    "kunde": "Frank V.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "183,33 EUR"
+  },
+  {
+    "id": 394,
+    "datum": "11.10.2025",
+    "kunde": "Schneider K.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "21,31 EUR"
+  },
+  {
+    "id": 395,
+    "datum": "13.09.2025",
+    "kunde": "Bauer K.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "79,20 EUR"
+  },
+  {
+    "id": 396,
+    "datum": "16.09.2025",
+    "kunde": "Walter F.",
+    "tier": {
+      "name": "Luna",
+      "art": "Katze"
+    },
+    "leistung": "Blutbild",
+    "betrag": "181,29 EUR"
+  },
+  {
+    "id": 397,
+    "datum": "14.01.2026",
+    "kunde": "Schneider H.",
+    "tier": {
+      "name": "Cooper",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "177,70 EUR"
+  },
+  {
+    "id": 398,
+    "datum": "22.01.2026",
+    "kunde": "Hoffmann L.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Wundversorgung",
+    "betrag": "40,53 EUR"
+  },
+  {
+    "id": 399,
+    "datum": "31.12.2025",
+    "kunde": "Frank V.",
+    "tier": {
+      "name": "Rocky",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "55,53 EUR"
+  },
+  {
+    "id": 400,
+    "datum": "31.10.2025",
+    "kunde": "Hofmann O.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Blutbild",
+    "betrag": "86,50 EUR"
+  },
+  {
+    "id": 401,
+    "datum": "25.02.2026",
+    "kunde": "Schulze Q.",
+    "tier": {
+      "name": "Cleo",
+      "art": "Katze"
+    },
+    "leistung": "Kastration",
+    "betrag": "61,34 EUR"
+  },
+  {
+    "id": 402,
+    "datum": "21.01.2026",
+    "kunde": "Schwarz M.",
+    "tier": {
+      "name": "Max",
+      "art": "Hund"
+    },
+    "leistung": "Verbandwechsel",
+    "betrag": "30,74 EUR"
+  },
+  {
+    "id": 403,
+    "datum": "27.02.2026",
+    "kunde": "Koch G.",
+    "tier": {
+      "name": "Max",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "132,93 EUR"
+  },
+  {
+    "id": 404,
+    "datum": "11.03.2026",
+    "kunde": "Schulze C.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Nachuntersuchung",
+    "betrag": "59,62 EUR"
+  },
+  {
+    "id": 405,
+    "datum": "02.09.2025",
+    "kunde": "Wagner Z.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Jaehrliche Impfung",
+    "betrag": "135,15 EUR"
+  },
+  {
+    "id": 406,
+    "datum": "06.09.2025",
+    "kunde": "Schaefer D.",
+    "tier": {
+      "name": "Luna",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "93,78 EUR"
+  },
+  {
+    "id": 407,
+    "datum": "18.12.2025",
+    "kunde": "Lange Y.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "157,41 EUR"
+  },
+  {
+    "id": 408,
+    "datum": "17.11.2025",
+    "kunde": "Neumann N.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "94,10 EUR"
+  },
+  {
+    "id": 409,
+    "datum": "15.03.2026",
+    "kunde": "Krause L.",
+    "tier": {
+      "name": "Nala",
+      "art": "Hund"
+    },
+    "leistung": "Kastration",
+    "betrag": "94,22 EUR"
+  },
+  {
+    "id": 410,
+    "datum": "02.03.2026",
+    "kunde": "Schneider H.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "48,46 EUR"
+  },
+  {
+    "id": 411,
+    "datum": "03.10.2025",
+    "kunde": "Peters N.",
+    "tier": {
+      "name": "Felix",
+      "art": "Katze"
+    },
+    "leistung": "Kastration",
+    "betrag": "176,21 EUR"
+  },
+  {
+    "id": 412,
+    "datum": "19.03.2026",
+    "kunde": "Koch G.",
+    "tier": {
+      "name": "Bella",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "70,00 EUR"
+  },
+  {
+    "id": 413,
+    "datum": "21.11.2025",
+    "kunde": "Lehmann F.",
+    "tier": {
+      "name": "Max",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "171,94 EUR"
+  },
+  {
+    "id": 414,
+    "datum": "27.01.2026",
+    "kunde": "Schwarz R.",
+    "tier": {
+      "name": "Charlie",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "137,24 EUR"
+  },
+  {
+    "id": 415,
+    "datum": "14.02.2026",
+    "kunde": "Neumann X.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "73,48 EUR"
+  },
+  {
+    "id": 416,
+    "datum": "06.03.2026",
+    "kunde": "Koch G.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "19,02 EUR"
+  },
+  {
+    "id": 417,
+    "datum": "31.01.2026",
+    "kunde": "Krause L.",
+    "tier": {
+      "name": "Mimi",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "72,67 EUR"
+  },
+  {
+    "id": 418,
+    "datum": "30.09.2025",
+    "kunde": "Braun J.",
+    "tier": {
+      "name": "Luna",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "66,38 EUR"
+  },
+  {
+    "id": 419,
+    "datum": "25.03.2026",
+    "kunde": "Wolf V.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "198,78 EUR"
+  },
+  {
+    "id": 420,
+    "datum": "21.11.2025",
+    "kunde": "Becker G.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "157,97 EUR"
+  },
+  {
+    "id": 421,
+    "datum": "24.12.2025",
+    "kunde": "Werner S.",
+    "tier": {
+      "name": "Minka",
+      "art": "Katze"
+    },
+    "leistung": "Roentgen",
+    "betrag": "166,30 EUR"
+  },
+  {
+    "id": 422,
+    "datum": "06.10.2025",
+    "kunde": "Braun U.",
+    "tier": {
+      "name": "Nero",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "79,80 EUR"
+  },
+  {
+    "id": 423,
+    "datum": "25.03.2026",
+    "kunde": "Hartmann S.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "30,92 EUR"
+  },
+  {
+    "id": 424,
+    "datum": "13.10.2025",
+    "kunde": "Mueller P.",
+    "tier": {
+      "name": "Ace",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "29,47 EUR"
+  },
+  {
+    "id": 425,
+    "datum": "31.03.2026",
+    "kunde": "Peters A.",
+    "tier": {
+      "name": "Daisy",
+      "art": "Hund"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "185,01 EUR"
+  },
+  {
+    "id": 426,
+    "datum": "23.10.2025",
+    "kunde": "Krueger H.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Zahnsteinentfernung",
+    "betrag": "156,97 EUR"
+  },
+  {
+    "id": 427,
+    "datum": "05.09.2025",
+    "kunde": "Neumann K.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "25,52 EUR"
+  },
+  {
+    "id": 428,
+    "datum": "01.01.2026",
+    "kunde": "Braun J.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "87,01 EUR"
+  },
+  {
+    "id": 429,
+    "datum": "27.01.2026",
+    "kunde": "Schneider X.",
+    "tier": {
+      "name": "Caesar",
+      "art": "Katze"
+    },
+    "leistung": "Tumorabklaerung",
+    "betrag": "177,22 EUR"
+  },
+  {
+    "id": 430,
+    "datum": "13.11.2025",
+    "kunde": "Weber X.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Wundversorgung",
+    "betrag": "67,85 EUR"
+  },
+  {
+    "id": 431,
+    "datum": "16.02.2026",
+    "kunde": "Peters B.",
+    "tier": {
+      "name": "Pumba",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "116,36 EUR"
+  },
+  {
+    "id": 432,
+    "datum": "08.10.2025",
+    "kunde": "Werner S.",
+    "tier": {
+      "name": "Lulu",
+      "art": "Katze"
+    },
+    "leistung": "Roentgen",
+    "betrag": "68,86 EUR"
+  },
+  {
+    "id": 433,
+    "datum": "06.12.2025",
+    "kunde": "Mueller P.",
+    "tier": {
+      "name": "Cleo",
+      "art": "Katze"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "199,50 EUR"
+  },
+  {
+    "id": 434,
+    "datum": "01.09.2025",
+    "kunde": "Roth T.",
+    "tier": {
+      "name": "Rocky",
+      "art": "Hund"
+    },
+    "leistung": "Zeckenbefall Spot-On",
+    "betrag": "106,01 EUR"
+  },
+  {
+    "id": 435,
+    "datum": "24.02.2026",
+    "kunde": "Krueger O.",
+    "tier": {
+      "name": "Schnurri",
+      "art": "Katze"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "184,79 EUR"
+  },
+  {
+    "id": 436,
+    "datum": "29.09.2025",
+    "kunde": "Klein Z.",
+    "tier": {
+      "name": "Ace",
+      "art": "Hund"
+    },
+    "leistung": "Allergietest",
+    "betrag": "173,39 EUR"
+  },
+  {
+    "id": 437,
+    "datum": "04.10.2025",
+    "kunde": "Peters X.",
+    "tier": {
+      "name": "Diego",
+      "art": "Hund"
+    },
+    "leistung": "Ohrenentzuendung",
+    "betrag": "80,94 EUR"
+  },
+  {
+    "id": 438,
+    "datum": "11.09.2025",
+    "kunde": "Werner Q.",
+    "tier": {
+      "name": "Luna",
+      "art": "Katze"
+    },
+    "leistung": "Vorsorgeuntersuchung",
+    "betrag": "171,77 EUR"
+  },
+  {
+    "id": 439,
+    "datum": "04.09.2025",
+    "kunde": "Bauer F.",
+    "tier": {
+      "name": "Whiskey",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "71,42 EUR"
+  },
+  {
+    "id": 440,
+    "datum": "20.03.2026",
+    "kunde": "Rtoh P.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Nachuntersuchung",
+    "betrag": "130,28 EUR"
+  },
+  {
+    "id": 441,
+    "datum": "30.12.2025",
+    "kunde": "Weber Y.",
+    "tier": {
+      "name": "Pumba",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "165,41 EUR"
+  },
+  {
+    "id": 442,
+    "datum": "05.09.2025",
+    "kunde": "Klein A.",
+    "tier": {
+      "name": "Bruno",
+      "art": "Hund"
+    },
+    "leistung": "Roentgen",
+    "betrag": "38,46 EUR"
+  },
+  {
+    "id": 443,
+    "datum": "14.12.2025",
+    "kunde": "Becker V.",
+    "tier": {
+      "name": "Lola",
+      "art": "Hund"
+    },
+    "leistung": "Floehe Behandlung",
+    "betrag": "58,82 EUR"
+  },
+  {
+    "id": 444,
+    "datum": "07.09.2025",
+    "kunde": "Bauer E.",
+    "tier": {
+      "name": "Smokey",
+      "art": "Katze"
+    },
+    "leistung": "Allergietest",
+    "betrag": "168,35 EUR"
+  },
+  {
+    "id": 445,
+    "datum": "24.11.2025",
+    "kunde": "Lehmann Q.",
+    "tier": {
+      "name": "Nala",
+      "art": "Hund"
+    },
+    "leistung": "Ultraschall",
+    "betrag": "86,79 EUR"
+  },
+  {
+    "id": 446,
+    "datum": "07.10.2025",
+    "kunde": "Becker N.",
+    "tier": {
+      "name": "Tiger",
+      "art": "Katze"
+    },
+    "leistung": "Blutbild",
+    "betrag": "53,93 EUR"
+  },
+  {
+    "id": 447,
+    "datum": "28.01.2026",
+    "kunde": "Hofmann F.",
+    "tier": {
+      "name": "Buddy",
+      "art": "Hund"
+    },
+    "leistung": "Kontrolle",
+    "betrag": "52,02 EUR"
+  },
+  {
+    "id": 448,
+    "datum": "07.02.2026",
+    "kunde": "Mueller S.",
+    "tier": {
+      "name": "Kitty",
+      "art": "Katze"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "190,55 EUR"
+  },
+  {
+    "id": 449,
+    "datum": "02.12.2025",
+    "kunde": "Klein G.",
+    "tier": {
+      "name": "Cleo",
+      "art": "Katze"
+    },
+    "leistung": "Lahmheitsuntersuchung",
+    "betrag": "85,26 EUR"
+  },
+  {
+    "id": 450,
+    "datum": "04.12.2025",
+    "kunde": "Schmitt R.",
+    "tier": {
+      "name": "Rex",
+      "art": "Hund"
+    },
+    "leistung": "Augenuntersuchung",
+    "betrag": "68,13 EUR"
+  }
+]

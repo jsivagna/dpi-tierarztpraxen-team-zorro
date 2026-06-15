@@ -1,0 +1,151 @@
+beh_nr;datum;patient_name;kunde_nachname;diagnose;kosten_euro
+1;2026-02-06;Pumba;Krueger;Augenuntersuchung;191,17
+2;2026-03-04;Lucky;Lange;Jaehrliche Impfung;74,12
+3;2025-11-02;Lucky;Krueger;Verbandwechsel;38,26
+4;2025-09-11;Mimi;Stein;Floehe Behandlung;152,88
+5;2026-03-30;Bello;Schmidt;Tumorabklaerung;167,99
+6;2025-12-20;Charlie;Lange;Wurmkur;180,16
+7;2025-11-30;Bello;Kaiser;Allergietest;168,39
+8;2026-03-12;Emma;Schaefer;Roentgen;118,54
+9;2025-09-30;Luna;Hofmann;Vorsorgeuntersuchung;145,19
+10;2025-11-15;Diego;Neumann;Floehe Behandlung;33,96
+11;2025-12-17;Rocky;Hofmann;Vorsorgeuntersuchung;67,77
+12;2026-03-07;Cleo;Schneider;Wurmkur;166,72
+13;2025-11-15;Diego;Schulze;Ohrenentzuendung;110,32
+14;2026-02-06;Charlie;Frank;Ohrenentzuendung;193,96
+15;2025-10-09;Charlie;Stein;Wundversorgung;30,12
+16;2025-09-26;Minka;Wagner;Kastration;103,39
+17;2026-01-12;Ace;Werner;Floehe Behandlung;99,45
+18;2025-10-16;Tiger;Lehmann;Roentgen;181,89
+19;2025-09-07;Rex;Roth;Kontrolle;17,60
+20;2026-01-09;Charlie;Fischer;Ultraschall;20,48
+21;2025-09-04;Minka;Schwarz;Ultraschall;142,68
+22;2026-03-14;Cooper;Hofmann;Kontrolle;172,69
+23;2025-11-18;Diego;Schaefer;Wundversorgung;58,70
+24;2026-02-19;Bella;Lehmann;Jaehrliche Impfung;187,45
+25;2025-12-24;Luna;Roth;Tumorabklaerung;180,87
+26;2026-01-21;Nero;Weber;Augenuntersuchung;93,58
+27;2025-12-30;Nala;Schwarz;Roentgen;174,65
+28;2025-12-12;Mimi;Schwarz;Ohrenentzuendung;117,68
+29;2026-02-05;Nala;Mueller;Floehe Behandlung;24,21
+30;2025-12-24;Tiger;Schneider;Jaehrliche Impfung;127,01
+31;2026-03-28;Rex;Klein;Ultraschall;54,34
+32;2025-11-14;Schnurri;Wolf;Blutbild;89,23
+33;2026-02-13;Tiger;Schroeder;Roentgen;76,08
+34;2025-10-03;Emma;Schmidt;Kontrolle;77,55
+35;2026-02-16;Daisy;Schroeder;Wurmkur;144,86
+36;2025-12-09;Minka;Bauer;Floehe Behandlung;95,04
+37;2025-09-03;Balou;Schmitt;Wurmkur;115,57
+38;2026-04-01;Emma;Lehmann;Ultraschall;120,09
+39;2026-03-27;Lilly;Schmidt;Blutbild;57,93
+40;2026-02-21;Lulu;Vogel;Verbandwechsel;180,96
+41;2025-12-16;Kitty;Schmid;Zeckenbefall Spot-On;190,72
+42;2026-01-27;Whiskey;Hoffmann;Kastration;169,75
+43;2026-03-01;Mimi;Stein;Blutbild;22,81
+44;2025-11-06;Charlie;Klein;Floehe Behandlung;62,10
+45;2026-01-22;Tiger;Lehmann;Tumorabklaerung;154,12
+46;2025-11-25;Whiskey;Kaiser;Lahmheitsuntersuchung;175,43
+47;2026-03-22;Bello;Schmid;Nachuntersuchung;73,36
+48;2025-09-01;Luna;Hoffmann;Jaehrliche Impfung;109,21
+49;2026-01-08;Whiskey;Braun;Blutbild;122,45
+50;2025-11-29;Mimi;Schwarz;Tumorabklaerung;101,29
+51;2026-01-27;Felix;Hoffmann;Verbandwechsel;168,92
+52;2025-11-20;Cleo;Stein;Allergietest;173,84
+53;2026-01-30;Smokey;Becker;Wurmkur;109,89
+54;2026-01-02;Lucky;Schmid;Allergietest;112,47
+55;2026-03-26;Kitty;Stein;Vorsorgeuntersuchung;171,16
+56;2025-11-10;Lulu;Peters;Floehe Behandlung;38,38
+57;2026-01-21;Rocky;Schaefer;Tumorabklaerung;143,83
+58;2026-01-06;Kitty;Schmid;Floehe Behandlung;48,81
+59;2026-01-17;Mimi;Wagner;Zahnsteinentfernung;36,59
+60;2026-02-08;Rex;Fischer;Kontrolle;31,18
+61;2026-02-11;Cleo;Schneider;Ohrenentzuendung;157,92
+62;2025-10-18;Schnurri;Frank;Jaehrliche Impfung;141,87
+63;2026-02-18;Schnurri;Schaefer;Roentgen;177,87
+64;2025-11-04;Rocky;Schneider;Ultraschall;24,44
+65;2026-01-18;Lucky;Kaiser;Kontrolle;77,65
+66;2025-09-04;Emma;Lehmann;Zahnsteinentfernung;106,59
+67;2026-01-27;Emma;Albrecht;Allergietest;84,77
+68;2025-10-10;Balou;Mueller;Floehe Behandlung;76,50
+69;2025-11-04;Emma;Meyer;Wundversorgung;42,41
+70;2025-12-15;Nero;Krueger;Jaehrliche Impfung;173,59
+71;2025-10-22;Schnurri;Schwarz;Floehe Behandlung;177,44
+72;2025-12-15;Bruno;Krause;Blutbild;22,38
+73;2026-01-21;Caesar;Weber;Floehe Behandlung;19,75
+74;2026-02-02;Daisy;Schaefer;Vorsorgeuntersuchung;174,40
+75;2026-03-15;Nala;Schwarz;Vorsorgeuntersuchung;25,06
+76;2025-11-05;Luna;Schroeder;Vorsorgeuntersuchung;100,96
+77;2026-02-22;Rocky;Neumann;Wundversorgung;38,94
+78;2025-09-29;Cooper;Schulze;Ultraschall;39,36
+79;2026-03-09;Smokey;Fischer;Ohrenentzuendung;25,70
+80;2026-01-21;Bello;Meyer;Blutbild;52,27
+81;2025-12-10;Lola;Schroeder;Kastration;101,51
+82;2026-02-18;Pumba;Werner;Tumorabklaerung;159,16
+83;2025-12-12;Rocky;Schmid;Kontrolle;190,20
+84;2025-10-19;Lulu;Albrecht;Nachuntersuchung;135,04
+85;2026-02-07;Luna;Schroeder;Wundversorgung;35,34
+86;2025-09-19;Daisy;Schwarz;Verbandwechsel;144,84
+87;2026-02-19;Emma;Schneider;Floehe Behandlung;119,36
+88;2025-10-20;Nero;Stein;Roentgen;37,91
+89;2025-12-10;Bruno;Neumann;Augenuntersuchung;63,60
+90;2025-12-21;Daisy;Schneider;Vorsorgeuntersuchung;111,30
+91;2025-11-17;Minka;Zimmermann;Tumorabklaerung;94,68
+92;2025-11-27;Nala;Krueger;Zahnsteinentfernung;46,18
+93;2026-01-21;Max;Lange;Blutbild;108,58
+94;2026-01-14;Rex;Kaiser;Jaehrliche Impfung;172,71
+95;2025-11-01;Cleo;Schneider;Floehe Behandlung;18,21
+96;2025-10-14;Bruno;Krueger;Floehe Behandlung;82,17
+97;2025-11-26;Lucky;Vogel;Nachuntersuchung;76,55
+98;2026-02-09;Whiskey;Schmidt;Tumorabklaerung;62,85
+99;2025-09-29;Balou;Becker;Lahmheitsuntersuchung;92,91
+100;2025-09-17;Bella;Bauer;Kontrolle;136,31
+101;2025-11-17;Tiger;Hofmann;Zahnsteinentfernung;63,98
+102;2026-03-06;Cleo;Schulze;Floehe Behandlung;26,52
+103;2025-10-03;Lola;Kaiser;Zahnsteinentfernung;157,80
+104;2025-11-06;Charlie;Stein;Blutbild;46,66
+105;2026-03-02;Max;Schmidt;Zeckenbefall Spot-On;60,46
+106;2026-01-28;Bruno;Stein;Ohrenentzuendung;32,05
+107;2025-10-28;Nala;Klein;Nachuntersuchung;160,51
+108;2026-01-22;Tiger;Weber;Augenuntersuchung;169,38
+109;2025-11-22;Mimi;Kaiser;Zeckenbefall Spot-On;111,08
+110;2025-11-04;Kitty;Kaiser;Augenuntersuchung;126,28
+111;2026-01-11;Lulu;Schulez;Roentgen;50,44
+112;2026-02-21;Kitty;Mueller;Blutbild;42,97
+113;2025-11-05;Ace;Wagner;Tumorabklaerung;115,09
+114;2025-12-28;Buddy;Hofmann;Vorsorgeuntersuchung;97,00
+115;2025-12-06;Charlie;Schroeder;Wundversorgung;165,38
+116;2026-03-15;Bello;Kaiser;Wundversorgung;159,83
+117;2025-10-20;Kitty;Schmid;Kastration;77,86
+118;2025-11-28;Kitty;Werner;Roentgen;197,30
+119;2025-09-16;Max;Mueller;Augenuntersuchung;193,95
+120;2025-11-27;Luna;Mueller;Zeckenbefall Spot-On;153,32
+121;2026-03-21;Felix;Krueger;Zahnsteinentfernung;93,51
+122;2025-12-03;Smokey;Wolf;Verbandwechsel;124,59
+123;2026-02-26;Cleo;Neumann;Blutbild;70,70
+124;2026-03-24;Schnurri;Koch;Allergietest;172,93
+125;2025-12-25;Nero;Hoffmann;Zeckenbefall Spot-On;145,31
+126;2025-11-04;Emma;Hoffmann;Nachuntersuchung;96,46
+127;2025-12-13;Charlie;Stein;Wurmkur;98,36
+128;2025-10-25;Mimi;Schmid;Kontrolle;147,01
+129;2026-01-10;Kitty;Hofmann;Wurmkur;112,51
+130;2026-01-12;Daisy;Stein;Roentgen;183,44
+131;2025-10-25;Mimi;Hoffmann;Wurmkur;57,28
+132;2025-10-07;Smokey;Richter;Roentgen;37,37
+133;2026-01-12;Balou;Lehmann;Jaehrliche Impfung;49,69
+134;2026-01-15;Rocky;Koch;Verbandwechsel;73,39
+135;2025-09-13;Bello;Peters;Nachuntersuchung;87,55
+136;2026-02-23;Lulu;Neumann;Wundversorgung;155,78
+137;2026-02-06;Whiskey;Wolf;Blutbild;40,73
+138;2025-10-09;Balou;Koch;Allergietest;137,84
+139;2026-02-23;Kitty;Kohc;Wundversorgung;26,56
+140;2026-03-10;Kitty;Lehmann;Roentgen;96,56
+141;2025-12-01;Cleo;Frank;Vorsorgeuntersuchung;54,68
+142;2026-03-23;Cooper;Wolf;Wundversorgung;37,19
+143;2025-11-27;Smokey;Weber;Vorsorgeuntersuchung;59,11
+144;2025-10-08;Tiger;Schwarz;Kastration;52,51
+145;2026-03-13;Luna;Roth;Augenuntersuchung;141,22
+146;2025-10-11;Balou;Meyer;Jaehrliche Impfung;194,85
+147;2025-10-15;Emma;Schneider;Zahnsteinentfernung;99,28
+148;2025-12-20;Nala;Fischer;Zeckenbefall Spot-On;140,92
+149;2025-11-03;Lola;Schaefer;Wundversorgung;127,52
+150;2025-12-18;Rocky;Schmitt;Wurmkur;25,92
