@@ -3,7 +3,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 
 def lade_csv_json(con):
-    print("Starte Staging-Prozess für CSV und JSON...")
+    print("Starte Staging-Prozess: CSV & JSON ...")
     
     # Schema anlegen
     con.execute("CREATE SCHEMA IF NOT EXISTS staging;")
@@ -42,24 +42,24 @@ def lade_csv_json(con):
     """)
 
 def lade_bergblick_xml(con):
-    print("Starte XML-Verarbeitung für Praxis Bergblick...")
+    print("Starte Staging-Prozess: XML...")
     
     # XML parsen 
     tree = ET.parse('data/praxis_bergblick_export.xml')
     root = tree.getroot()
     
-    # Listen für unsere extrahierten Daten
+    # Listen für Patienten und Behandlunge
     patienten_liste = []
     behandlungen_liste = []
     
     zeile_pat = 1
     zeile_beh = 1
     
-    # Durch den gesamten XML-Baum iterieren
+    # Iteration
     for element in root.iter():
         tag_name = element.tag.split('}')[-1] 
         
-        # Patienten sammeln
+        # Patienten extrahieren
         if tag_name == 'patient':
             daten = {'quell_zeile': zeile_pat}
             for child in element.iter():
@@ -69,7 +69,7 @@ def lade_bergblick_xml(con):
             patienten_liste.append(daten)
             zeile_pat += 1
             
-        # Behandlungen sammeln
+        # Behandlungen extrahieren
         elif tag_name == 'behandlung':
             daten = {'quell_zeile': zeile_beh}
             for child in element.iter():
@@ -79,17 +79,17 @@ def lade_bergblick_xml(con):
             behandlungen_liste.append(daten)
             zeile_beh += 1
 
-    # In flache Pandas-Tabellen umwandeln und in DuckDB speichern
+    # In Tabellen umwandeln und in DuckDB speichern
     df_pat = pd.DataFrame(patienten_liste)
     df_beh = pd.DataFrame(behandlungen_liste)
     
     con.execute("CREATE OR REPLACE TABLE staging.berg_patienten AS SELECT * FROM df_pat")
     con.execute("CREATE OR REPLACE TABLE staging.berg_behandlungen AS SELECT * FROM df_beh")
     
-    print(f"✅ {len(df_pat)} Patienten und {len(df_beh)} Behandlungen aus XML geladen.")
+    print(f" Success: {len(df_pat)} Patienten und {len(df_beh)} Behandlungen aus XML geladen.")
 
 def zeige_statistik(con):
-    print("\n📊 ZEILENSTATISTIK FÜR W8:")
+    print("\n Prüfstatistik für Staging-Prozess:")
     print("-" * 30)
     
     tabellen = [
@@ -112,7 +112,7 @@ def main():
     lade_bergblick_xml(con)
     zeige_statistik(con)
     
-    print("\n🚀 Staging und Extraktion komplett abgeschlossen!")
+    print("\n Staging und Extraktion abgeschlossen!")
 
 if __name__ == "__main__":
     main()
