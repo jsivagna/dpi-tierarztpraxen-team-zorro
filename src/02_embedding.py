@@ -89,7 +89,7 @@ def main():
     """)
 
     count = con.execute("SELECT COUNT(*) FROM staging.kunden_embeddings").fetchone()[0]
-    print(f"\n✅ MEILENSTEIN W8 KOMPLETT! Es wurden {count} Vektoren mit Ollama erfolgreich indiziert.")
+    print(f"\n Success; Es wurden erfolgreich {count} Vektoren indiziert.")
 
 if __name__ == "__main__":
     main()
