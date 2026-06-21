@@ -1,5 +1,5 @@
 pandas
 duckdb
-openai
+requests
 pydantic
-python-dotenv
+ollama
