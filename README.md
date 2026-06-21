@@ -1,16 +1,16 @@
 Markdown
 # Projekt: VetKliniken-Verbund Hessen (Team Zorro)
 
-Dieses Repository enthält die Projektergebnisse für das Modul **Fortgeschrittene Datenintegration / Data Engineering** des Teams Zorro. 
+Dieses Repository enthält die Projektergebnisse für das Modul **Data & Process Integration** des Teams Zorro. 
 
-**Projektziel:** Konsolidierung und Harmonisierung heterogener Tierklinik-Daten (CSV, JSON, XML) in ein einheitliches relationales Zielschema. Besonderer Fokus liegt auf der Entwicklung einer innovativen, KI-gestützten *Entity Resolution Pipeline* (mittels lokaler LLMs und Vector-Search) zur fehlerresistenten Dublettenerkennung.
+**Projektziel:** Konsolidierung und Harmonisierung heterogener Tierklinik-Daten (CSV, JSON, XML) in ein einheitliches relationales Zielschema. Besonderer Fokus liegt auf der Entwicklung einer innovativen, KI-gestützten *Entity Resolution Pipeline* (mittels lokaler LLMs und Vector-Search) zur Dublettenerkennung.
 
 ## 👤 Projektbeteiligte
 * **Jenisa Sivagnanalingham** (Matrikelnr. 1121105) – Solo-Entwicklung, 100% Beitrag
 
 ## 🛠️ Technologie-Stack
 * **Datenbank:** DuckDB (inkl. VSS-Extension für HNSW-Vektorindizes)
-* **KI / Local LLM:** Ollama (Modelle: `nomic-embed-text` für Embeddings, `qwen2.5:7b` als Judge)
+* **KI / Local LLM:** Ollama (Modelle: `nomic-embed-text` für Embeddings, `qwen2.5:7b` als LLM-Judge)
 * **Python-Ökosystem:** Pandas, Pydantic (für strukturierten JSON-Output), DuckDB, Requests
 
 ## 📁 Repository-Struktur
@@ -18,12 +18,14 @@ Dieses Repository enthält die Projektergebnisse für das Modul **Fortgeschritte
 dpi-tierarztpraxen-team-zorro/
 ├── docs/
 │   ├── w7_profiling/    # Profiling-Reports, Data Dictionary, Fehlerliste
+│   └── w8_staging/      # Zeilenstatisk (Überprüfung des Staging-Prozessess)
 │   └── w9_matching/     # Testprotokoll, PDF-Zwischenbericht, Video-Demo (W9)
 ├── src/                 # Python-Skripte für ETL und KI-Matching
-├── data/                # (Platzhalter) Für die lokalen Quell- und Zieldaten
+├── data/                # lokale Quelldaten
 ├── requirements.txt     # Python-Abhängigkeiten
 └── README.md            # Diese Datei
-🚀 Setup & Installation
+
+Setup & Installation
 Um die Pipeline lokal und datenschutzkonform (ohne externe Cloud-APIs) auszuführen, müssen folgende Voraussetzungen erfüllt sein:
 
 1. Ollama (KI-Server) installieren und Modelle laden:
@@ -35,7 +37,8 @@ ollama pull qwen2.5:7b
 
 Bash
 pip install -r requirements.txt
-⚙️ Ausführung der Pipeline
+
+Ausführung der Pipeline
 Die Python-Skripte im Ordner src/ bilden die chronologische Daten-Pipeline und müssen in folgender Reihenfolge ausgeführt werden:
 
 python src/01_staging.py - Einlesen der heterogenen Rohdaten in die Staging-Area der DuckDB.
