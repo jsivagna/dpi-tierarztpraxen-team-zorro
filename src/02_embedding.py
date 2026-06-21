@@ -90,6 +90,8 @@ def main():
 
     count = con.execute("SELECT COUNT(*) FROM staging.kunden_embeddings").fetchone()[0]
     print(f"\n Success; Es wurden erfolgreich {count} Vektoren indiziert.")
+    
+    con.close()
 
 if __name__ == "__main__":
     main()
