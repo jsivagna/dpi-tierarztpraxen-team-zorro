@@ -10,6 +10,6 @@ Projektziel: Konsolidierung heterogener Tierklinik-Daten in ein einheitliches Sc
 ```text
 dpi-tierarztpraxen-team-zorro/
 ├── docs/w7_profiling/      # Profiling-Reports, Data Dictionary, Fehlerliste, KI-Sondierung
-├── src/                    # (In Vorbereitung) ETL-Skripte und Matching-Logik
+├── src/                    # ETL-Skripte und Matching-Logik
 ├── data/                   # (Platzhalter) Für die Quell- und Zieldaten
 └── README.md               # Diese Datei
