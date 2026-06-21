@@ -111,6 +111,8 @@ def main():
     lade_csv_json(con)
     lade_bergblick_xml(con)
     zeige_statistik(con)
+
+    con.close()
     
     print("\n Staging und Extraktion abgeschlossen!")
 
