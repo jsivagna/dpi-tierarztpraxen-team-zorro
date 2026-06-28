@@ -121,3 +121,25 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+import duckdb
+import pandas as pd
+
+# 1. Verbindung herstellen
+con = duckdb.connect("verbund.duckdb")
+
+# 2. Pandas Anzeige-Optionen anpassen (damit es übersichtlich bleibt)
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 1000)
+pd.set_option('display.max_colwidth', 60) # Begrenzt die Textlänge optisch
+
+# 3. Die ersten 5 Zeilen der Embedding-Tabelle abrufen
+print("--- Inhalt der Tabelle: staging.kunden_embeddings (Top 5) ---")
+df_embeddings = con.execute("SELECT * FROM staging.kunden_embeddings LIMIT 5").df()
+print(df_embeddings)
+
+# 4. Beweis: Dimensionen des Vektors prüfen
+laenge = con.execute("SELECT array_length(embedding) FROM staging.kunden_embeddings LIMIT 1").fetchone()[0]
+print(f"\n✅ Erfolgs-Check: Die Embedding-Vektoren bestehen aus exakt {laenge} Dimensionen (Zahlen).")
+
+con.close()
