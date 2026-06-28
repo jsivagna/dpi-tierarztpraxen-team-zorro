@@ -1,10 +1,9 @@
+ERGEBNISSE
+
 34 Datensätze wurden erfolgreich in 9 Clustern zusammengefasst.
 892 Golden Records (Patienten) erfolgreich erstellt.
 150 Behandlungen nahtlos zugeordnet.
 
-==================================================
- ERGEBNISSE
-==================================================
 Gefundene Dubletten-Paare (LLM) : 130
 Echte Dubletten-Paare (Gold)    : 144
 --------------------------------------------------
