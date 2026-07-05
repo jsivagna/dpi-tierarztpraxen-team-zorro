@@ -1,114 +1,168 @@
-import duckdb
-import pandas as pd
-from pydantic import BaseModel, Field, ValidationError
-import ollama
-import time
-import csv
 import json
+import time
+from typing import Literal
+
+import duckdb
+import ollama
+from pydantic import BaseModel, Field, ValidationError
 
 # ============================================================
-# 1. PYDANTIC-SCHEMA
+# KONFIGURATION
 # ============================================================
-class DublettenEntscheidung(BaseModel):
-    is_duplicate: bool = Field(description="Sind die beiden Datensätze dieselbe reale Person/Tier?")
-    confidence: float = Field(description="Sicherheit der Entscheidung von 0.0 (unsicher) bis 1.0 (absolut sicher).")
-    reasoning: str = Field(description="Freitext, 1-2 Sätze Begründung für die Entscheidung.")
+DB = "verbund.duckdb"
+MODEL = "qwen2.5:7b-instruct" # Das Instruct-Modell ist besser für JSON!
+MAX_PAARE = 30                # Zum Testen auf 50 limitiert (damit du nicht auf 3500 warten musst)
+MAX_RETRIES = 0               # bei kaputtem JSON erneut fragen
+TEMPERATURE = 0.0             # deterministische Antworten
+
+# ============================================================
+# 1. Pydantic-Schema (Strikte Vorgaben wie beim Prof)
+# ============================================================
+class MatchEntscheidung(BaseModel):
+    """Strukturierte Antwort des LLM zu einem Kandidatenpaar."""
+    is_duplicate: bool = Field(
+        description="True, wenn beide Datensaetze dieselbe Person beschreiben."
+    )
+    confidence: float = Field(
+        ge=0.0, le=1.0,
+        description="Sicherheit der Einschaetzung zwischen 0.0 und 1.0.",
+    )
+    reasoning: str = Field(
+        min_length=10, max_length=400,
+        description="1-2 Saetze Begruendung, welches Merkmal entschieden hat.",
+    )
     decisive_signal: Literal["name", "address", "phone", "email", "combined"] = Field(
-        description="Welches Merkmal war am wichtigsten für die Entscheidung?"
+        description="Das ausschlaggebende Merkmal fuer die Entscheidung.",
     )
 
 # ============================================================
-# 2. PROMPT-KONFIGURATION
+# 2. Prompt-Konstruktion
 # ============================================================
-SYSTEM_PROMPT = """Du bist ein hochpräziser Daten-Analyst für Tierarztpraxen. Deine Aufgabe ist es, zu entscheiden, ob zwei Kundendatensätze dieselbe reale Person.
+SYSTEM_PROMPT = """Du bist ein Datenintegrator. Du bekommst zwei Kundendatensaetze
+aus unterschiedlichen Praxen und entscheidest, ob es sich um
+dieselbe reale Person handelt.
 
-Namensabgleich: Berücksichtige Tippfehler und phonetische Ähnlichkeiten. Bleibe bei Namensgleichheit skeptisch und prüfe die Adresse (PLZ/Straße) als primäres Merkmal.
+Achte besonders auf:
+  - Namens-Varianten (Initialen, abgekuerzte Vornamen, Reihenfolge)
+  - Adress-Varianten (Strasse/Str., Schreibweise der PLZ)
+  - Telefon und E-Mail als starke Signale
+  - Plausibilitaet als Ganzes
 
-Logische Widersprüche: Unterschiedliche PLZ oder Straßen sind klare Ausschlusskriterien (nach Bereinigung von Zifferndrehern). Identische Namen an völlig verschiedenen Wohnorten sind keine Dubletten.
+Antworte ausschliesslich als JSON nach dem vorgegebenen Schema.
+Begruende kurz, welches Merkmal entscheidend war."""
 
-Kontaktdaten: Leicht abweichende Telefonnummern oder E-Mails sind allein kein Ausschlusskriterium, da Personen mehrere Kontakte besitzen können. Stammdaten (Name/Adresse) sind hier höher zu gewichten.
-
-Fehlwerte: Bestrafe NULL-Werte nicht. Gewichte bei fehlenden Informationen die übereinstimmenden Stammdaten (Name/Adresse) stärker.
-
-Antworte strikt im JSON-Format gemäß dem vorgegebenen Schema."""
+def build_user_prompt(a_text: str, b_text: str) -> str:
+    return f"Datensatz A: {a_text}\nDatensatz B: {b_text}"
 
 # ============================================================
-# 3. LLM-LOGIK MIT RETRY 
+# 3. LLM-Aufruf mit Retry-Logik
 # ============================================================
-def klassifiziere(a_text, b_text):
-    prompt = f"Datensatz A: {a_text}\nDatensatz B: {b_text}"
-    
-    for versuch in range(1): # Max 1 Versuche bei Fehlern
+def klassifiziere(a_text: str, b_text: str) -> MatchEntscheidung:
+    """Fragt das LLM und gibt eine validierte MatchEntscheidung zurueck."""
+    schema = MatchEntscheidung.model_json_schema()
+    user_msg = build_user_prompt(a_text, b_text)
+
+    last_err = None
+    for versuch in range(1, MAX_RETRIES + 2):
         try:
-            response = ollama.chat(
-                model='qwen2.5:7b',
+            resp = ollama.chat(
+                model=MODEL,
                 messages=[
                     {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": prompt}
+                    {"role": "user", "content": user_msg},
                 ],
-                format=DublettenEntscheidung.model_json_schema(),
-                options={"temperature": 0.0}
+                format=schema,
+                options={"temperature": TEMPERATURE},
             )
-            return DublettenEntscheidung.model_validate_json(response['message']['content'])
-        except (ValidationError, json.JSONDecodeError):
+            return MatchEntscheidung.model_validate_json(resp["message"]["content"])
+        except (ValidationError, json.JSONDecodeError) as exc:
+            last_err = exc
+            print(f"  [Versuch {versuch}] LLM-Antwort ungueltig: {exc}")
             time.sleep(1)
             continue
-    return None
+    raise RuntimeError(f"LLM lieferte nach {MAX_RETRIES + 1} Versuchen kein gueltiges JSON: {last_err}")
 
 # ============================================================
-# 4. HAUPTPROGRAMM
+# 4. Pipeline-Lauf
 # ============================================================
 def main():
-    print("Starte LLM-Judge (mit Retry-Logik)...")
-    con = duckdb.connect("verbund.duckdb")
-
-    # Kandidaten laden (nur die semantisch anspruchsvollen Fälle > 0.0001)
-    df_kandidaten = con.execute("""
-        SELECT * FROM staging.kandidaten_paare 
-        WHERE distanz > 0.0001
-        ORDER BY distanz ASC 
-        LIMIT 30
-    """).df()
-
-    # Match-Tabelle vorbereiten
+    con = duckdb.connect(DB)
+    
+    # Ergebnis-Tabelle anlegen (Nutzt nun BIGINT für unsere kunde_id)
+    # Schema embeddings wird erstellt, falls es nicht existiert
+    con.execute("CREATE SCHEMA IF NOT EXISTS embeddings;")
     con.execute("""
-        CREATE OR REPLACE TABLE staging.match_entscheidung (
-            praxis_a INTEGER, id_a VARCHAR, praxis_b INTEGER, id_b VARCHAR,
-            is_duplicate BOOLEAN, confidence FLOAT, reasoning VARCHAR, signal VARCHAR
-        )
+        CREATE OR REPLACE TABLE embeddings.match_entscheidung (
+            a_id            BIGINT,
+            b_id            BIGINT,
+            sim             FLOAT,
+            is_duplicate    BOOLEAN,
+            confidence      FLOAT,
+            reasoning       VARCHAR,
+            decisive_signal VARCHAR,
+            modell          VARCHAR,
+            entschieden_am  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
     """)
 
-    with open("dubletten_ergebnisse.csv", mode="w", newline="", encoding="utf-8") as file:
-        writer = csv.writer(file)
-        writer.writerow(["Praxis_A", "ID_A", "Praxis_B", "ID_B", "Distanz", "Ist_Dublette", "Sicherheit", "Signal", "Begruendung"])
+    # Paare aus unserer vorbereiteten Tabelle laden (mit angepassten Spaltennamen)
+    # Distanz wird hier in Ähnlichkeit (sim) umgerechnet: 1.0 - distanz
+    paare = con.execute(f"""
+        SELECT 
+            kunde_a_id AS a_id, 
+            kunde_b_id AS b_id, 
+            kunde_a_text AS a_text, 
+            kunde_b_text AS b_text, 
+            (1.0 - distanz) AS sim
+        FROM transform.kandidaten_paare
+        ORDER BY distanz ASC
+        LIMIT {MAX_PAARE}
+    """).fetchall()
 
-        for i, row in df_kandidaten.iterrows():
-            entscheidung = klassifiziere(row['kunde_a_text'], row['kunde_b_text'])
-            
-            if entscheidung:
-                sicherheit_prozent = int(round(entscheidung.confidence * 100))
-                status = "🟢 DUBLETTE" if entscheidung.is_duplicate else "🔴 KEINE DUBLETTE"
-                
-                # Konsolenausgabe
-                print(f"Paar {i+1} | Distanz: {row['distanz']:.4f}")
-                print(f"A: {row['kunde_a_text'][:80]}...")
-                print(f"B: {row['kunde_b_text'][:80]}...")
-                print(f"Urteil: {status} (Sicherheit: {sicherheit_prozent}%)")
-                print(f"Begründung: {entscheidung.reasoning}\n" + "-"*50)
+    if not paare:
+        print("Keine Kandidatenpaare in 'transform.kandidaten_paare' gefunden!")
+        return
 
-                # Speichern
-                writer.writerow([row['kunde_a_praxis'], row['kunde_a_id'], row['kunde_b_praxis'], row['kunde_b_id'], 
-                                 row['distanz'], entscheidung.is_duplicate, entscheidung.confidence, 
-                                 entscheidung.decisive_signal, entscheidung.reasoning])
-                
-                con.execute("INSERT INTO staging.match_entscheidung VALUES (?,?,?,?,?,?,?,?)", 
-                            [row['kunde_a_praxis'], row['kunde_a_id'], row['kunde_b_praxis'], row['kunde_b_id'], 
-                             entscheidung.is_duplicate, entscheidung.confidence, entscheidung.reasoning, entscheidung.decisive_signal])
-            
-            time.sleep(1)
+    print(f"Bewerte die Top {len(paare)} Kandidatenpaare mit {MODEL} ...\n")
+    t0 = time.time()
+    
+    for a_id, b_id, a_text, b_text, sim in paare:
+        try:
+            entscheidung = klassifiziere(a_text, b_text)
+        except RuntimeError as e:
+            print(f"  {a_id} vs {b_id}: SKIP ({e})")
+            continue
 
+        # In die Datenbank schreiben
+        con.execute(
+            """INSERT INTO embeddings.match_entscheidung 
+               (a_id, b_id, sim, is_duplicate, confidence, reasoning, decisive_signal, modell) 
+               VALUES (?,?,?,?,?,?,?,?)""",
+            [a_id, b_id, sim, entscheidung.is_duplicate, entscheidung.confidence, 
+             entscheidung.reasoning, entscheidung.decisive_signal, MODEL]
+        )
+
+        # Konsolenausgabe wie vom Prof gewünscht
+        mark = "🟢 MATCH" if entscheidung.is_duplicate else "🔴 KEIN MATCH   "
+        print(f" {mark} | IDs: {a_id} vs {b_id} | sim={sim:.3f} | conf={entscheidung.confidence:.2f} | signal={entscheidung.decisive_signal}")
+        print(f"          A: {a_text[:80]}...")
+        print(f"          B: {b_text[:80]}...")
+        print(f"          -> {entscheidung.reasoning}\n")
+
+    dt = time.time() - t0
+    print(f"Fertig in {dt:.1f}s ({dt / len(paare):.1f}s pro Paar).")
+
+    # Zusammenfassung
+    summary = con.execute("""
+        SELECT 
+            COUNT(*) AS gesamt,
+            SUM(CASE WHEN is_duplicate THEN 1 ELSE 0 END) AS matches,
+            ROUND(AVG(confidence), 2) AS conf_avg
+        FROM embeddings.match_entscheidung
+    """).fetchone()
+    
+    print(f"\n Gesamt bewertet: {summary[0]} | Als Dubletten erkannt: {summary[1]} | Ø Confidence: {summary[2]}")
     con.close()
-    print("LLM-Matching abgeschlossen.")
 
 if __name__ == "__main__":
     main()
