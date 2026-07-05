@@ -26,8 +26,13 @@ dpi-tierarztpraxen-team-zorro/
 ├── src/                      # Python-Skripte für ETL und KI-Matching
 ├── data/                     # lokale Quelldaten
 ├── requirements.txt          # Python-Abhängigkeiten
+├── project_code_doc.ipynb    # Gesamter Code und Ergebnisse (Jupyter Notebook)
+├── project_code_doc.py       # Gesamter Code und Ergebnisse (Python File)
 ├── README.md                 # Diese Datei
 └── verbund.duckdb                   
+
+project_code_doc.ipynb
+project_code_doc.py
 
 Setup & Installation
 Um die Pipeline lokal und datenschutzkonform (ohne externe Cloud-APIs) auszuführen, müssen folgende Voraussetzungen erfüllt sein:
