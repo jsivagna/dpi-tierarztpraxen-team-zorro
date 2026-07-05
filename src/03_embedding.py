@@ -23,15 +23,14 @@ import ollama
 import time
 
 def build_text(row):
-    """
-    Baut den Eingabetext laut Prof-Vorgabe: 
-    Frühe Tokens werden stärker gewichtet (Name > Adresse > Kontakt)
+    """ 
+    Gewichtung Hierarchie (Name > Adresse > Kontakt)
     """
     parts = [
         f"{row.get('vorname') or ''} {row.get('nachname') or ''}".strip(),
         row.get('strasse') or '',
         f"{row.get('plz') or ''} {row.get('ort') or ''}".strip(),
-        row.get('telefon') or '',
+        row.get('telefon_e164') or '',   
         row.get('email') or ''
     ]
     # Entfernt leere Elemente und verbindet sie mit einem Pipe-Symbol
@@ -39,17 +38,17 @@ def build_text(row):
 
 def main():
     print("Starte KI-Embedding-Prozess basierend auf transform.norm_kunde...")
-    
+
     # Verbindung zur bestehenden DuckDB herstellen
     con = duckdb.connect("verbund.duckdb")
 
-    # 1. Daten aus der harmonisierten Tabelle laden
+    # 1. Daten aus der harmonisierten Tabelle laden (inklusive kunde_id)
     print("Lade transformierte Kundendaten...")
     df_kunden = con.execute("""
-        SELECT praxis_id, quell_id, vorname, nachname, strasse, plz, ort, telefon, email 
+        SELECT kunde_id, praxis_id, quell_id, vorname, nachname, strasse, plz, ort, telefon_e164, email
         FROM transform.norm_kunde
     """).df()
-    
+
     print(f"Insgesamt {len(df_kunden)} harmonisierte Datensätze gefunden.")
 
     # 2. Texte für das Embedding-Modell vorbereiten
@@ -59,7 +58,7 @@ def main():
     # 3. Embeddings über die offizielle Ollama-Bibliothek berechnen
     print("Berechne Embeddings mit 'nomic-embed-text' (lokal über Ollama)...")
     alle_embeddings = []
-    
+
     t0 = time.time()
     for index, row in df_kunden.iterrows():
         try:
@@ -74,33 +73,36 @@ def main():
     dt = time.time() - t0
     print(f" -> {len(alle_embeddings)} Vektoren erfolgreich berechnet ({dt:.1f}s insgesamt).")
 
-    # 4. Speichern im staging-Schema (bereit für die Vektorsuche)
-    print("Speichere Vektoren in staging.kunden_embeddings...")
-    con.execute("DROP TABLE IF EXISTS staging.kunden_embeddings")
+    # 4. Speichern im transform-Schema (bereit für die Vektorsuche)
+    print("Speichere Vektoren in transform.kunden_embeddings...")
+    con.execute("DROP TABLE IF EXISTS transform.kunden_embeddings")
+    
+    # Tabelle mit kunde_id (BIGINT wegen row_number) erstellen
     con.execute("""
-        CREATE TABLE staging.kunden_embeddings (
+        CREATE TABLE transform.kunden_embeddings (
+            kunde_id BIGINT,
             praxis_id INTEGER,
             quell_id VARCHAR,
             quell_text VARCHAR,
             embedding FLOAT[768]
         )
     """)
-    
+
     con.execute("""
-        INSERT INTO staging.kunden_embeddings 
-        SELECT praxis_id, quell_id, quell_text, embedding FROM df_kunden
+        INSERT INTO transform.kunden_embeddings
+        SELECT kunde_id, praxis_id, quell_id, quell_text, embedding FROM df_kunden
     """)
 
-    # 5. VSS Extension laden und HNSW-Index erstellen (wie vom Prof empfohlen)
+    # 5. VSS Extension laden und HNSW-Index erstellen
     print("Erstelle HNSW Vector-Index mit Kosinus-Metrik...")
     con.execute("INSTALL vss;")
     con.execute("LOAD vss;")
     con.execute("SET hnsw_enable_experimental_persistence = true;")
-    
+
     con.execute("DROP INDEX IF EXISTS idx_kunden_emb;")
     con.execute("""
         CREATE INDEX idx_kunden_emb
-        ON staging.kunden_embeddings
+        ON transform.kunden_embeddings
         USING HNSW (embedding) WITH (metric = 'cosine');
     """)
 
@@ -115,7 +117,7 @@ def main():
         INSERT INTO embeddings.modell_meta (modell, dim) VALUES ('nomic-embed-text', 768);
     """)
 
-    count = con.execute("SELECT COUNT(*) FROM staging.kunden_embeddings").fetchone()[0]
+    count = con.execute("SELECT COUNT(*) FROM transform.kunden_embeddings").fetchone()[0]
     print(f"\n Success: Es wurden erfolgreich {count} Vektoren indiziert und für das Matching vorbereitet.")
     con.close()
 
@@ -140,6 +142,6 @@ print(df_embeddings)
 
 # 4. Beweis: Dimensionen des Vektors prüfen
 laenge = con.execute("SELECT array_length(embedding) FROM staging.kunden_embeddings LIMIT 1").fetchone()[0]
-print(f"\n✅ Erfolgs-Check: Die Embedding-Vektoren bestehen aus exakt {laenge} Dimensionen (Zahlen).")
+print(f"\n Erfolgs-Check: Die Embedding-Vektoren bestehen aus exakt {laenge} Dimensionen (Zahlen).")
 
 con.close()
