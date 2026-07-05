@@ -1,4 +1,3 @@
----
 
 ### Konsolidierte Beladung (Golden Records)
 
