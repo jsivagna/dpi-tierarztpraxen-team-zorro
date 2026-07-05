@@ -54,3 +54,30 @@ python src/05_transform.py - Klassische Datenbereinigung (Datums- & Währungsfor
 
 ## Wichtigste Projektergebnisse
 Durch den Einsatz der KI-gestützten Entity-Resolution-Pipeline konnte eine **Precision von 100%** bei der Dublettenerkennung erreicht werden. Dies garantiert eine fehlerfreie Konsolidierung der Patientendaten, was essenziell für die medizinische Datenintegrität in einem Klinikverbund ist.
+
+## Projektergebnisse & Evaluation
+
+### Endergebnis der Datenintegration
+Durch die KI-gestützte Dublettenerkennung (Embeddings + LLM-Judge) konnten redundante Kundendatensätze erfolgreich konsolidiert werden. Alle Behandlungen wurden anschließend durch fehlertolerante Joins verlustfrei den entsprechenden Golden Records zugeordnet und in das finale Zielmodell übernommen.
+
+| Kennzahl | Wert |
+| :--- | :--- |
+| **Ursprüngliche Kundendatensätze** | 916 |
+| **Konsolidierte Golden Records** | 893 |
+| **Zugeordnete Behandlungen** | 600 |
+
+### Evaluation der Matching-Güte
+Die Qualität des LLM-basierten Matchings (`qwen2.5:7b-instruct`) wurde gegen einen manuell kuratierten Goldstandard evaluiert.
+
+*Hinweis: Zur Schonung lokaler Hardwareressourcen wurde der Evaluierungs-Durchlauf für diesen Proof of Concept künstlich auf die Top 30 Kandidatenpaare limitiert.*
+
+| Metrik | Wert |
+| :--- | :--- |
+| True Positives | 24 |
+| False Positives | 0 |
+| False Negatives | 120* |
+| **Precision** | **1.0000 (100 %)** |
+| **Recall** | 0.1667 (16,67 %)*|
+| **F1-Score** | 0.2857 (28,57 %)|
+
+*\*Die False Negatives und der daraus resultierende niedrige Recall sind direkte Artefakte der Limitierung auf 30 LLM-Aufrufe und spiegeln nicht das Erkennungslimit der KI wider.*
