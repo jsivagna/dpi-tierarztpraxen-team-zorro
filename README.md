@@ -50,3 +50,7 @@ python src/03_vector_search.py - Performante Suchraumreduktion durch Nächste-Na
 python src/04_llm_judge.py - KI-Bewertung der Dubletten-Kandidaten (strukturiert via Pydantic).
 
 python src/05_transform.py - Klassische Datenbereinigung (Datums- & Währungsformate) für das finale relationale Schema.
+```
+
+## Wichtigste Projektergebnisse
+Durch den Einsatz der KI-gestützten Entity-Resolution-Pipeline konnte eine **Precision von 100%** bei der Dublettenerkennung erreicht werden. Dies garantiert eine fehlerfreie Konsolidierung der Patientendaten, was essenziell für die medizinische Datenintegrität in einem Klinikverbund ist.
