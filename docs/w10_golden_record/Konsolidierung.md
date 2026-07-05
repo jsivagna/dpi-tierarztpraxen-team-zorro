@@ -13,7 +13,7 @@ Im letzten Schritt wurden die identifizierten Cluster in finale "Golden Records"
 | **Konsolidierte Behandlungen** | 600 |
 | **Datenverlust während Mapping** | 0 (Dank `LEFT JOIN`) |
 
----
+
 
 ### Vorschau der finalen Datenstruktur
 
