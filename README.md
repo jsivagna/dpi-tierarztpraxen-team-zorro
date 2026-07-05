@@ -18,11 +18,15 @@ Dieses Repository enthält die Projektergebnisse für das Modul **Data & Process
 dpi-tierarztpraxen-team-zorro/
 ├── docs/
 │   ├── w7_profiling/    # Profiling-Reports, Data Dictionary, Fehlerliste
-│   └── w8_staging/      # Zeilenstatisk (Überprüfung des Staging-Prozessess)
-│   └── w9_matching/     # Testprotokoll, PDF-Zwischenbericht, Video-Demo (W9)
+│   └── w8_staging/      # Zeilenstatisk (Überprüfung des Staging-Prozessess), staging_output.md (Tabellenvorschau), ki_sondierung_UPDATE.md, embedding.md, vector_search_output.md
+│   └── w9_matching/     # tranformation_output.md, Testprotokoll, PDF-Zwischenbericht, Video-Demo (alt), Testdurchlauf: Protokoll.md,
+│   └── w10_golden_record/     # Konsolidierung.md, cluster_results.md, F1_Score.md
+│   └── w11_dokumentation/     # DPI_Zorro_Dokumentation.pdf
+│   └── w12_final/     # DPI_Zorro_Ergebnis_Reflexion.pdf
 ├── src/                 # Python-Skripte für ETL und KI-Matching
 ├── data/                # lokale Quelldaten
 ├── requirements.txt     # Python-Abhängigkeiten
+├── verbund.duckdb    
 └── README.md            # Diese Datei
 
 Setup & Installation
@@ -41,15 +45,17 @@ pip install -r requirements.txt
 Ausführung der Pipeline
 Die Python-Skripte im Ordner src/ bilden die chronologische Daten-Pipeline und müssen in folgender Reihenfolge ausgeführt werden:
 
-python src/01_staging.py - Einlesen der heterogenen Rohdaten in die Staging-Area der DuckDB.
+python src/01_staging.py — Einlesen der heterogenen Rohdaten in die Staging-Area der DuckDB.
 
-python src/02_embeddings.py - Semantische Vektorisierung der Kundendaten.
+python src/02_transformation.py — Harmonisierung und Strukturierung der Daten.
 
-python src/03_vector_search.py - Performante Suchraumreduktion durch Nächste-Nachbarn-Suche.
+python src/03_embedding.py — Semantische Vektorisierung der Kundendaten.
 
-python src/04_llm_judge.py - KI-Bewertung der Dubletten-Kandidaten (strukturiert via Pydantic).
+python src/04_vector_search.py — Performante Suchraumreduktion durch Nächste-Nachbarn-Suche.
 
-python src/05_transform.py - Klassische Datenbereinigung (Datums- & Währungsformate) für das finale relationale Schema.
+python src/05_llm_judge.py — KI-Bewertung der Dubletten-Kandidaten (strukturiert via Pydantic).
+
+python src/06_golden_record_load.py — Finale Konsolidierung und Beladung des Zielschemas.
 ```
 
 ## Wichtigste Projektergebnisse
