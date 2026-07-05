@@ -17,17 +17,17 @@ Dieses Repository enthält die Projektergebnisse für das Modul **Data & Process
 ```text
 dpi-tierarztpraxen-team-zorro/
 ├── docs/
-│   ├── w7_profiling/    # Profiling-Reports, Data Dictionary, Fehlerliste
-│   └── w8_staging/      # Zeilenstatisk (Überprüfung des Staging-Prozessess), staging_output.md (Tabellenvorschau), ki_sondierung_UPDATE.md, embedding.md, vector_search_output.md
-│   └── w9_matching/     # tranformation_output.md, Testprotokoll, PDF-Zwischenbericht, Video-Demo (alt), Testdurchlauf: Protokoll.md,
-│   └── w10_golden_record/     # Konsolidierung.md, cluster_results.md, F1_Score.md
-│   └── w11_dokumentation/     # DPI_Zorro_Dokumentation.pdf
-│   └── w12_final/     # DPI_Zorro_Ergebnis_Reflexion.pdf
-├── src/                 # Python-Skripte für ETL und KI-Matching
-├── data/                # lokale Quelldaten
-├── requirements.txt     # Python-Abhängigkeiten
-├── verbund.duckdb    
-└── README.md            # Diese Datei
+│   ├── w7_profiling/         # Profiling-Reports, Data Dictionary, Fehlerliste
+│   └── w8_staging/           # Zeilenstatisk (Überprüfung des Staging-Prozessess), staging_output.md (Tabellenvorschau), ki_sondierung_UPDATE.md, embedding.md, vector_search_output.md
+│   └── w9_matching/          # tranformation_output.md, Testprotokoll, PDF-Zwischenbericht, Video-Demo (alt), Testdurchlauf: Protokoll.md,
+│   └── w10_golden_record/    # Konsolidierung.md, cluster_results.md, F1_Score.md
+│   └── w11_dokumentation/    # DPI_Zorro_Dokumentation.pdf
+│   └── w12_final/            # DPI_Zorro_Ergebnis_Reflexion.pdf
+├── src/                      # Python-Skripte für ETL und KI-Matching
+├── data/                     # lokale Quelldaten
+├── requirements.txt          # Python-Abhängigkeiten
+├── README.md                 # Diese Datei
+└── verbund.duckdb                   
 
 Setup & Installation
 Um die Pipeline lokal und datenschutzkonform (ohne externe Cloud-APIs) auszuführen, müssen folgende Voraussetzungen erfüllt sein:
