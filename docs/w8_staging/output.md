@@ -1,10 +1,11 @@
 ## TABELLENINHALTE AUSGEBEN
 
 ### Inhalt der Tabelle: `staging.juck_kunden`
+
 *(223 Zeilen)*
 
 | quell_zeile | kunden_nr | anrede | vorname | nachname | strasse | plz | ort | telefon | email | angelegt_am |
-|---|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 1 | Herr | Thomas | Berger | Hauptstr. 12 | 35500 | Juckstadt | 06450-1234 | berger@email.de | 2021-05-12 |
 | 2 | 2 | Frau | Marion | Hoffmann | Kirchgasse 4 | 35500 | Juckstadt | 06450-2233 | hoffmann@email.de | 2024-11-29 |
 | 3 | 3 | Herr | Klaus | Weber | Am Markt 3 | 35500 | Juckstadt | 06450-9012 | None | 2024-09-29 |
@@ -20,10 +21,11 @@
 ---
 
 ### Inhalt der Tabelle: `staging.juck_behandlungen`
+
 *(150 Zeilen)*
 
 | quell_zeile | beh_nr | datum | patient_name | kunde_nachname | diagnose | kosten_euro |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | 1 | 2026-02-06 | Pumba | Krueger | Augenuntersuchung | 191,17 |
 | 2 | 2 | 2026-03-04 | Lucky | Lange | Jaehrliche Impfung | 74,12 |
 | 3 | 3 | 2025-11-02 | Lucky | Krueger | Verbandwechsel | 38,26 |
@@ -39,29 +41,31 @@
 ---
 
 ### Inhalt der Tabelle: `staging.wald_kunden`
+
 *(227 Zeilen)*
 
 | quell_zeile | customer_id | first_name | last_name | street | zip_code | city | phone | email_address | created_at | marketing_consent |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | W-1001 | Thomas | Berger | Hauptstr. 12 | 35500 | Juckstadt | +49 645 01234 | berger@email.de | 02/09/2022 | <NA> |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | W-1001 | Thomas | Berger | Hauptstr. 12 | 35500 | Juckstadt | +49 645 01234 | berger@email.de | 02/09/2022 |  |
 | 2 | W-1002 | K. | None | Am Markt 3 | 35500 | Juckstadt | 0645 09012 | weber@email.de | 05/29/2025 | True |
 | 3 | W-1003 | Petra | Vogel | Eichenallee 8 | 35466 | Rabenau | 0640/777991 | None | 12/29/2024 | False |
-| 4 | W-1004 | Bernd | Schulz | Dorfstr. 44 | 35466 | Rabenau | 0640 7771212 | schulz@email.de | 11/21/2021 | <NA> |
+| 4 | W-1004 | Bernd | Schulz | Dorfstr. 44 | 35466 | Rabenau | 0640 7771212 | schulz@email.de | 11/21/2021 |  |
 | 5 | W-1005 | Frank | Neumann | Feldweg 22 | 35501 | Oberstadt | 0645 15588 | neumann@email.de | 10/14/2023 | False |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 | 223 | W-1223 | V. | Schaefer | Parkstr. 15 | 35511 | Hoehental | +49 645 0678682 | None | 05/02/2021 | True |
-| 224 | W-1224 | Verena | Kohc | Rosenweg 63 | 35510 | Waldrand | 0645/0546363 | koch.v@gmx.de | 10/24/2022 | <NA> |
+| 224 | W-1224 | Verena | Kohc | Rosenweg 63 | 35510 | Waldrand | 0645/0546363 | koch.v@gmx.de | 10/24/2022 |  |
 | 225 | W-1225 | Ines | Pteers | Feldweg 98 | 35511 | Hoehental | 0645 0727981 | peters.i@email.de | 08/20/2019 | True |
-| 226 | W-1226 | Katrin | Wagenr | Hauptstrasse 54 | 35510 | Bergblick-Siedlung | 0645/0011706 | wagner.k@t-online.de | 05/12/2021 | <NA> |
-| 227 | W-1227 | Diana | Braun | Sonnenwall 94 | 35510 | Bergblick-Siedlung | +49 645 03657 | braun.d@email.de | 10/28/2025 | <NA> |
+| 226 | W-1226 | Katrin | Wagenr | Hauptstrasse 54 | 35510 | Bergblick-Siedlung | 0645/0011706 | wagner.k@t-online.de | 05/12/2021 |  |
+| 227 | W-1227 | Diana | Braun | Sonnenwall 94 | 35510 | Bergblick-Siedlung | +49 645 03657 | braun.d@email.de | 10/28/2025 |  |
 
 ---
 
 ### Inhalt der Tabelle: `staging.wald_behandlungen`
+
 *(150 Zeilen)*
 
 | quell_zeile | treatment_id | customer_id | animal_name | species | treatment_date | diagnosis | total_eur |
-|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | T20250151 | W-1067 | Smokey | cat | 2025-12-11 | Flea treatment | 199.85 |
 | 2 | T20250152 | W-1210 | Kitty | cat | 2026-01-17 | Flea treatment | 59.78 |
 | 3 | T20250153 | W-1013 | Felix | cat | 2026-03-22 | Ultrasound | 35.02 |
@@ -77,10 +81,11 @@
 ---
 
 ### Inhalt der Tabelle: `staging.schm_kunden`
+
 *(234 Zeilen)*
 
 | quell_zeile | nachname | vorname | anrede | plz | ort | strasse | tel | email | erfasst |
-|---|---|---|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Berger | Th. | Hr. | 35500 | Juckstadt | Hauptstr. 12 | 0645 01234 | berger@email.de | 2020-12-06 |
 | 2 | Hoffmann | Marion | Fr. | 35500 | Juckstadt | Kirchgasse 4 | 0645 02233 | hoffmann@email.de | 2024-03-02 |
 | 3 | Klaus | Weber | Hr. | 35500 | Juckstadt | Am Markt 3 | 0645 09012 | weber@email.de | 2024-02-06 |
@@ -96,10 +101,11 @@
 ---
 
 ### Inhalt der Tabelle: `staging.schm_behandlungen`
+
 *(150 Zeilen)*
 
 | quell_zeile | id | datum | kunde | tier | leistung | betrag |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | 301 | 24.09.2025 | Schneider X. | {'name': 'Caesar', 'art': 'Katze'} | Vorsorgeuntersuchung | 15,46 EUR |
 | 2 | 302 | 13.10.2025 | Schneider T. | {'name': 'Tiger', 'art': 'Katze'} | Kontrolle | 148,99 EUR |
 | 3 | 303 | 24.03.2026 | Muleler I. | {'name': 'Caesar', 'art': 'Katze'} | Vorsorgeuntersuchung | 167,34 EUR |
@@ -115,37 +121,41 @@
 ---
 
 ### Inhalt der Tabelle: `staging.berg_patienten`
+
 *(232 Zeilen)*
 
-| quell_zeile | anrede | name | telefon | email | strasse | plz | ort | art | geburt |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | Herr | Lucky | 0645-01234 | berger@email.de | Hauptstrasse 12 | 35500 | Juckstadt | Hund | 2022-05-03 |
-| 2 | Frau | Buddy | 0645-02233 | hoffmann@email.de | Kirchgasse 4 | 35500 | Juckstadt | Hund | 2021-11-18 |
-| 3 | Frau | Luna | 0640-7779913 | vogel@email.de | Eichenallee 8 | 35466 | Rabenau | Hund | 2020-05-09 |
-| 4 | Herr | Lola | 0640-7771212 | schulz@email.de | Dorfstr. 44 | 35466 | Rabenau | Hund | 2019-05-07 |
-| 5 | Frau | Buddy | 0645-020031 | klein.b@gmx.de | Bergstr. 9 | 35510 | Waldrand | Hund | 2021-03-11 |
+| quell_zeile | quell_id | erfasst | anrede | name | telefon | email | strasse | plz | ort |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | P-4001 | 2021-06-20 | Herr | Thomas Berger | 0645-01234 | berger@email.de | Hauptstrasse 12 | 35500 | Juckstadt |
+| 2 | P-4002 | 2024-04-07 | Frau | Marion Hoffmann | 0645-02233 | hoffmann@email.de | Kirchgasse 4 | 35500 | Juckstadt |
+| 3 | P-4003 | 2025-11-23 | Frau | Petra Vogel | 0640-7779913 | vogel@email.de | Eichenallee 8 | 35466 | Rabenau |
+| 4 | P-4004 | 2021-02-11 | Herr | B. Schulz | 0640-7771212 | schulz@email.de | Dorfstr. 44 | 35466 | Rabenau |
+| 5 | P-4005 | 2022-06-13 | Frau | Bettina Klein | 0645-020031 | klein.b@gmx.de | Bergstr. 9 | 35510 | Waldrand |
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
-| 228 | Herr | Minka | 0645-060825 | None | Pfarrgasse 10 | 35579 | Wetzlar-Niedergirmes | Katze | 2021-02-07 |
-| 229 | Herr | Minka | 0645-060825 | None | Pfarrgasse 10 | 35579 | Wetzlar-Niedergirmes | Katze | 2024-01-07 |
-| 230 | Herr | Rex | 0645-02369 | meyer.i@web.de | Goethestr. 33 | 35579 | Wetzlar-Niedergirmes | Hund | 2023-07-13 |
-| 231 | Herr | Nala | 0645-006604 | neumann.n@web.de | Wiesenweg 96 | 35579 | Wetzlar-Niedergirmes | Hund | 2021-07-09 |
-| 232 | Herr | Luna | 0645-0022511 | weber.y@t-online.de | Schillerstr. 99 | 35580 | Wetzlar-Buederbach | Hund | 2023-08-10 |
+| 228 | P-4228 | 2023-06-20 | Herr | Xenia Neumann | 0645-060825 | None | Pfarrgasse 10 | 35579 | Wetzlar-Niedergirmes |
+| 229 | P-4229 | 2025-02-22 | Herr | X. Neumann | 0645-060825 | None | Pfarrgasse 10 | 35579 | Wetzlar-Niedergirmes |
+| 230 | P-4230 | 2024-06-01 | Herr | Igor Meyer | 0645-02369 | meyer.i@web.de | Goethestr. 33 | 35579 | Wetzlar-Niedergirmes |
+| 231 | P-4231 | 2025-07-07 | Herr | Nora Neumann | 0645-006604 | neumann.n@web.de | Wiesenweg 96 | 35579 | Wetzlar-Niedergirmes |
+| 232 | P-4232 | 2024-08-03 | Herr | Yannick Weber | 0645-0022511 | weber.y@t-online.de | Schillerstr. 99 | 35580 | Wetzlar-Buederbach |
 
 ---
 
 ### Inhalt der Tabelle: `staging.berg_behandlungen`
+
 *(150 Zeilen)*
 
-| quell_zeile | diagnose |
-|---|---|
-| 1 | Tumorabklaerung |
-| 2 | Zahnsteinentfernung |
-| 3 | Allergietest |
-| 4 | Tumorabklaerung |
-| 5 | Tumorabklaerung |
-| ... | ... |
-| 146 | Kontrolle |
-| 147 | Augenuntersuchung |
-| 148 | Ultraschall |
-| 149 | Allergietest |
-| 150 | Ohrenentzuendung |
+| quell_zeile | patient_id | datum | diagnose | tier_name | tier_art | betrag_netto |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | P-4191 | 2025-11-15 | Tumorabklaerung | Luna | Hund | 162.92 |
+| 2 | P-4094 | 2025-11-02 | Zahnsteinentfernung | Luna | Hund | 32.55 |
+| 3 | P-4036 | 2026-03-12 | Allergietest | Luna | Hund | 161.95 |
+| 4 | P-4026 | 2025-09-22 | Tumorabklaerung | Luna | Hund | 135.18 |
+| 5 | P-4085 | 2026-01-22 | Tumorabklaerung | Luna | Hund | 71.45 |
+| ... | ... | ... | ... | ... | ... | ... |
+| 146 | P-4100 | 2026-01-30 | Kontrolle | Luna | Hund | 146.46 |
+| 147 | P-4187 | 2026-03-10 | Augenuntersuchung | Luna | Hund | 19.42 |
+| 148 | P-4057 | 2025-09-29 | Ultraschall | Luna | Hund | 79.08 |
+| 149 | P-4154 | 2025-11-01 | Allergietest | Luna | Hund | 165.29 |
+| 150 | P-4061 | 2025-10-16 | Ohrenentzuendung | Luna | Hund | 68.82 |
+
+---
