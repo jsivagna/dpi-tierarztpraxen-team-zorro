@@ -1,17 +1,38 @@
-## VECTOR-SEARCH (KANDIDATEN-SUCHE)
 
-**Starte Vector-Search...**  
-Suche für 916 Kunden die 10 nächsten Nachbarn (KNN)...  
-Speichere Kandidatenpaare für das LLM in `staging.kandidaten_paare`...  
 
-✅ **Verdächtigste Kandidatenpaare herausgefiltert:** 1946  
+## Vector Search & Kandidatenfilterung
 
-### 👀 Vorschau der Top 3 Kandidatenpaare:
+### Prozess-Zusammenfassung: KNN-Kandidatensuche
 
-| Distanz | Kunde A (Praxis \| ID) | Datensatz A | Kunde B (Praxis \| ID) | Datensatz B |
-|---|---|---|---|---|
-| **0.0000** | Praxis 1 \| ID 93 | Felix Lehmann \| Goethestr. 45 \| 35500 Juckstadt \| +4964503569 \| lehmann.f@gmx.de... | Praxis 3 \| ID None | Felix Lehmann \| Goethestr. 45 \| 35500 Juckstadt \| +4964503569 \| lehmann.f@gmx.de... |
-| **0.0000** | Praxis 2 \| ID W-1218 | Diana Richter \| Lindenallee 77 \| 35579 Wetzlar-Niedergirmes \| +49645035419 \| richter.d@gmx... | Praxis 3 \| ID None | Diana Richter \| Lindenallee 77 \| 35579 Wetzlar-Niedergirmes \| +49645035419 \| richter.d@gmx... |
-| **0.0000** | Praxis 1 \| ID 206 | Maria Neumann \| Schillerstr. 93 \| 35466 Rabenau \| +49640790042 \| neumann.m@web.de... | Praxis 2 \| ID W-1051 | Maria Neumann \| Schillerstr. 93 \| 35466 Rabenau \| +49640790042 \| neumann.m@web.de... |
+Um die Rechenlast für das LLM zu optimieren, wurde eine Vector-Search durchgeführt. Anstatt jedes der 916 Datensätze mit jedem anderen zu vergleichen (was 838.156 Vergleiche entspräche), wurden für jeden Kunden mittels K-Nearest-Neighbor (KNN) die 10 ähnlichsten Nachbarn auf Basis der Kosinus-Ähnlichkeit im Vektorraum identifiziert.
 
-*(Hinweis: Eine Distanz von 0.0000 bedeutet eine 100%ige mathematische Übereinstimmung der Vektoren.)*
+#### Prozess-Statistik
+
+| Metrik | Wert |
+| --- | --- |
+| **Gesamtanzahl Kunden** | 916 |
+| **K-Nachbarn (KNN)** | 10 |
+| **Gefilterte Kandidatenpaare** | 2.406 |
+| **Verfahren** | Distanzbasierte Ähnlichkeitssuche |
+
+---
+
+### Vorschau der Top-Kandidatenpaare
+
+Die folgenden Beispiele illustrieren Paare, die aufgrund ihrer nahezu identischen Vektordaten (Distanz ~0.0000) als hochgradig dublettenverdächtig eingestuft wurden:
+
+| Distanz | Kunde A (Global-ID, Praxis, Quell-ID) | Kunde B (Global-ID, Praxis, Quell-ID) |
+| --- | --- | --- |
+| 0.0000 | 1 (Praxis 1, ID 1): Thomas Berger... | 224 (Praxis 2, ID W-1001): Thomas Berger... |
+| 0.0000 | 79 (Praxis 1, ID 79): Stefanie Schneider... | 660 (Praxis 3, ID 210): Stefanie Schneider... |
+| 0.0000 | 24 (Praxis 1, ID 24): Zoey Klein... | 889 (Praxis 4, ID P-4205): Zoey Klein... |
+
+---
+
+### Methodische Anmerkungen
+
+* **Effizienz:** Die Filterung auf 2.406 Kandidatenpaare reduziert die notwendigen LLM-Analysen massiv, ohne dabei reale Dubletten-Kandidaten auszuschließen.
+* **Qualität der Suche:** Die Distanz von `0.0000` bei den aufgeführten Beispielen verdeutlicht, dass das System exakte Identitäten (identische Namen, Adressen und Kontaktdaten) sofort erkennt.
+* **Datengrundlage:** Die gespeicherten Kandidatenpaare in `transform.kandidaten_paare` bilden nun die exklusive Arbeitsgrundlage für den nachgelagerten, rechenintensiven LLM-Entscheidungsprozess (LLM-Judge).
+
+**Erfolgs-Check:** Es wurden erfolgreich 2.406 potenzielle Dubletten-Paare isoliert, die nun einer qualitativen Prüfung durch das Sprachmodell unterzogen werden können.
